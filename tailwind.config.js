@@ -18,6 +18,7 @@ module.exports = {
         'skyline': "url('/images/clouds+skyline.webp')",
         'building': "url('/images/rnd+oldacad.webp')",
         'ground': "url('/images/trees+road+ground.webp')",
+        'road': "url('/road.svg')",
       },
       fontFamily: {
         'mulish': [ 'Mulish', 'sans-serif'],
