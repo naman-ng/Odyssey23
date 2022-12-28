@@ -4,7 +4,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='absolute w-full z-10 font-mulish p-5 flex justify-between'>
+    <div className='absolute w-full z-20 font-mulish p-5 flex justify-between'>
       <div className='flex justify-between w-1/6'>
         <Link href='/Home'>Home</Link>
         <Link href='/About'>About</Link>
