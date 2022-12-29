@@ -15,10 +15,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         'clouds': "url('/clouds.svg')",
-        'skyline': "url('/images/clouds+skyline.webp')",
+        'skyline': "url('/images/skyline.png')",
         'building': "url('/images/rnd+oldacad.webp')",
         'ground': "url('/images/trees+road+ground.webp')",
         'road': "url('/road.svg')",
+        'truck': "url('/truck.svg')",
+        'stalls': "url('/stalls.svg')",
       },
       fontFamily: {
         'mulish': [ 'Mulish', 'sans-serif'],

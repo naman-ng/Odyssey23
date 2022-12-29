@@ -5,7 +5,12 @@ import SocialValidation from "./sections/SocialValidation";
 
 function Home() {
   return (
-    <div className="bg-sky z-0 font-mulish flex flex-col text-xl text-black pt-20">
+    <div style={{
+      background: "linear-gradient(180deg, #1C175F 1.24%, #F37533 10.25%)",
+      // backgroundSize: "cover",
+    }} className=" z-0 font-mulish flex flex-col text-xl text-black 
+    pt-[3vmax]
+    ">
       <Hero />
       <ValueProposition />
       <SocialValidation/>

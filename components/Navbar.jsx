@@ -4,8 +4,8 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav className='absolute w-full z-40 font-mulish p-5 flex justify-between'>
-      <div className='flex justify-between w-1/6'>
+    <nav className='absolute w-full z-40 font-mulish text-[white] text-xl p-5 flex justify-between'>
+      <div className='flex justify-between w-[30%] 2xl:w-[20%]'>
         <Link href='/Home'>Home</Link>
         <Link href='/About'>About</Link>
         <Link href='/Events'>Events</Link>
@@ -19,32 +19,44 @@ function Navbar() {
               href='https://www.facebook.com/odyssey.iiitd'>
             <Image alt='facebook'
                   src='/Facebook.svg'
-                  width={30}
-                  height={30}/>
+                  width={0}
+                  height={0}
+                  style={{
+                    width:"2.5vmax",
+                  }}/>
         </Link>
         <Link target='_blank'
               className='transform transition duration-500 hover:scale-125 '
               href='https://www.instagram.com/iiitdodyssey/'>
           <Image alt='instagram'
                   src='/Instagram.svg'
-                  width={30}
-                  height={30}/>
+                  width={0}
+                  height={0}
+                  style={{
+                    width:"2.5vmax",
+                  }}/>
         </Link>
         <Link target='_blank'
               className='transform transition duration-500 hover:scale-125 '
               href='https://twitter.com/IIITDOdyssey'>
           <Image alt='twitter'
                   src='/Twitter.svg'
-                  width={30}
-                  height={30}/>
+                  width={0}
+                  height={0}
+                  style={{
+                    width:"2.5vmax",
+                  }}/>
         </Link>
         <Link target='_blank'
               className='transform transition duration-500 hover:scale-125 '
               href='https://www.linkedin.com/company/iiitdodyssey/mycompany/'>
           <Image alt='linkedin'
                   src='/LinkedIn.svg'
-                  width={30}
-                  height={30}/>
+                  width={0}
+                  height={0}
+                  style={{
+                    width:"2.5vmax",
+                  }}/>
         </Link>
       </div>
     </nav>

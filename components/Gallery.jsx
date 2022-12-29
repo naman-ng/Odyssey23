@@ -30,14 +30,15 @@ function Gallery() {
   const { scrollYProgress } = useScroll()
   const transform = useTransform(
     scrollYProgress,
-    [0, 1],
+    [0, 0.6],
     [0, -scrollRange + viewportW]
   )
   const physics = { damping: 15, mass: 0.27, stiffness: 55 }
   const spring = useSpring(transform, physics)
   return (
-    <>
-      {/* <div className="h-[450vh] w-full relative flex justify-center">
+    
+    <div className="left-0 right-0 will-change-transform w-full relative ">
+        {/* <div className="h-[450vh] w-full relative flex justify-center">
             <div className="sticky top-[6.5rem] w-[90%] h-[80vh]">
           <motion.div className="z-10 absolute rounded-[3rem] w-full h-full bg-[url('../public/images/singer-1.png')]"
             style={{ backgroundPositionX: (textScaleX.current + 500).toString() + 'px' }}
@@ -52,28 +53,38 @@ function Gallery() {
        <Image src={singer1} alt="singer-1" width={700} height={500} />
        <Image src={singer2} alt="singer-2" width={700} height={500} />
        <Image src={singer3} alt="singer-3" width={700} height={500} /> */}
-      <div className="left-0 right-0 will-change-transform w-full relative ">
-        <motion.divsticky
+        <motion.div
           ref={scrollRef}
           style={{ x: spring }}
-          className="sticky top-0 h-[100vh] w-[max-content] flex items-center px-0 py-40  "
+          className="sticky top-[1vmax] h-[87vh] w-[max-content] mt-[-1vmax] flex items-center px-0 mb-[5vmax]"
         >
           <div className="flex">
-            <div className="h-[40vh] w-[800px]" ><Image src={singer1} alt="singer-1" width={700} height={500} /></div>
-            <div className="h-[40vh] w-[800px]" ><Image src={singer2} alt="singer-2" width={700} height={500} /></div>
-            <div className="h-[40vh] w-[800px]" ><Image src={singer3} alt="singer-3" width={700} height={500} /></div>
-            <div className="h-[40vh] w-[800px]" ><Image src={singer1} alt="singer-1" width={700} height={500} /></div>
-            <div className="h-[40vh] w-[800px]" ><Image src={singer2} alt="singer-2" width={700} height={500} /></div>
-            <div className="h-[40vh] w-[800px]" ><Image src={singer3} alt="singer-3" width={700} height={500} /></div>
-            <div className="h-[40vh] w-[800px]" ><Image src={singer1} alt="singer-1" width={700} height={500} /></div>
-            <div className="h-[40vh] w-[800px]" ><Image src={singer2} alt="singer-2" width={700} height={500} /></div>
-            <div className="h-[40vh] w-[800px]" ><Image src={singer3} alt="singer-3" width={700} height={500} /></div>
+          <div className="h-[50vh] w-[40vmax]" ><Image src={singer1} alt="singer-1" style={{
+              width: '80%',
+            }} width={0} height={0} /></div>
+            <div className="h-[50vh] w-[40vmax]" ><Image src={singer2} alt="singer-2" style={{
+              width: '80%',
+            }}  width={700} height={500} /></div>
+            <div className="h-[50vh] w-[40vmax]" ><Image src={singer3} alt="singer-3" style={{
+              width: '80%',
+            }}  width={700} height={500} /></div>
+            <div className="h-[50vh] w-[40vmax]" ><Image src={singer1} alt="singer-1" style={{
+              width: '80%',
+            }}  width={700} height={500} /></div>
+            <div className="h-[50vh] w-[40vmax]" ><Image src={singer2} alt="singer-2" style={{
+              width: '80%',
+            }}  width={700} height={500} /></div>
+            <div className="h-[50vh] w-[40vmax]" ><Image src={singer3} alt="singer-3" style={{
+              width: '80%',
+            }}  width={700} height={500} /></div>
+            {/* <div className="h-[50vh] w-[800px]" ><Image src={singer1} alt="singer-1" width={700} height={500} /></div>
+            <div className="h-[50vh] w-[800px]" ><Image src={singer2} alt="singer-2" width={700} height={500} /></div>
+            <div className="h-[50vh] w-[800px]" ><Image src={singer3} alt="singer-3" width={700} height={500} /></div> */}
           </div>
-        </motion.divsticky>
-      </div>
+      </motion.div>
       <div ref={ghostRef} style={{ height: scrollRange }} className="w-[100vw]" />
-      <p className='w-[38%] text-3xl text-black'>Feel the adrenaline rush, the pumping of you blood as we bring to you yet another spectacular edition of the 2 day event. Come participate, experience and feel the excitement as you watch the star with close proximity or see the different competitions. Come and make numerous and unforgettable memories and at Odyssey.</p>
-    </>
+      </div>
+      
   );
 }
 

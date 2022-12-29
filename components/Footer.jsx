@@ -23,16 +23,16 @@ const socials = [
 function Footer() {
   return (
     <>
-      <footer className="pt-48 md:pt-[49vh] md:pb-10 relative w-full bg-[url('/footer.svg')] bg-[#1C1E56] bg-no-repeat bg-center bg-cover ">
+      <footer className="pt-48 md:pt-[49vh] md:pb-10 relative flex flex-col justify-center w-full bg-[url('/footer.svg')] bg-[#1C1E56] bg-no-repeat bg-left bg-contain ">
         <div className="w-full flex justify-center">
-          <div className="h-36 md:h-24 w-11/12 md:w-full relative">
+          <div className="h-[18vh] md:h-[12vh] w-11/12 md:w-full relative -mt-[2vmax]">
             <Image src="/Logo.svg" alt="logo" fill />
           </div>
         </div>
 
-        <div className="md:mt-14 px-10 md:px-20 grid md:flex justify-evenly">
-          <div className="my-10 md:my-0 flex flex-col order-2 md:order-1 md:w-[30%]  w-[90%]">
-            <h5 className="text-[#BCBCBC]">
+        <div className="md:mt-14 px-[2.5vmax] md:px-0 grid md:flex justify-around pb-[4vmax]">
+          <div className="my-10 md:my-0 flex flex-col order-2 md:order-1 md:w-[60%] w-[90%] -ml-[0vmax]">
+            <h5 className="text-[white] text-[1.2vmax]">
               Indian Institute of Information Technology,
               <br /> Delhi Okhla Industrial Estate, <br />
               Phase III Near Govind Puri Metro Station
@@ -46,16 +46,19 @@ function Footer() {
                     src={`/${social.name}.svg`}
                     alt={social.name}
                     className="hover:scale-110 transition-all mx-1"
-                    width={40}
-                    height={40}
+                    width={0}
+                    height={0}
+                    style={{
+                      width: "2.5vmax",
+                    }}
                   />
                 </Link>
               ))}
             </div>
           </div>
 
-          <div className="flex md:justify-end md:mr-10 order-1 md:order-2 text-[grey]">
-            <div className="md:border-l md:pl-8 flex flex-col">
+          <div className="flex md:justify-end md:mr-[2vmax] text-[1vmax] order-1 md:order-2 text-[white]">
+            <div className="md:border-l md:pl-[2.5vmax] flex flex-col">
               <Link href="/teams" className="mb-3 hover:underline">
                 TEAMS
               </Link>
@@ -74,7 +77,9 @@ function Footer() {
         
       </footer>
       <div className="w-full">
-        <Image src="/footerStrip.svg" alt="footer" width={1920} height={300} />
+        <Image src="/footerStrip.svg" alt="footer" width={0} height={0} style={{
+          width: "100%",
+        }} />
       </div>
     </>
   )

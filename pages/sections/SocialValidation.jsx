@@ -13,13 +13,13 @@ function SocialValidation() {
         <>
             <div className="w-full bg-[#1C1E56] py-28 -mt-10 z-10">
             <div className="w-full mb-20 grid grid-cols-4">
-            <div className="w-full h-full flex items-center justify-center">
+            <div className="w-full h-full flex items-center justify-end pr-[2vmax]">
                 <Circle title="30k">
                 Accounts <br />
                 reached
                 </Circle>
             </div>
-            <p className="text-center text-[white] col-span-2">
+            <p className="text-center w-full text-[white] col-span-2 text-[1.2vmax] 2xl:tracking-wider 2xl:leading-normal">
                 Lorem ipsum dolor sit amet consectetur. Aliquam proin etiam nisi
                 egestas ultricies pulvinar cum. Tortor eu adipiscing viverra
                 scelerisque scelerisque neque elit. Phasellus sed cras aliquam
@@ -30,7 +30,7 @@ function SocialValidation() {
                 viverra scelerisque scelerisque neque elit. Phasellus sed cras
                 aliquam placerat faucibus.
             </p>
-            <div className="w-full h-full flex items-center justify-center">
+            <div className="w-full h-full flex items-center justify-start pl-[2vmax]">
                 <Circle title="30k">
                 Accounts <br />
                 reached
@@ -39,7 +39,7 @@ function SocialValidation() {
             </div>
 
             <div className="w-full grid grid-cols-3">
-            <div className="w-full h-full flex items-center justify-center">
+            <div className="w-full h-full flex items-center justify-center pr-[2vmax]">
                 <Circle title="30k">
                 Accounts <br />
                 reached
@@ -48,7 +48,7 @@ function SocialValidation() {
             <div className="relative h-72">
                 <Image src="/lotus.svg" alt="illustration" fill />
             </div>
-            <div className="w-full h-full flex items-center justify-center">
+            <div className="w-full h-full flex items-center justify-center pl-[2vmax]">
                 <Circle title="30k">
                 Accounts <br />
                 reached
