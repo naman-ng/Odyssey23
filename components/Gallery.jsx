@@ -36,7 +36,7 @@ function Gallery() {
   const physics = { damping: 15, mass: 0.27, stiffness: 55 }
   const spring = useSpring(transform, physics)
   return (
-    <>
+    <div className="relative">
       {/* <div className="h-[450vh] w-full relative flex justify-center">
             <div className="sticky top-[6.5rem] w-[90%] h-[80vh]">
           <motion.div className="z-10 absolute rounded-[3rem] w-full h-full bg-[url('../public/images/singer-1.png')]"
@@ -52,13 +52,13 @@ function Gallery() {
        <Image src={singer1} alt="singer-1" width={700} height={500} />
        <Image src={singer2} alt="singer-2" width={700} height={500} />
        <Image src={singer3} alt="singer-3" width={700} height={500} /> */}
-      <div className="left-0 right-0 will-change-transform w-full sticky">
-        <motion.section
+      <div className="left-0 right-0 will-change-transform w-full relative overflow-hidden">
+        <motion.div
           ref={scrollRef}
           style={{ x: spring }}
           className="sticky h-[100vh] w-[max-content] flex items-center px-0 py-40  "
         >
-          <div className="sticky flex">
+          <div className="absolute flex">
             <div className="h-[40vh] w-[800px]" ><Image src={singer1} alt="singer-1" width={700} height={500} /></div>
             <div className="h-[40vh] w-[800px]" ><Image src={singer2} alt="singer-2" width={700} height={500} /></div>
             <div className="h-[40vh] w-[800px]" ><Image src={singer3} alt="singer-3" width={700} height={500} /></div>
@@ -69,12 +69,12 @@ function Gallery() {
             <div className="h-[40vh] w-[800px]" ><Image src={singer2} alt="singer-2" width={700} height={500} /></div>
             <div className="h-[40vh] w-[800px]" ><Image src={singer3} alt="singer-3" width={700} height={500} /></div>
           </div>
-        </motion.section>
+        </motion.div>
       </div>
       <div ref={ghostRef} style={{ height: scrollRange }} className="w-[100vw]" />
       <p className='w-[38%] text-3xl text-black'>Feel the adrenaline rush, the pumping of you blood as we bring to you yet another spectacular edition of the 2 day event. Come participate, experience and feel the excitement as you watch the star with close proximity or see the different competitions. Come and make numerous and unforgettable memories and at Odyssey.</p>
 
-    </>
+    </div>
   );
 }
 

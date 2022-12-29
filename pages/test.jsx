@@ -11,10 +11,10 @@ function test() {
 
     
     return (
-        <div className='flex flex-col items-center overflow-clip'>
+        <div className='flex flex-col top-0 items-center overflow-clip'>
             
-            <div className='h-[450vh] w-full  relative flex justify-center'>
-                <motion.div className='sticky top-[6.5rem] w-[90%] h-[80vh] bg-blue rounded-xl'
+            <div className='h-[450vh] w-full top-0 relative flex justify-center'>
+                <motion.div className='sticky top-[0rem] w-[90%] h-[80vh] bg-blue rounded-xl'
                             style={{background:`radial-gradient(circle at bottom, transparent ${reveaFactor}%, #1C1E56 10%)`}}>
                 </motion.div>
             </div>
