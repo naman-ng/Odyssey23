@@ -16,7 +16,7 @@ function Reveal() {
       <motion.div className='sticky z-10 flex justify-center top-[8vh] w-[95%] h-[80vh] bg-blue rounded-[1.5vmax]'
         style={{ background: `radial-gradient(circle at bottom, transparent ${reveaFactor/1.6}vmax, #1C1E56 5vmax)` }}>
       </motion.div>
-      <Image src={rockBand} className='sticky w-full top-[15.1vh] 2xl:top-[18.4vh] -mt-[73.2vh] 2xl:-mt-[69.5vh] z-0' alt='odyssey' width={0} height={1000} style={{
+      <motion.div className='sticky w-full h-[80vh] top-[8vh] 2xl:top-[8vh] z-0 bg-[url(../public/images/rockBand.png)] mt-[-80vh] bg-cover' alt='odyssey' width={0} height={1000} style={{
         width:"70%",
       }} />
     </div>
