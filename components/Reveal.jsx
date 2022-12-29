@@ -6,17 +6,15 @@ function Reveal() {
     const [reveaFactor,setRevealFactor] = useState(10)
     useEffect(() => {
         return scrollYProgress.onChange(() => {
-            setRevealFactor(scrollYProgress.current*100+10)
+            setRevealFactor(scrollYProgress.current*100-10)
         })
     }, [])
   return (
-    <div className='flex absolute top-[125vh] flex-col items-center w-full'>
-      <div className='h-[90vh] z-10 relative w-full flex justify-center'>
-          <motion.div className='sticky top-[6.5rem] w-[90%] h-[80vh] bg-blue rounded-xl'
+    <div className='flex relative h-[200vh] flex-col items-center w-full my-20'>
+      <motion.div className='sticky top-10 w-[98%] h-[90vh] bg-blue rounded-[2rem]'
                       style={{background:`radial-gradient(circle at bottom, transparent ${reveaFactor}%, #1C1E56 10%)`}}>
-          </motion.div>
-      </div>
-      </div>
+      </motion.div>
+    </div>
   )
 }
 
