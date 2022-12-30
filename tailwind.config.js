@@ -21,6 +21,9 @@ module.exports = {
         'road': "url('/road.svg')",
         'truck': "url('/truck.svg')",
         'stalls': "url('/stalls.svg')",
+        'contactFormTop': "url('/contactFormTop.svg')",
+        'LayerBottomContact': "url('/LayerBottomContact.svg')",
+        'contactFormBg': "url('/contactFormBg.svg')",
       },
       fontFamily: {
         'mulish': [ 'Mulish', 'sans-serif'],
