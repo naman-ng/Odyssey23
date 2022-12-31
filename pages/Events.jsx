@@ -45,24 +45,15 @@ function Events() {
 
   const expand = (index) => {
     eventList[index].state = "Expand"
-    
-    
-    return(
-      
-
-<EventList eventList={eventList} expand = {expand} normal={normal}/>
-    );
-
+    setEventList(eventList)
+   
   }
 
   const normal = (index) => {
     eventList[index].state = "Normal"
-
-    return(
-      <EventList eventList={eventList} expand = {expand} normal={normal}/>
-    );
-
+    setEventList(eventList)
   }
+  
 
   return (
   
