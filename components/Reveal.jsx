@@ -12,12 +12,12 @@ function Reveal() {
         })
     }, [])
   return (
-    <div className='flex relative h-[450vh] flex-col items-center w-full mt-[5vmax]'>
-      <motion.div className='sticky z-10 flex justify-center top-[8vh] w-[95%] h-[80vh] bg-blue rounded-[1.5vmax]'
-        style={{ background: `radial-gradient(circle at bottom, transparent ${reveaFactor/1.6}vmax, #1C1E56 5vmax)` }}>
+    <div className='relative flex flex-col top-[1vw] left-0 right-0 h-[400vw] items-center justify-center w-full'>
+      <motion.div className='sticky z-10 top-[40vh] lg:top-[10vh] w-[70%] md:w-[85%] h-[40.8vw] bg-blue rounded-[1.5vmax]'
+        style={{ background: `radial-gradient(circle at bottom, transparent ${reveaFactor/1.6}vmax, #1C1E56 5vw)` }}>
       </motion.div>
-      <motion.div className='sticky w-full h-[80vh] top-[8vh] 2xl:top-[8vh] z-0 bg-[url(../public/images/rockBand.png)] mt-[-80vh] bg-cover' alt='odyssey' width={0} height={1000} style={{
-        width:"70%",
+      <motion.div className='sticky w-[70%] md:w-[85%] rounded-[1.5vmax] h-[40.8vw] top-[40vh] lg:top-[10vh] z-0 bg-[url(../public/images/rockBand.png)] mt-[-40.8vw] bg-cover' alt='odyssey' width={0} height={0} style={{
+        
       }} />
     </div>
   )

@@ -4,8 +4,8 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav className='absolute w-full z-40 font-mulish text-[white] text-xl p-5 flex justify-between'>
-      <div className='flex justify-between w-[30%] 2xl:w-[20%]'>
+    <nav className='absolute w-full z-40 font-mulish text-[white] text-xl p-[1vmax] flex justify-between'>
+      <div className='flex justify-between w-[30%] 2xl:w-[28%] text-[0.8vmax] md:text-[1.2vw]'>
         <Link href='/Home'>Home</Link>
         <Link href='/About'>About</Link>
         <Link href='/Events'>Events</Link>
@@ -22,7 +22,7 @@ function Navbar() {
                   width={0}
                   height={0}
                   style={{
-                    width:"2.5vmax",
+                    width:"2.35vmax",
                   }}/>
         </Link>
         <Link target='_blank'

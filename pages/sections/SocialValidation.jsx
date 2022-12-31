@@ -4,22 +4,22 @@ import Image from 'next/image';
 function SocialValidation() {
 
     const Circle = ({ title, children }) => (
-        <div className="w-[10rem] h-[10rem] bg-[#B8215A] border border-[#000] p-5 rounded-full flex flex-col justify-center items-center text-center text-[white]">
-            <h3 className="text-[3rem] my-2 font-bold">{title}</h3>
-            <p className="text-sm leading-tight">{children}</p>
+        <div className="w-[15vw] h-[15vw] bg-[#B8215A] border border-[#000] p-5 rounded-full flex flex-col justify-evenly items-center text-center text-[white]">
+            <h3 className="text-[5vw] mt-[1vw] font-bold">{title}</h3>
+            <p className="text-[1.7vw] leading-tight">{children}</p>
         </div>
     );
     return (
         <>
-            <div className="w-full bg-[#1C1E56] py-28 -mt-10 z-10">
-            <div className="w-full mb-20 grid grid-cols-4">
+            <div className="w-full bg-[#1C1E56] z-10">
+            <div className="w-full mb-[2vmax] grid grid-cols-4">
             <div className="w-full h-full flex items-center justify-end pr-[2vmax]">
                 <Circle title="30k">
                 Accounts <br />
                 reached
                 </Circle>
             </div>
-            <p className="text-center w-full text-[white] col-span-2 text-[1.2vmax] 2xl:tracking-wider 2xl:leading-normal">
+            <p className="text-center w-full text-[white] py-[6vmax] col-span-2 text-[1.2vmax] 2xl:tracking-wider 2xl:leading-normal">
                 Lorem ipsum dolor sit amet consectetur. Aliquam proin etiam nisi
                 egestas ultricies pulvinar cum. Tortor eu adipiscing viverra
                 scelerisque scelerisque neque elit. Phasellus sed cras aliquam
