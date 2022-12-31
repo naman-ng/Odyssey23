@@ -5,7 +5,7 @@ import {useTransform,
     motion} from 'framer-motion' 
 function Index() {
 
-    const x = useMotionValue(0);
+  const x = useMotionValue(0);
   const y = useMotionValue(0);
   const xposition1 = useTransform(x,[0,2000],[-10,10]);
   const xposition3 = useTransform(x,[0,2000],[-30,30]);
