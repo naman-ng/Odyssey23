@@ -35,65 +35,64 @@ function Hero() {
   }
 
   return (
-    <div className='relative w-full h-screen z-10'
+    <div className='relative w-full h-auto z-10'
          onMouseMove={(e)=>handleMouse(e)}>
 
-      <motion.div className='absolute z-10 w-full h-screen bg-clouds bg-no-repeat bg-cover -top-[2.5vmax]'
+      <motion.div className='absolute z-10 w-full h-[64vmax] bg-clouds bg-no-repeat bg-contain -top-[2.5vw]'
                   style={{
                     translateX:xposition1,
                     translateY:yposition1
                   }}/>
-      <motion.div className='absolute z-0 w-full h-screen bg-building bg-no-repeat bg-cover top-[15vmax] -left-[1vmax]'
+      <motion.div className='absolute z-0 w-full h-[64vmax] bg-building bg-no-repeat bg-contain top-[15vw] -left-[1vw]'
                   style={{
                     translateX:xposition2,
                     translateY: yposition2,
-                    width:"103vmax"
+                    width:"103vw",
                   }}/>
-      <motion.div className='absolute z-10 w-full h-screen bg-ground bg-no-repeat bg-cover top-[10vmax] -left-[2vmax]'
+      <motion.div className='absolute z-10 w-[106.5vw] xl:w-[104.5vw] h-[65vmax] bg-ground bg-no-repeat bg-contain top-[10vw] -left-[2vw]'
                   style={{
                     translateX:xposition3,
                     translateY: yposition3,
-                    width:"104.5vmax",
                   }}/>
-      <motion.div className='absolute z-10 w-[100%] h-screen bg-road bg-no-repeat bg-contain top-[58.5vmax] left-[-2vmax] pb-10'
+      <motion.div className='absolute z-10 w-[100%] h-[20vmax] bg-road bg-no-repeat bg-contain top-[61vw] left-[-2vw] '
         style={{
           translateX: xposition3,
           translateY: yposition3,
-          width:"104vmax",
+          width:"104vw",
         }}/>
-      <motion.div className='absolute z-10 w-[26.5%] h-screen bg-truck bg-no-repeat bg-contain top-[53vmax] right-6 pb-10'
+      <motion.div className='absolute z-10 w-[100%] h-[20vw] bg-truck bg-no-repeat bg-contain top-[53vw] left-[67vw] pb-10'
         style={{
           translateX: xposition4,
           translateY: yposition4
         }}/>
-      <motion.div className='absolute z-10 w-[46%] h-screen bg-stalls bg-no-repeat bg-contain top-[48vmax] left-[0vmax] pb-10'
+      <motion.div className='absolute z-10 w-[46%] h-screen bg-stalls bg-no-repeat bg-contain top-[48vw] left-[0vmax] pb-10'
         style={{
           translateX: xposition5,
           translateY: yposition5
         }}/>
-        <motion.div className='absolute -z-[1] w-[36%] h-screen bg-skyline bg-no-repeat bg-contain top-[39vmax] left-[27vmax] pb-10'
+        <motion.div className='absolute -z-[1] w-[36%] h-[10vmax] bg-skyline bg-no-repeat bg-contain top-[40vw] left-[27vw]'
           style={{
             translateX: xposition1,
             translateY: yposition1
           }}/>
           
-      <div className='relative flex flex-col justify-start items-center h-screen w-full z-[5]'>
+      <div className='relative flex flex-col justify-start items-center w-full z-[5] pb-[32vw]'>
         <Image  src='/Logo.svg'    
-                className=' mt-[12vmax]'   
+                className=' mt-[12vw]'   
                 alt='odyssey' 
                 width={0} 
           height={0}
           style={{
-            width:"55vmax"
+            width:"55vw"
           }}
         />
         <Image  src='/Symbol.svg'
                 className='mt-[2vmax]'       
                 alt='odyssey' 
                 width={0} 
-          height={200}
+          height={0}
           style={{
-            width:"13vmax"
+            width:"13vw"
           }}
         />
       </div>
