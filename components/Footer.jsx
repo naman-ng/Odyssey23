@@ -40,8 +40,8 @@ function Footer() {
             </h5>
 
             <div className="md:mt-[4vw] flex  items-center">
-              {socials.map((social) => (
-                <Link href={social.url} target="_blank">
+              {socials.map((social,i) => (
+                <Link href={social.url} target="_blank" key={i}>
                   <Image
                     src={`/${social.name}.svg`}
                     alt={social.name}
