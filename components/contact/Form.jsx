@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import { Router, useRouter } from "next/router";
+import Styles from "../../styles/styles.module.css"
 
 function Form(){
     const router=useRouter();
@@ -25,11 +26,11 @@ function Form(){
         <form className=" flex h-2/3 mt-40 w-full flex-col justify-center align-middle " onSubmit={Sendmail}>
             <input className=" h-1/5 w-[90%] ml-[5%] rounded-lg bg-[#A14123] pl-4" type="email" name="email" placeholder="Email" />
             <input className="h-1/5 w-[90%] ml-[5%] mt-4 rounded-lg bg-[#A14123] pl-4" name="query" type="text" placeholder="Query"/>
-            <button className="bg-[#FFC809] ml-[40%] flex flex-col justify-center w-1/5 mt-4 h-1/5 pl-[8%] text-center" type="submit" >submit</button>
+            <button className="bg-[#d7b537] ml-[40%] flex flex-col rounded-lg hover:bg-[#897633] justify-center w-1/5 mt-4 h-1/5 pl-[8%] text-center" type="submit" >submit</button>
         </form>
 
         </div>
-        <div className=" absolute w-full h-3/5 z-20 bg-LayerBottomContact pointer-events-none bg-no-repeat bg-cover -bottom-[35%]  object-fill  ">
+        <div className={Styles.contactFormLayerBottom +" absolute w-full h-3/5 z-20 bg-LayerBottomContact pointer-events-none bg-no-repeat bg-contain -bottom-[35%]  object-fill "}>
 
         </div>
         
