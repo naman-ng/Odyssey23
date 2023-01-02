@@ -20,7 +20,7 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
     <div  className= { ` 
 
     ${(isExpanded)
-      ? "sm:h-[] md:h-[36vw] lg:h-[31vw] xl:h-[28.0vw]"
+      ? "sm:h-[] md:h-[36vw] lg:h-[31vw] xl:h-[28.0vw] h-[15vw]"
       : "sm:h-[] md:h-[28vw] lg:h-[25vw] xl:h-[21vw]"
     } w-screen transition-timing-function-[ease-in] 
                           ${(isExpanded)
@@ -33,8 +33,8 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
       <img className={`  
 
       ${(isExpanded)
-        ? "sm:h-[] md:h-[35vw] lg:h-[30vw] xl:h-[28.0vw]"
-        : "sm:h-[] md:h-[22vw] lg:h-[21vw] xl:h-[17vw]"
+        ? "sm:h-[] md:h-[35vw] lg:h-[30vw] xl:h-[28.0vw] h-[15vw]"
+        : "sm:h-[] md:h-[22vw] lg:h-[21vw] xl:h-[17vw] h-[10vw]"
       }
          ${(isExpanded)
                   ? "translate-y-[0.1vw] duration-[1000ms]"
