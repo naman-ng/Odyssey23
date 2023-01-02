@@ -1,6 +1,5 @@
 import { transform } from 'framer-motion'
 import React,{useState} from 'react'
-
 function Event({name, tagline, knowmore, bg, image, align, key}) {
 
   let alignVal = align%2===0?"left":"right"
@@ -22,12 +21,12 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
     ${(isExpanded)
       ? "sm:h-[36vw] md:h-[36vw] lg:h-[31vw] xl:h-[28.0vw] h-[35vw]"
       : "sm:h-[29vw] md:h-[28vw] lg:h-[25vw] xl:h-[21vw] h-[25vw]"
-    } w-screen transition-timing-function-[ease-in] 
+    } w-screen transition-timing-function-[ease-in]  rounded-t-lg -mt-2 shadow-lg
                           ${(isExpanded)
                               ? "translate-y-[0.1vw] duration-[1000ms]"
                               : "translate-y-[0.1vw] duration-[1000ms]"
                             } transform transition-all `}
-          style={{backgroundColor: bg, border: '2px solid #FFC809 ',  
+          style={{backgroundColor: bg, border: '2px solid #000000',  
            }} >  
 
       <img className={`  
@@ -91,7 +90,7 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
                     {buttonText}
             </button>  
         </div>
-      </div>    
+      </div>   
     </div>
   )
 }

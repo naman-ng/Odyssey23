@@ -62,10 +62,10 @@ function Footer() {
             <div className=" pl-[2.5vmax] flex flex-col">
               {/* <Link href="/Teams" className="my-[1.2vw] hover:underline">
                 TEAMS
-              </Link>
+              </Link> */}
               <Link href="/Sponsors" className="my-[1.2vw] hover:underline">
                 SPONSORS
-              </Link> */}
+              </Link>
               <Link href="/Home" className="my-[1.2vw] hover:underline md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110">
                 HOME
               </Link>
