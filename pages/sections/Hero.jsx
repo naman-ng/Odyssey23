@@ -40,40 +40,40 @@ function Hero() {
 
       <motion.div className='absolute z-10 w-full h-[64vmax] bg-clouds bg-no-repeat bg-contain -top-[2.5vw]'
                   style={{
-                    translateX:xposition1,
-                    translateY:yposition1
+                    translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition1 : 0),
+                    translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition1 : 0),
                   }}/>
       <motion.div className='absolute z-0 w-full h-[64vmax] bg-building bg-no-repeat bg-contain top-[15vw] -left-[1vw]'
                   style={{
-                    translateX:xposition2,
-                    translateY: yposition2,
+                    translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition2 : 0),
+                    translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition2 : 0),
                     width:"103vw",
                   }}/>
       <motion.div className='absolute z-10 w-[106.5vw] xl:w-[104.5vw] h-[65vmax] bg-ground bg-no-repeat bg-contain top-[10vw] -left-[2vw]'
                   style={{
-                    translateX:xposition3,
-                    translateY: yposition3,
+                    translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition3 : 0),
+                    translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition3 : 0),
                   }}/>
       <motion.div className='absolute z-10 w-[100%] h-[20vmax] bg-road bg-no-repeat bg-contain top-[61vw] left-[-2vw] '
         style={{
-          translateX: xposition3,
-          translateY: yposition3,
+          translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition3 : 0),
+          translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition3 : 0),
           width:"104vw",
         }}/>
       <motion.div className='absolute z-10 w-[100%] h-[20vw] bg-truck bg-no-repeat bg-contain top-[53vw] left-[67vw] pb-10'
         style={{
-          translateX: xposition4,
-          translateY: yposition4
+          translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition4 : 0),
+          translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition4 : 0),
         }}/>
       <motion.div className='absolute z-10 w-[46%] h-screen bg-stalls bg-no-repeat bg-contain top-[48vw] left-[0vmax] pb-10'
         style={{
-          translateX: xposition5,
-          translateY: yposition5
+          translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition5 : 0),
+          translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition5 : 0),
         }}/>
         <motion.div className='absolute -z-[1] w-[36%] h-[10vmax] bg-skyline bg-no-repeat bg-contain top-[40vw] left-[27vw]'
           style={{
-            translateX: xposition1,
-            translateY: yposition1
+            translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition1 : 0),
+            translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition1 : 0),
           }}/>
           
       <div className='relative flex flex-col justify-start items-center w-full z-[5] pb-[32vw]'>
