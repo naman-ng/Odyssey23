@@ -4,13 +4,14 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav className='absolute w-full z-40 font-mulish text-[white] text-xl p-[1vmax] flex justify-between'>
-      <div className='flex justify-between w-[30%] 2xl:w-[28%] text-[0.8vmax] md:text-[1.2vw]'>
+    <nav className='absolute w-full z-40 font-mulish text-[white] text-xl p-[1vmax] hidden justify-between md:flex'>
+      <div className='flex justify-between w-[20%] 2xl:w-[28%] text-[0.8vmax] md:text-[1.2vw]'>
         <Link href='/Home'>Home</Link>
-        <Link href='/About'>About</Link>
+        {/* <Link href='/About'>About</Link> */}
         <Link href='/Events'>Events</Link>
-        <Link href='/Sponsors'>Sponsors</Link>
-        <Link href='/Team'>Team</Link>
+        <Link href='/ContactUs'>Contact Us</Link>
+        {/* <Link href='/Sponsors'>Sponsors</Link> */}
+        {/* <Link href='/Team'>Team</Link> */}
       </div>
 
       <div className='flex justify-end w-1/6 space-x-4'>

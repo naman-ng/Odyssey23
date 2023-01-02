@@ -54,7 +54,7 @@ function Hero() {
                     translateX:xposition3,
                     translateY: yposition3,
                   }}/>
-      <motion.div className='absolute z-10 w-[100%] h-[20vmax] bg-road bg-no-repeat bg-contain top-[61vw] left-[-2vw] '
+      <motion.div className='absolute z-5 w-[100%] h-[20vmax] bg-road bg-no-repeat bg-contain top-[71vw] left-[-2vw] '
         style={{
           translateX: xposition3,
           translateY: yposition3,
