@@ -20,8 +20,8 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
     <div  className= { ` 
 
     ${(isExpanded)
-      ? "sm:h-[] md:h-[36vw] lg:h-[31vw] xl:h-[28.0vw] h-[15vw]"
-      : "sm:h-[] md:h-[28vw] lg:h-[25vw] xl:h-[21vw]"
+      ? "sm:h-[36vw] md:h-[36vw] lg:h-[31vw] xl:h-[28.0vw] h-[35vw]"
+      : "sm:h-[29vw] md:h-[28vw] lg:h-[25vw] xl:h-[21vw] h-[25vw]"
     } w-screen transition-timing-function-[ease-in] 
                           ${(isExpanded)
                               ? "translate-y-[0.1vw] duration-[1000ms]"
@@ -33,16 +33,16 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
       <img className={`  
 
       ${(isExpanded)
-        ? "sm:h-[] md:h-[35vw] lg:h-[30vw] xl:h-[28.0vw] h-[15vw]"
-        : "sm:h-[] md:h-[22vw] lg:h-[21vw] xl:h-[17vw] h-[10vw]"
+        ? "sm:h-[35vw] md:h-[35vw] lg:h-[30vw] xl:h-[28.0vw] h-[33vw]"
+        : "sm:h-[21vw] md:h-[22vw] lg:h-[21vw] xl:h-[17vw] h-[20vw]"
       }
          ${(isExpanded)
                   ? "translate-y-[0.1vw] duration-[1000ms]"
-                  : "mt-5   translate-y-[0.1vw] duration-[1000ms]"
+                  : "sm:mt-5 lg:mt-5 md:mt-5 xl:mt-5 2xl:mt-5 mt-1.5 translate-y-[0.1vw] duration-[1000ms]"
                   } transform transition-all    
                           ${ (alignVal==="left")
-                          ? "ml-20 mr-10"
-                          : "xl:mr-[15vw] mr-[8vw] " } `}
+                          ? "2xl:ml-20 xl:ml-20 lg:ml-20 md:ml-20 sm:ml-20 ml-8 mr-10"
+                          : " xl:mr-[15vw] mr-[8vw] " } `}
 
             src= {image}  alt="image"
             style={{
@@ -51,24 +51,25 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
 
       <div className={`ml-20  mt-[6vw]  mr-[8vw] 
                     ${(isExpanded)
-                      ? "md:mt-[4vw] "
-                      : "translate-y-[0.1vw] duration-[1000ms]" }
+                      ? "md:mt-[4vw] sm:mt-[2.4vw] "
+                      : "sm:mt-[3vw] translate-y-[0.1vw] duration-[1000ms]" }
                     
                     `}>
         <div className= {`  translate-y-[0.1 vw] duration-[1200ms]
                           ${(isExpanded)
-                              ? "text-5xl  lg:text-4xl md:text-3xl"
-                              : "text-3xl   " }   `}>
+                              ? "xxl:text-5xl  lg:text-4xl md:text-3xl xl:text-5xl sm:text-2xl text-2xs"
+                              : "xxl:text-3xl xl:text-3xl lg:text-3xl md:text-3xl sm:text-3xl text-xs   " }   `}>
           {name} </div>
 
         <div className= {` translate-y-[0.1vw] duration-[1000ms]
                             ${(isExpanded)
-                              ? "text-2xl " : "text-1xl " }`} >
+                              ? "lg:text-2xl xl:text-2xl md:text-2xl xxl:text-2xl sm:text-1xl text-[2vw]"
+                              : "xxl:text-1xl xl:text-1xl lg:text-1xl md:text-1xl sm:text-1xl text-[2.6vw] " }`} >
           {tagline} </div>
 
-        <div className= {`font-italic mt-1 mr-40 col-2 text-4xs transition-delay-[10s] translate-y-[1vw] duration-[100ms] 
+        <div className= {`font-italic mt-1 mr-20 col-2 text-4xs transition-delay-[10s] translate-y-[1vw] duration-[100ms] 
                     ${(isExpanded)
-                      ? "lg:text-2xs  md:text-xs"
+                      ? "lg:text-xl sm:text-xs md:text-xs sm:mr-5"
                       : "" }   `} >
           {(isExpanded)? knowmore:""} 
         </div>

@@ -30,7 +30,7 @@ function Events() {
   ]
   return (
   
-    <div className="   justify-center w-full  font-mulish flex flex-col text-xl pt-[5vmax] overflow-clip  text-[#F9F9F9] " >
+    <div className="   justify-center w-full  font-mulish flex flex-col text-xl sm:pt-[5vmax] md:pt-[5vmax] xl:pt-[5vmax] lg:pt-[5vmax] pt-[3vmax] overflow-clip  text-[#F9F9F9] " >
       {eventList.map((event, i)=>(
         <main>
              <Event name={event.name}
