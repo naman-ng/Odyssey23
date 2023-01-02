@@ -19,8 +19,6 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
   return (
     <div  className= { ` 
 
-    
-    
     ${(isExpanded)
       ? "sm:h-[] md:h-[36vw] lg:h-[31vw] xl:h-[28.0vw]"
       : "sm:h-[] md:h-[28vw] lg:h-[25vw] xl:h-[21vw]"
@@ -30,12 +28,9 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
                               : "translate-y-[0.1vw] duration-[1000ms]"
                             } transform transition-all `}
           style={{backgroundColor: bg, border: '2px solid #FFC809 ',  
-          // height: (isExpanded)? 400 : height   
            }} >  
 
       <img className={`  
-
-        
 
       ${(isExpanded)
         ? "sm:h-[] md:h-[35vw] lg:h-[30vw] xl:h-[28.0vw]"
@@ -52,7 +47,6 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
             src= {image}  alt="image"
             style={{
                       float: alignVal,
-                      // height: (isExpanded)? 390 :heightImg  
                     }} />
 
       <div className={`ml-20  mt-[6vw]  mr-[8vw] 
