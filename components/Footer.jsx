@@ -57,7 +57,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex justify-end mr-[2vmax] text-[1vmax] order-2 text-[white]">
+          <div className="flex justify-end mr-[2vmax] text-[1.3vmax] order-2 text-[white]">
             
             <div className=" pl-[2.5vmax] flex flex-col">
               {/* <Link href="/Teams" className="my-[1.2vw] hover:underline">
@@ -66,13 +66,13 @@ function Footer() {
               <Link href="/Sponsors" className="my-[1.2vw] hover:underline">
                 SPONSORS
               </Link> */}
-              <Link href="/Home" className="my-[1.2vw] hover:underline">
+              <Link href="/Home" className="my-[1.2vw] hover:underline md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110">
                 HOME
               </Link>
-              <Link href="/Events" className="my-[1.2vw] hover:underline">
+              <Link href="/Events" className="my-[1.2vw] hover:underline md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110">
                 EVENTS
               </Link>
-              <Link href="/ContactUs" className="mt-[1.2vw] mb-0 hover:underline">
+              <Link href="/ContactUs" className="mt-[1.2vw] mb-0 hover:underline md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110">
                 CONTACT US
               </Link>
             </div>
