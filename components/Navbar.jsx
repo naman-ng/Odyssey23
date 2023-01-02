@@ -5,9 +5,9 @@ import React from 'react'
 function Navbar() {
   return (
     <nav className='absolute w-full z-40 font-mulish text-[white] text-xl p-[1vmax] flex justify-between'>
-      <div className='flex justify-between w-[30%] 2xl:w-[28%] text-[0.8vmax] md:text-[1.2vw]'>
+      <div className='flex justify-between w-[25%] 2xl:w-[28%] text-[0.8vmax] md:text-[1.2vw]'>
         <Link href='/Home' className=' hover:  '>Home</Link>
-        <Link href='/About'>About</Link>
+        {/* <Link href='/About'>About</Link> */}
         <Link href='/Events'>Events</Link>
         <Link href='/ContactUs'>Contact Us</Link>
         {/* <Link href='/Sponsors'>Sponsors</Link> */}
