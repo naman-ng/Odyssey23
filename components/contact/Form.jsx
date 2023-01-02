@@ -1,6 +1,7 @@
 import emailjs from "emailjs-com";
 import { useRouter } from "next/router";
-
+import Image from "next/image";
+import LayerBottomContact from "../../public/contactFormLayerBottom.svg";
 function Form(){
     const router=useRouter();
     const Sendmail = (e) =>{
@@ -17,29 +18,29 @@ function Form(){
     }
 
     return(
-        <div className=" flex flex-col items-center relative w-4/5 md:h-4/5 md:top-[8vmax] top-[25vmax] flex-wrap z-20">
-            <div className=" absolute w-[95%] md:h-3/5 h-full z-20 bg-contactFormTop pointer-events-none bg-no-repeat bg-contain">
-            </div>
+        <div className="flex flex-col items-center relative w-4/5 h-[45%] sm:h-[50%] lg:h-4/5 top-[0rem] md:top-[8vmax]  flex-wrap z-20">
+            <div className=" absolute w-[95%] h-[65%] z-20 bg-contactFormTop pointer-events-none bg-no-repeat bg-contain"/>
 
-            <div className="absolute z-10 top-0 flex flex-col align-middle justify-center h-[50%] md:h-full  w-[95%] bg-[#F16823]">
-                <form className=" flex h-2/3 md:mt-40 w-full flex-col justify-center items-center align-middle " 
+            <div className="absolute z-10 top-0 flex flex-col items-center justify-center h-full  w-[95%] bg-[#F16823]">
+                <form className=" flex h-2/3 mt-[10%] w-full flex-col justify-center items-center " 
                       onSubmit={(e)=>Sendmail(e)}>
-                    <input  className=" h-1/5 w-[90%] rounded-lg bg-[#A14123] pl-4" 
+                    <input  className=" h-1/5 w-[90%] rounded-lg bg-[#A14123] mt-5 sm:mt-0 pl-4 text-[white] font-mulish font-medium" 
                             type="email" 
                             name="email" 
-                            placeholder="Email" />
-                    <input  className="h-1/5 w-[90%] mt-4 rounded-lg bg-[#A14123] pl-4" 
+                        placeholder="Email" />
+                    <input  className="h-1/5 w-[90%] mt-8 md:mt-4 rounded-lg bg-[#A14123] pl-4 text-[white] font-mulish font-medium" 
                             name="query" 
                             type="text" 
                             placeholder="Query"/>
-                    <button className="bg-[#d7b537]  rounded-lg hover:bg-[#897633]  md:w-1/5 w-2/5 mt-4 p-2 text-center" 
+                    <button className="bg-[#d7b537] text-lg  rounded-lg hover:bg-[#d7b437e0] text-[#EE2D69] transition-all duration-300 font-[620] hover:font-bold  md:w-[30%] w-2/5 mt-8 md:mt-4 p-2 text-center" 
                             type="submit">
-                        submit
+                        Submit
                     </button>
                 </form>
             </div>
 
-            <div className="absolute w-full h-3/5 z-20 bg-LayerBottomContact pointer-events-none bg-no-repeat bg-contain md:-bottom-[35%] -bottom-[0%] object-fill ">
+            <div className="absolute top-[39vh] md:top-[39vmax] xl:top-[30vmax] 2xl:top-[26vmax] w-[97.4%] z-20 pointer-events-none">
+                <Image src={LayerBottomContact} width={0} height={0} className="w-full" />
             </div>
         </div>
     )

@@ -5,7 +5,7 @@ import React from 'react'
 function Navbar() {
   return (
     <nav className='absolute pl-[2%] w-full z-40 font-mulish text-[white] text-xl p-[1vmax] flex justify-between'>
-      <div className='flex justify-between w-[25%] 2xl:w-[28%] text-[1.2vmax] md:text-[1.5vmax]'>
+      <div className='flex justify-between w-[35%] md:w-[30%] 2xl:w-[28%] text-[1.2vmax] md:text-[1.5vmax]'>
         <Link href='/Home' className=' md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110'>Home</Link>
         <Link href='/Events' className=' md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110'>Events</Link>
         <Link href='/ContactUs' className=' md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110'>Contact Us</Link>
