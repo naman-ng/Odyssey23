@@ -8,7 +8,7 @@ function Events() {
         tagline: "Join the fashion elite at our exclusive fest events.",
         knowmore: "Details of events of events of events of events of events of events of events of events of events of events of events of events of events.",
         bg: "#B8215A",
-        image: "/images/fashion.jpg",
+        image: "/images/event_fashion.png",
         align:0
     },
     {
@@ -16,7 +16,7 @@ function Events() {
         tagline: "Are you ready to face off against other trivia enthusiasts? Join us!",
         knowmore: "Details of events of events of events of events of events of events of events of events of events of events of events of events of events.",
         bg: "#EE2D69",
-        image: "/images/quizzing.jpg",
+        image: "/images/event_quizzing.png",
         align:1
     },
     {
@@ -24,13 +24,13 @@ function Events() {
         tagline: "Experience the thrill of the dance floor at our fest event.",
         knowmore: "Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.",
         bg: "#00B9AD",
-        image: "/images/dance.jpg",
+        image: "/images/event_dance.png",
         align:0
     }
   ]
   return (
   
-    <div className="z-0 font-mulish flex flex-col text-xl pt-[5vmax] overflow-clip  text-[#F9F9F9] " >
+    <div className="   justify-center w-full  font-mulish flex flex-col text-xl pt-[5vmax] overflow-clip  text-[#F9F9F9] " >
       {eventList.map((event, i)=>(
         <main>
              <Event name={event.name}
@@ -40,8 +40,8 @@ function Events() {
                     image={event.image}
                     align={event.align}
                     key={i}/>
-              <img className='w-screen mb-[-0.1vw] mt-[0.1vw]' src="/images/tealborder.png" 
-                    style={{  width: "100%" }}  />
+              {/* <img className='w-screen mb-[-0.1vw] mt-[0.1vw]' src="/images/tealborder.png" 
+                    style={{  width: "100%" }}  /> */}
         </main>
       ))}
     </div>
