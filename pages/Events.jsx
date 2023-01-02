@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Event from '../components/Event'
-
+import Image from 'next/image';
 function Events() {
   const eventList = [
     {
@@ -26,11 +26,11 @@ function Events() {
         bg: "#00B9AD",
         image: "/images/event_dance.png",
         align:0
-    }
+    },
   ]
   return (
   
-    <div className="   justify-center w-full  font-mulish flex flex-col text-xl sm:pt-[5vmax] md:pt-[5vmax] xl:pt-[5vmax] lg:pt-[5vmax] pt-[4.3vmax] overflow-clip  text-[#F9F9F9] " >
+    <div className="gradient-blue h-auto  justify-center w-full  font-mulish flex flex-col text-xl sm:pt-[5vmax] md:pt-[5vmax] xl:pt-[5vmax] lg:pt-[5vmax] pt-[4.3vmax] overflow-clip  text-[#F9F9F9] " >
       {eventList.map((event, i)=>(
         <main>
              <Event name={event.name}
