@@ -26,20 +26,20 @@ function Footer() {
       <footer className=" relative h-[44vw] flex flex-col justify-center w-full bg-[url('/footer.svg')] bg-[#1C1E56] bg-no-repeat bg-center bg-contain ">
         <div className="w-full relative flex justify-center">
           <div className="w-full flex justify-center">
-            <Image src="/Logo.svg" alt="logo" width={0} height={0} className='w-[45vw] lg:w-[50vw] pt-[15vw] pb-[0] md:pb-[1.5vw]' />
+            <Image src="/Logo.svg" alt="logo" width={0} height={0} className='w-[35vw] lg:w-[50vw] pt-[15vw] pb-2 md:pb-[1.5vw]' />
           </div>
         </div>
 
-        <div className=" px-[2.5vmax] flex justify-around ">
+        <div className=" px-[2.5vmax] flex justify-around pb-3 ">
           <div className="md:my-[2.5vmax] flex flex-col order-2  md:w-[60%] w-[60%]">
-            <h5 className="text-[white] text-[1.2vmax]">
+            <h5 className="text-[white] leading-[1rem] md:leading-normal text-[1vmax] md:text-[1.2vmax]">
               Indian Institute of Information Technology,
               <br /> Delhi Okhla Industrial Estate, <br />
               Phase III Near Govind Puri Metro Station
               <br /> New Delhi, Delhi 110020
             </h5>
 
-            <div className="md:mt-[4vw] flex  items-center">
+            <div className="mt-2 md:mt-[4vw] flex  items-center">
               {socials.map((social,i) => (
                 <Link href={social.url} target="_blank" key={i}>
                   <Image
@@ -49,7 +49,7 @@ function Footer() {
                     width={0}
                     height={0}
                     style={{
-                      width: "3vmax",
+                      width: "2.2vmax",
                     }}
                   />
                 </Link>
