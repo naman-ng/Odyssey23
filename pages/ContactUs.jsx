@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Form from "../components/contact/Form";
 import { useTransform, useMotionValue, motion } from "framer-motion";
 
