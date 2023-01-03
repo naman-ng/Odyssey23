@@ -91,7 +91,7 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
                                            bg-[#F9F9F9] rounded-lg  text-[1.72vw] h-[3.4vw] w-[12vw]
             leading-[4vw]
                     ${(isExpanded)
-                      ? "translate-y-[1vw] duration-[1000ms] h-[1vw] w-[13vw] sm:h-[3vw] sm:w-[12vw] "
+                      ? "translate-y-[1vw] duration-[1000ms] h-[3vw] w-[13vw] sm:h-[3vw] sm:w-[12vw] "
                       : "translate-y-[-1vw] duration-[1000ms] "
                     }  transform transition-all
                     
