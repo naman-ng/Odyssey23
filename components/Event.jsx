@@ -85,13 +85,14 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
 
       
         <div className="btn" style={{ color: bg }}>
-            <button className={` font-bold xl:text-xl lg:text-xl sm:text-xs md:text-xs 2xl:text-[1.2vw] mt-[2vw]
+            <button className={` font-bold xl:text-xl lg:text-xl sm:text-xs  2xl:text-[1.2vw] mt-[2vw]
                                            xl:p-1 lg:p-1 md:p-1 sm:p-1 2xl:p-0 2xl:h-[2vw] 2xl:w-[8vw]
-            bg-[#F9F9F9] rounded-lg  text-[1.72vw] h-[3.4vw] w-[12vw]
+                                           
+                                           bg-[#F9F9F9] rounded-lg  text-[1.72vw] h-[3.4vw] w-[12vw]
             leading-[4vw]
                     ${(isExpanded)
-                      ? "translate-y-[1vw] duration-[1000ms] h-[1vw] w-[13vw]"
-                      : "translate-y-[-1vw] duration-[1000ms]"
+                      ? "translate-y-[1vw] duration-[1000ms] h-[1vw] w-[13vw] sm:h-[3vw] sm:w-[12vw] "
+                      : "translate-y-[-1vw] duration-[1000ms] "
                     }  transform transition-all
                     
                      ` } 
