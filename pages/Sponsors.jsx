@@ -3,17 +3,7 @@ import Spons from '../components/Spons';
 import data from '../data/sponsors-data.json';
 
 function Sponsors() {
-  // const [spons, setSpons] = useState([]);
 
-  // useEffect(() => {
-  //   fetch('http://localhost:3000/api/sponsors')
-  //     .then((a) => {
-  //       return a.json();
-  //     })
-  //     .then((parsed) => {
-  //       setSpons(parsed.data);
-  //     });
-  // }, []);
   const sponsData = [
     { name: 'name-1', front_img: '/frontSpons.png', back_img: '/backSpons.png', link: 'https://www.google.com/' },
     { name: 'name-2', front_img: '/frontSpons.png', back_img: '/backSpons.png', link: 'https://www.google.com/' },
@@ -60,7 +50,7 @@ function Sponsors() {
       </div>
       {console.log()}
       <div className={`block pt-[5vmax] md:flex flex-wrap align-center justify-evenly md:h-[1700px] xl:h-[1800px]  md:overflow-hidden`}>
-        {sponsData.map((item, i) => {
+        {data.map((item, i) => {
           return <Spons name={item.name} front_img={item.front_img} back_img={item.back_img} link={item.link} number={i} key={i} />;
         })}
       </div>

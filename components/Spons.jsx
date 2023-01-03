@@ -6,6 +6,7 @@ function Spons({ name, front_img, back_img, link, number }) {
   const [left, setLeft] = useState(0);
   const [right, setRight] = useState(0);
   const [windowSize, setWindowSize] = useState(0);
+  
   let bh = 0;
   useEffect(() => {
     bh = Math.floor(number / 9) * 200;
@@ -24,6 +25,7 @@ function Spons({ name, front_img, back_img, link, number }) {
       setRight(lh);
     }
   }, []);
+  
   useEffect(() => {
     setWindowSize(window.innerWidth);
   }, []);
