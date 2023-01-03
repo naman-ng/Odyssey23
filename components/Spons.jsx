@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/styles.module.css';
-import useWindowSize from '../hooks/useWindowSize';
 
 function Spons({ name, front_img, back_img, link, number }) {
   const [bottom, setBottom] = useState(0);
   const [left, setLeft] = useState(0);
   const [right, setRight] = useState(0);
-  const { width } = useWindowSize();
 
   let bh = 0;
   useEffect(() => {
@@ -64,7 +62,7 @@ function Spons({ name, front_img, back_img, link, number }) {
 
   if (name.length > 1) {
     return (
-      <div className={styles.card} style={width>=768?cardStyle:smallCard}>
+      <div className={styles.card} style={(((typeof window) !== 'undefined') && window.innerWidth)>=768?cardStyle:smallCard}>
         <div className="" style={frontStyle}>
           <img src={`${front_img}`} alt="" className="w-full" />
         </div>
@@ -77,7 +75,7 @@ function Spons({ name, front_img, back_img, link, number }) {
     );
   } else {
     return (
-      <div className={styles.card} style={width>=768?cardStyle:smallCard}>
+      <div className={styles.card} style={(((typeof window) !== 'undefined') && window.innerWidth)>=768?cardStyle:smallCard}>
         <div className="" style={frontStyle}>
           <img src="/emptySpons.png" alt="" className="w-full" />
         </div>
