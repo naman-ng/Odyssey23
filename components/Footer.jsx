@@ -63,7 +63,7 @@ function Footer() {
               {/* <Link href="/Teams" className="my-[1.2vw] hover:underline">
                 TEAMS
               </Link> */}
-              <Link href="/Sponsors" className="my-[1.2vw] hover:underline">
+              <Link href="/Sponsors" className="my-[1.2vw] hover:underline md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110">
                 SPONSORS
               </Link>
               <Link href="/Home" className="my-[1.2vw] hover:underline md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110">

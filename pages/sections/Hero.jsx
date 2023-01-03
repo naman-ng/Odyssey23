@@ -25,9 +25,9 @@ function Hero() {
     setWindowSize(window.innerWidth);
   }, []);
   useEffect(() => {
-    console.log("xposition1 : ", xposition1, "yposition1 : ", yposition1)
-    console.log("xposition2 : ", xposition2, "yposition2 : ", yposition2)
-    console.log("xposition3 : ", xposition3, "yposition3 : ", yposition3)
+    // console.log("xposition1 : ", xposition1, "yposition1 : ", yposition1)
+    // console.log("xposition2 : ", xposition2, "yposition2 : ", yposition2)
+    // console.log("xposition3 : ", xposition3, "yposition3 : ", yposition3)
     
   }, [])
 
@@ -35,7 +35,7 @@ function Hero() {
   const handleMouse=(e)=>{
     x.set(e.pageX);
     y.set(e.pageY);
-    console.log(x,y, "x,y")
+    // console.log(x,y, "x,y")
   }
 
   return (

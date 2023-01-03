@@ -8,7 +8,7 @@ function Reveal() {
     useEffect(() => {
         return scrollYProgress.onChange(() => {
           setRevealFactor(Math.max(Math.min((scrollYProgress.current * 90) - 10, 74.6)-12, 0))
-          console.log((scrollYProgress.current * 150) - 10)
+          // console.log((scrollYProgress.current * 150) - 10)
         })
     }, [])
 

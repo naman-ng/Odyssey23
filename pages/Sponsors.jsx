@@ -48,7 +48,7 @@ function Sponsors() {
       <div className="ml-[5%] ">
         <p className="text-4xl md:text-6xl">Sponsors</p>
       </div>
-      {console.log()}
+      {/* {console.log()} */}
       <div className={`block pt-[5vmax] md:flex flex-wrap align-center justify-evenly md:h-[1700px] xl:h-[1800px]  md:overflow-hidden`}>
         {data.map((item, i) => {
           return <Spons name={item.name} front_img={item.front_img} back_img={item.back_img} link={item.link} number={i} key={i} />;
