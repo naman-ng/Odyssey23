@@ -17,6 +17,7 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
 
   return (
     <div  className= { ` 
+    leading-[4vw]
 
     ${(isExpanded)
       ? "sm:h-[36vw] md:h-[36vw] lg:h-[31vw] xl:h-[28.0vw] h-[35vw]"
@@ -63,12 +64,13 @@ function Event({name, tagline, knowmore, bg, image, align, key}) {
           {name} </div>
 
         <div className= {` translate-y-[0.1vw] duration-[1000ms]
+        leading-[3vw]
                             ${(isExpanded)
                               ? "lg:text-2xl xl:text-2xl md:text-2xl xxl:text-2xl sm:text-1xl text-[2vw]"
                               : "xxl:text-2xl xl:text-2xl lg:text-2xl md:text-2xl sm:text-2xl text-[2.6vw] " }`} >
           {tagline} </div>
 
-        <div className= {`font-italic mt-1 mr-20 col-2 text-4xs transition-delay-[10s] translate-y-[1vw] duration-[100ms] 
+        <div className= {`font-italic mt-1 mr-20 text-4xs transition-delay-[10s] translate-y-[1vw] duration-[100ms] 
                     ${(isExpanded)
                       ? "lg:text-xl sm:text-xs md:text-xs sm:mr-5"
                       : "" }   `} >
