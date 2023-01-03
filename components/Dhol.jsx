@@ -1,12 +1,15 @@
 import Image from "next/image";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import useIsInViewport from "../hooks/useInViewPort";
 
 const Dhol = () => {
   const ref = useRef(null);
 
   const isInViewport = useIsInViewport(ref);
-
+  const [windowSize, setWindowSize] = useState(0);
+  useEffect(() => {
+    setWindowSize(window.innerWidth);
+  }, []);
   return (
     <div className="w-full h-full z-0 mb-[0.8rem] sm:mb-[4.9rem] md:mb-[7.5rem] xl:mb-[8.5rem]   ">
       <h5 className="w-[55%] md:w-5/12 ml-[35%] lg:mx-auto text-left lg:text-center text-[#000] mt-[10vw] text-[1.2vmax] leading-[1.8vh] lg:leading-[3.3vh] mb-[-10vmax] ">
@@ -18,7 +21,7 @@ const Dhol = () => {
         width={0}
         height={0}
         className={`${
-          (isInViewport && window.innerWidth > 768)
+          (windowSize >= 768)
             ? "translate-x-[6vw] duration-[1000ms]"
             : "translate-x-[3vw] duration-[0ms]"
           } transform transition-all mb-[-1vw] w-[20vh] lg:w-[25vw]` }

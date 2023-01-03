@@ -14,6 +14,10 @@ function ContactMain() {
     x.set(e.pageX);
     y.set(e.pageY);
   };
+  const [windowSize, setWindowSize] = useState(0);
+  useEffect(() => {
+    setWindowSize(window.innerWidth);
+  }, []);
   return (
     <div
       style={{
@@ -26,11 +30,11 @@ function ContactMain() {
         className="absolute z-10 w-full h-[64vmax] -top-24 md:top-0 bg-clouds bg-no-repeat bg-contain "
         style={{
           translateX:
-            ((typeof window !== "undefined") && (window.innerWidth > 1024))
+            (windowSize > 1024)
               ? xposition1
               : 0,
           translateY:
-            ((typeof window !== "undefined") && (window.innerWidth > 1024))
+            (windowSize > 1024)
               ? yposition1
               : 0,
         }}
@@ -39,11 +43,11 @@ function ContactMain() {
         className="absolute z-10 w-[106.5vw] xl:w-[104.5vw] h-[70rem] md:h-[70rem] bg-ground bg-no-repeat bg-contain top-[5rem] md:top-[0rem] -left-[2vw]"
         style={{
           translateX:
-            ((typeof window !== "undefined") && (window.innerWidth > 1024))
+            (windowSize > 1024)
               ? xposition3
               : 0,
           translateY:
-            ((typeof window !== "undefined") && (window.innerWidth > 1024))
+            (windowSize > 1024)
               ? yposition3
               : 0,
         }}
@@ -52,11 +56,11 @@ function ContactMain() {
         className="absolute z-5 w-[100%] h-[20vmax] bg-road bg-no-repeat bg-contain top-[20rem]  md:top-[65vw] xl:top-[63vw] left-[-2vw] "
         style={{
           translateX:
-            ((typeof window !== "undefined") && (window.innerWidth > 1024))
+            (windowSize > 1024)
               ? xposition3
               : 0,
           translateY:
-            ((typeof window !== "undefined") && (window.innerWidth > 1024))
+            (windowSize > 1024)
               ? yposition3
               : 0,
           width: "104vw",

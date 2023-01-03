@@ -5,7 +5,7 @@ function Spons({ name, front_img, back_img, link, number }) {
   const [bottom, setBottom] = useState(0);
   const [left, setLeft] = useState(0);
   const [right, setRight] = useState(0);
-
+  const [windowSize, setWindowSize] = useState(0);
   let bh = 0;
   useEffect(() => {
     bh = Math.floor(number / 9) * 200;
@@ -24,7 +24,9 @@ function Spons({ name, front_img, back_img, link, number }) {
       setRight(lh);
     }
   }, []);
-
+  useEffect(() => {
+    setWindowSize(window.innerWidth);
+  }, []);
   const frontStyle = {
     height: '100%',
     width: '100%',
@@ -62,7 +64,7 @@ function Spons({ name, front_img, back_img, link, number }) {
 
   if (name.length > 1) {
     return (
-      <div className={styles.card} style={(((typeof window) !== 'undefined') && window.innerWidth)>=768?cardStyle:smallCard}>
+      <div className={styles.card} style={(windowSize>=768)?cardStyle:smallCard}>
         <div className="" style={frontStyle}>
           <img src={`${front_img}`} alt="" className="w-full" />
         </div>
@@ -75,7 +77,7 @@ function Spons({ name, front_img, back_img, link, number }) {
     );
   } else {
     return (
-      <div className={styles.card} style={(((typeof window) !== 'undefined') && window.innerWidth)>=768?cardStyle:smallCard}>
+      <div className={styles.card} style={(windowSize>=768)?cardStyle:smallCard}>
         <div className="" style={frontStyle}>
           <img src="/emptySpons.png" alt="" className="w-full" />
         </div>

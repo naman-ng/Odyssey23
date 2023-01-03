@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import {useTransform,
         useMotionValue, 
         motion} from 'framer-motion' 
@@ -20,6 +20,10 @@ function Hero() {
   const yposition3 = useTransform(y, [0, 2000], [-30, 30]);
   const yposition4 = useTransform(y, [0, 2000], [-60, 60]);
   const yposition5 = useTransform(y, [0, 2000], [-40, 40]);
+  const [windowSize, setWindowSize] = useState(0);
+  useEffect(() => {
+    setWindowSize(window.innerWidth);
+  }, []);
   useEffect(() => {
     console.log("xposition1 : ", xposition1, "yposition1 : ", yposition1)
     console.log("xposition2 : ", xposition2, "yposition2 : ", yposition2)
@@ -40,40 +44,40 @@ function Hero() {
 
       <motion.div className='absolute z-10 w-full h-[64vmax] bg-clouds bg-no-repeat bg-contain -top-[2.5vw]'
                   style={{
-                    translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition1 : 0),
-                    translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition1 : 0),
+                    translateX:((windowSize > 1024) ? xposition1 : 0),
+                    translateY:((windowSize > 1024) ? yposition1 : 0),
                   }}/>
       <motion.div className='absolute z-0 w-full h-[64vmax] bg-building bg-no-repeat bg-contain top-[15vw] -left-[1vw]'
                   style={{
-                    translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition2 : 0),
-                    translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition2 : 0),
+                    translateX:((windowSize > 1024) ? xposition2 : 0),
+                    translateY:((windowSize > 1024) ? yposition2 : 0),
                     width:"103vw",
                   }}/>
       <motion.div className='absolute z-10 w-[106.5vw] xl:w-[104.5vw] h-[65vmax] bg-ground bg-no-repeat bg-contain top-[10vw] -left-[2vw]'
                   style={{
-                    translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition3 : 0),
-                    translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition3 : 0),
+                    translateX:((windowSize > 1024) ? xposition3 : 0),
+                    translateY:((windowSize > 1024) ? yposition3 : 0),
                   }}/>
       <motion.div className='absolute z-5 w-[100%] h-[20vmax] bg-road bg-no-repeat bg-contain top-[71vw] left-[-2vw] '
         style={{
-          translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition3 : 0),
-          translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition3 : 0),
+          translateX:((windowSize > 1024) ? xposition3 : 0),
+          translateY:((windowSize > 1024) ? yposition3 : 0),
           width:"104vw",
         }}/>
       <motion.div className='absolute z-10 w-[100%] h-[20vw] bg-truck bg-no-repeat bg-contain top-[53vw] left-[67vw] pb-10'
         style={{
-          translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition4 : 0),
-          translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition4 : 0),
+          translateX:((windowSize > 1024) ? xposition4 : 0),
+          translateY:((windowSize > 1024) ? yposition4 : 0),
         }}/>
       <motion.div className='absolute z-10 w-[46%] h-screen bg-stalls bg-no-repeat bg-contain top-[48vw] left-[0vmax] pb-10'
         style={{
-          translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition5 : 0),
-          translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition5 : 0),
+          translateX:((windowSize > 1024) ? xposition5 : 0),
+          translateY:((windowSize > 1024) ? yposition5 : 0),
         }}/>
         <motion.div className='absolute -z-[1] w-[36%] h-[10vmax] bg-skyline bg-no-repeat bg-contain top-[40vw] left-[27vw]'
           style={{
-            translateX:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? xposition1 : 0),
-            translateY:(((typeof window!== "undefined") && (window.innerWidth > 1024)) ? yposition1 : 0),
+            translateX:((windowSize > 1024) ? xposition1 : 0),
+            translateY:((windowSize > 1024) ? yposition1 : 0),
           }}/>
           
       <div className='relative flex flex-col justify-start items-center w-full z-[5] pb-[32vw]'>
