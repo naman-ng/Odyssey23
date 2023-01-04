@@ -33,7 +33,7 @@ function Footer() {
         <div className=" px-[2.5vmax] flex justify-around pb-3 ">
           <div className="md:my-[2.5vmax] flex flex-col order-2  md:w-[60%] w-[60%]">
             <h5 className="text-[white] leading-[1rem] md:leading-normal text-[1vmax] md:text-[1.2vmax]">
-              Indian Institute of Information Technology,
+              Indraprastha Institute of Information Technology,
               <br /> Delhi Okhla Industrial Estate, <br />
               Phase III Near Govind Puri Metro Station
               <br /> New Delhi, Delhi 110020
