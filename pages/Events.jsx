@@ -48,6 +48,25 @@ function Events() {
         {eventName: 'Verve', description: 'Verve : "We Only Speak In Dance" , is a solo dance competition with only western styles like Hip-Hop, Bboying, Jazz, Contemporary, etc., allowed where you can showcase your verve for dance.', registrationLink: 'https:\\/\\/forms.gle\\/dz6Ejtpy3kPM5UxH6'}
         ]
     },
+    {
+      name: 'Music',
+      tagline: 'Experience the thrill of the dance floor at our fest event.',
+      knowmore:
+        'Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.',
+      bg: '#00B9AD',
+      image: '/images/event_music.png',
+      align: 0,
+      knowmoreList: [
+        {eventName: 'Arpeggio', description: 'Arpeggio is a musical bonanza for all solo instrumentalists, where we pit musicians of varied genres in a mouthwatering battle against one another and give them their worthy stage to stand out and shine.', registrationLink: 'https:\\/\\/forms.gle\\/YaHVaydVR7FYAjaCA'}, 
+        {eventName: 'Anime Karaoke no Yoru', description: 'description', registrationLink: 'https:\\/\\/forms.gle\\/WgqV5wQotzLT8nhk7'}, 
+        {eventName: 'FlipIt', description: 'description', registrationLink: 'https:\\/\\/forms.gle\\/TxRGUrtZ7NBNH35j7'}, 
+        {eventName: 'Encore Indian', description: 'Encore Indian is a solo classical singing event that gives all the talented musicians out there a chance to showcase their skills and mastery over the magnificent art form of Indian Classical Music.', registrationLink: 'https:\\/\\/forms.gle\\/k2yUA67EAvUp4H8L8'}, 
+        {eventName: 'Encore Western', description: 'description', registrationLink: ' https:\\/\\/docs.google.com\\/forms\\/d\\/1YOB7oxNHhYUlEKnEsP-J14DklfbmZRE4gOuZIBFDHVw\\/edit?ts=63a44954'}, 
+        {eventName: 'Schism: Battle of Bands', description: 'description', registrationLink: 'https:\\/\\/forms.gle\\/Anez3tpkF8TCAyoN9'}, 
+        {eventName: 'Acapella', description: "The battle between harmonies without any kareoke or backing instruments but just your homies will bring out the best of your vocals in the flagship event Acapella at ODYSSEY 23'", registrationLink: 'https:\\/\\/forms.gle\\/5NFBNCfs17pdJ8KUA'}, 
+        {eventName: 'Rap Battle', description: 'description', registrationLink: 'link'}
+      ]
+    }
   ];
 
   const [loading, setLoading] = useState(false);
