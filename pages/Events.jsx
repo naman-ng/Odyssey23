@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Event from '../components/Event';
-import Image from 'next/image';
+
+
 function Events() {
   const eventList = [
     {
@@ -53,9 +54,9 @@ function Events() {
       tagline: 'Experience the thrill of the dance floor at our fest event.',
       knowmore:
         'Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.',
-      bg: '#00B9AD',
+      bg: '#FFAE01',
       image: '/images/event_music.png',
-      align: 0,
+      align: 1,
       knowmoreList: [
         {eventName: 'Arpeggio', description: 'Arpeggio is a musical bonanza for all solo instrumentalists, where we pit musicians of varied genres in a mouthwatering battle against one another and give them their worthy stage to stand out and shine.', registrationLink: 'https:\\/\\/forms.gle\\/YaHVaydVR7FYAjaCA'}, 
         {eventName: 'Anime Karaoke no Yoru', description: 'description', registrationLink: 'https:\\/\\/forms.gle\\/WgqV5wQotzLT8nhk7'}, 
@@ -97,10 +98,8 @@ function Events() {
             image={event.image}
             align={event.align}
             key={i}
-            knowmoreList={event.knowmoreList}
-          />
-          {/* <img className='w-screen mb-[-0.1vw] mt-[0.1vw]' src="/images/tealborder.png" 
-                    style={{  width: "100%" }}  /> */}
+            knowmoreList = {event.knowmoreList}   />
+
         </main>
       ))}
     </div>

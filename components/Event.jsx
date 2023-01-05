@@ -1,5 +1,7 @@
 import { transform } from 'framer-motion'
 import React,{useState} from 'react'
+import EventListPrint  from '../components/Event';
+
 function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
 
   let alignVal = align%2===0?"left":"right"
@@ -7,6 +9,8 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
   let buttonText= "Know More"
   let height= "50%"
   let heightImg= 250
+
+  console.log(knowmoreList)
 
   function setButtonText(prev){
     buttonText= prev == true? "Show Less":"Know More";
@@ -51,10 +55,7 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
 
       <div className={`ml-[10vw] 
 
-      
-      
       lg:mt-[6vw] xl:mt-[6vw]  mr-[8vw]
-      
       
                     ${(isExpanded)
                       ? "lg:mt-[3vw] md:mt-[4vw] sm:mt-[2.4vw] mt-[2vw] leading-[5vw] "
@@ -80,9 +81,20 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
                     ${(isExpanded)
                       ? "lg:text-xl sm:text-xs md:text-xs sm:mr-5 2xl:text-3xl"
                       : "" }   `} >
-          {(isExpanded)? knowmore:""} 
+          {(isExpanded)? 
+          knowmore:"" } 
+          
         </div>
 
+        {/* <div >
+          {knowmoreList.map((oevents, i) => (
+              <EventListPrint
+                  eventName={oevents.eventName}
+                  description={oevents.description}
+                  registrationLink={oevents.registrationLink}
+                />    
+          ))}
+        </div> */}
       
         <div className="btn" style={{ color: bg }}>
             <button className={` font-bold xl:text-xl lg:text-xl sm:text-xs  2xl:text-[1.2vw] mt-[2vw]
@@ -107,5 +119,6 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
     </div>
   )
 }
+
 
 export default Event
