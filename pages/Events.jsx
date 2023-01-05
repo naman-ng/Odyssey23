@@ -4,12 +4,12 @@ import Image from 'next/image';
 function Events() {
   const eventList = [
     {
-      name: 'Fashion',
+      name: 'Lifestyle',
       tagline: 'Join the fashion elite at our exclusive fest events.',
       knowmore:
         'Details of events of events of events of events of events of events of events of events of events of events of events of events of events.',
       bg: '#B8215A',
-      image: '/images/event_fashion.png',
+      image: '/images/event_lifestyle.png',
       align: 0,
     },
     {
