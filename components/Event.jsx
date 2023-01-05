@@ -1,6 +1,6 @@
 import { transform } from 'framer-motion'
 import React,{useState} from 'react'
-function Event({name, tagline, knowmore, bg, image, align, key}) {
+function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
 
   let alignVal = align%2===0?"left":"right"
   const[isExpanded,setExpanded] = useState(false)
