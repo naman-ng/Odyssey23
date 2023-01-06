@@ -23,7 +23,7 @@ const socials = [
 function Footer() {
   return (
     <div className='mt-[5vmax]'>
-      <footer className=" relative h-[44vw] flex flex-col justify-center w-full bg-[url('/footer.svg')] bg-[#1C1E56] bg-no-repeat bg-center bg-contain ">
+      <footer className=" relative h-[44vw] flex flex-col justify-center w-full bg-[url('/footer.svg')] bg-[#1C1E56] bg-no-repeat bg-center bg-contain z-20">
         <div className="w-full relative flex justify-center">
           <div className="w-full flex justify-center">
             <Image src="/Logo.svg" alt="logo" width={0} height={0} className='w-[35vw] lg:w-[50vw] pt-[15vw] pb-2 md:pb-[1.5vw]' />

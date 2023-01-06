@@ -38,6 +38,5 @@ code {
 }
 
 .gradient-blue{
-  background: rgb(29,24,96);
-  background: linear-gradient(180deg, rgba(29,24,96,1) 0%, rgba(242,103,34,1) 61%, rgba(184,32,46,1) 82%);
+  background: linear-gradient(180deg, rgba(29,24,96,1) 0%, rgba(242,103,34,1) 61%,rgba(242,103,34,1) 61%, rgba(184,32,46,1) 82%);
 }

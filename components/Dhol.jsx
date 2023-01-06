@@ -28,7 +28,7 @@ const Dhol = () => {
 
         ref={ref}
       />
-      <div className="absolute w-full h-[25vw] mt-[-7vmax]">
+      <div className="absolute w-full h-[25vw] mt-[-7vmax] lg:mt-[-10vmax]">
         <Image src="/waves.svg" alt="waves" fill className="object-contain w-full"
         />
       </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function SocialValidation() {
   const Circle = ({ title, children }) => (
-    <div className=" w-[17vw] h-[17vw] bg-[#B8215A] border border-[#000] pt-3 p-3 md:p-5 md:pt-6 rounded-full flex flex-col justify-start items-center text-center text-[white]">
+    <div className=" w-[17vw] h-[17vw] bg-[#B8215A] border border-[#000] pt-3 p-3 md:p-5 lg:p-12 md:pt-6 rounded-full flex flex-col justify-start items-center text-center text-[white]">
       <p className="text-[1.7vw] leading-tight">{children}</p>
       <h3 className="text-[3vw] md:text-[5vw] -mt-2 md:mt-[1vw] font-bold">{title}</h3>
     </div>

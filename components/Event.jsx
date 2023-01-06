@@ -34,7 +34,7 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
           style={{backgroundColor: bg, border: '1px solid #000000',  
            }} >  
 
-      <img className={`  
+      {name&&<img className={`  drop-shadow-[5px_5px_0px_#000]
 
       ${(isExpanded)
         ? "sm:h-[35vw] md:h-[35vw] lg:h-[30vw] xl:h-[27.4vw] h-[36vw]"
@@ -51,7 +51,7 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
             src= {image}  alt="image"
             style={{
                       float: alignVal,
-                    }} />
+                    }} />}
 
       <div className={`ml-[10vw] 
 
@@ -96,8 +96,8 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
           ))}
         </div> */}
       
-        <div className="btn" style={{ color: bg }}>
-            <button className={` font-bold xl:text-xl lg:text-xl sm:text-xs  2xl:text-[1.2vw] mt-[2vw]
+        <div className="btn" style={{ color: bg }}> 
+            {name&&<button className={` font-bold xl:text-xl lg:text-xl sm:text-xs  2xl:text-[1.2vw] mt-[2vw]
                                            xl:p-1 lg:p-1 md:p-1 sm:p-1 2xl:p-0 2xl:h-[2vw] 2xl:w-[8vw]
                                            
                                            bg-[#F9F9F9] rounded-lg  text-[1.72vw] h-[3.4vw] w-[12vw]
@@ -113,7 +113,7 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
                     {setButtonText(isExpanded)}
                     {setHeight(isExpanded)}
                     {buttonText}
-            </button>  
+            </button>  }
         </div>
       </div>   
     </div>
