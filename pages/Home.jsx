@@ -15,7 +15,7 @@ function Home() {
 
   return loading ? (
     <div className="">
-      <video loop autoPlay muted className="h-full w-full object-cover rounded-[1.5vmax]">
+      <video loop autoPlay muted className="h-[100vh] w-full object-cover">
         <source src={'/shortLoader.mp4'} type="video/mp4" />
         Your browser does not support the video tag.
       </video>

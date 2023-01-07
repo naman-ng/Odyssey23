@@ -29,6 +29,8 @@ function Spons({ name, front_img, back_img, link, number }) {
   useEffect(() => {
     setWindowSize(window.innerWidth);
   }, []);
+
+  
   const frontStyle = {
     height: '100%',
     width: '100%',

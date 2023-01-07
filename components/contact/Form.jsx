@@ -39,7 +39,7 @@ function Form(){
                 </form>
             </div>
 
-            <div className="absolute top-[39vh] md:top-[39vmax] xl:top-[30vmax] 2xl:top-[26vmax] w-[97.4%] z-20 pointer-events-none">
+            <div className="absolute top-[39vh] md:top-[39vmax] xl:top-[30vmax] 2xl:top-[26vmax] w-[97.4%] z-20 pointer-events-none md:mt-4">
                 <Image src={LayerBottomContact} width={0} height={0} className="w-full" />
             </div>
         </div>

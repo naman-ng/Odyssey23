@@ -10,8 +10,6 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
   let height= "50%"
   let heightImg= 250
 
-  console.log(knowmoreList)
-
   function setButtonText(prev){
     buttonText= prev == true? "Show Less":"Know More";
   }

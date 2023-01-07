@@ -1,15 +1,15 @@
 import Image from "next/image";
 import { useRef, useState, useEffect } from "react";
-import useIsInViewport from "../hooks/useInViewPort";
+import { useInView } from 'react-intersection-observer';
 
 const Dhol = () => {
-  const ref = useRef(null);
-
-  const isInViewport = useIsInViewport(ref);
+  const { ref, inView, entry } = useInView();
   const [windowSize, setWindowSize] = useState(0);
+  
   useEffect(() => {
     setWindowSize(window.innerWidth);
   }, []);
+  
   return (
     <div className="w-full h-full z-0 mb-[0.8rem] sm:mb-[4.9rem] md:mb-[7.5rem] xl:mb-[8.5rem]   ">
       <h5 className="w-[55%] md:w-5/12 ml-[35%] lg:mx-auto text-left lg:text-center text-[#000] mt-[10vw] text-[1.2vmax] leading-[1.8vh] lg:leading-[3.3vh] mb-[-10vmax] ">

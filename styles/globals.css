@@ -40,3 +40,6 @@ code {
 .gradient-blue{
   background: linear-gradient(180deg, rgba(29,24,96,1) 0%, rgba(242,103,34,1) 61%,rgba(242,103,34,1) 61%, rgba(184,32,46,1) 82%);
 }
+.gradient-nav{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.29),rgba(0, 0, 0, 0));
+}

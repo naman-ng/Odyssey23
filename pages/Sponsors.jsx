@@ -13,19 +13,19 @@ function Sponsors() {
   }, []);
   return loading ? (
     <div className="">
-      <video loop autoPlay muted className="h-full w-full object-cover rounded-[1.5vmax]">
+      <video loop autoPlay muted className="h-[100vh] w-full object-cover">
         <source src={'/shortLoader.mp4'} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
   ) : (
-    <div className="z-0 font-mulish flex flex-col pt-[8vmax] overflow-clip  text-[#F9F9F9] justify-center content-center ">
-      <div className="ml-[5%] ">
-        <p className="text-4xl md:text-6xl">Sponsors</p>
+    <div className="z-0 font-mulish flex flex-col pt-[8vmax] overflow-clip  text-[#F6971B] justify-center content-center ">
+      <div className="ml-[5%]">
+        <p className="text-4xl md:text-6xl ">Sponsors</p>
       </div>
       {/* {console.log()} */}
       <div
-        className={`block pt-[5vmax] md:flex flex-wrap align-center justify-evenly md:h-[1700px] xl:h-[1800px]  md:overflow-hidden`}
+        className={`block pt-[5vmax] md:flex flex-wrap align-center justify-evenly md:overflow-hidden`}
       >
         {data.map((item, i) => {
           return (

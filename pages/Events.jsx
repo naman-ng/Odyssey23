@@ -15,13 +15,13 @@ function Events() {
 
   return loading ? (
     <div className="">
-      <video loop autoPlay muted className="h-full w-full object-cover rounded-[1.5vmax]">
+      <video loop autoPlay muted className="h-[100vh] w-full object-cover ">
         <source src={'/shortLoader.mp4'} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
   ) : (
-    <div className='w-full gradient-blue sm:pt-[5vmax] md:pt-[5vmax] xl:pt-[5vmax] lg:pt-[5vmax] pt-[6.6vmax] '>
+    <div className='w-full gradient-blue sm:pt-[5vmax] md:pt-[5vmax] xl:pt-[5vmax] lg:pt-[5vmax] pt-[6.6vmax] text-[#F6971B]'>
       <div className="w-full font-mulish justify-end flex flex-col  overflow-clip  text-[#F9F9F9] ">
         {eventList.map((event, i) => (
             <Event
