@@ -155,12 +155,12 @@ function Event({
                 {buttonText}
               </button>
             )}
-            <EventButton
+            {name&&<EventButton
               isExpanded={isExpanded}
               name={name}
               image={image}
               list={knowmoreList}
-            />
+            />}
           </div>
         </div>
       </div>
