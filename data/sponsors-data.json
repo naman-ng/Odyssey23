@@ -1,38 +1,274 @@
 [
-  { "name": "Bluesemi", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://bluesemi.io/", "title": "HealthTech Partner" },
-  { "name": "Elearn Market", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.elearnmarkets.com/", "title": "Financial Literacy Partner"},
-  { "name": "Jaipuria Institute of Management Studies", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.jaipuria.ac.in/campuses/jaipuria-noida/", "title": "Knowledge Partner"  },
-  { "name": "OHi", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.ohiapp.com/", "title": "Registration Partner" },
-  { "name": "Top1Percent", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.top-one-percent.com/", "title": "Knowledge Partner" },
-  { "name": "Money Mileage", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://moneymileage.com/", "title": "Fintech Partner" },
-  { "name": "Qelica", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title": "Gifting Partner" },
-  { "name": "Sweet Omen", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title": "F&B Partner" },
-  { "name": "Indian Oil", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://iocl.com/", "title": "" },
-  { "name": "ONGC", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.ongcindia.com/", "title": "" },
-  { "name": "https://www.gailonline.com/", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.gailonline.com/", "title": "" },
-  { "name": "PNB", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.pnbindia.in/", "title": "" },
-  { "name": "PFC", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.pfcindia.com/", "title": "" },
-  { "name": "SAIL", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.sail.co.in/" , "title": "" },
-  { "name": "Algoc", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.algocs.in/", "title": "Community Partner" },
-  { "name": "Aurphic Apothecary", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title": "Partner" },
-  { "name": "Barista", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://barista.co.in/", "title": "F&B Partner" },
-  { "name": "Cheese Pull", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title": "F&B Partner" },
-  { "name": "Hangookd", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://hangookd.com/", "title": "F&B Partner" },
-  { "name": "LaPinoz", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://lapinozpizza.in/", "title": "F&B Partner" },
-  { "name": "Moets", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title": "F&B Partner" },
-  { "name": "Pasta Affaire", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title": "F&B Partner" },
-  { "name": "Squisita", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title": "F&B Partner" },
-  { "name": "Bikanervala", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://bikanervala.com/", "title": "F&B Partner" },
-  { "name": "Wow Momo", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title":"F&B Partner" },
-  { "name": "GG Nation", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://ggnation.com/", "title":"Gaming Partner" },
-  { "name": "Focus Dental", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.focusdentalindia.com/", "title":"Brand Partner" },
-  { "name": "Geekay Bikes", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title":"Cycling Partner" },
-  { "name": "Funk You!", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title":"Swag Partner" },
-  { "name": "HFCL", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.hfcl.com/", "title":"Odyssey powered by HFCL Ltd." },
-  { "name": "SK Education", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title":"Official Event Sponsor(Atrangi Shatranj)" },
-  { "name": "Pyramid Infratech", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.pyramidinfratech.com/", "title":"Odyssey co-presented by Pyramid Infratech" },
-  { "name": "Posh", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "https://www.facebook.com/ThePastaAffaire/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0", "title":"Stall Partner" },
-  { "name": "2", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title":"" },
-  { "name": "Vardiano", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title":"" },
-  { "name": "1", "front_img": "/frontSpons.png", "back_img": "/backSpons.png", "link": "", "title":"" }
+  {
+    "name": "HFCL",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.hfcl.com/",
+    "title": "Odyssey powered by HFCL Ltd.",
+    "logo": "/sponsLogo/HFCL.png"
+  },
+  {
+    "name": "Pyramid Infratech",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.pyramidinfratech.com/",
+    "title": "Odyssey co-presented by Pyramid Infratech",
+    "logo": "/sponsLogo/Pyramid.png"
+  },
+  {
+    "name": "Vardiano",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "",
+    "logo": "/sponsLogo/Vardiano.png"
+  },
+  {
+    "name": "Bluesemi",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://bluesemi.io/",
+    "title": "HealthTech Partner",
+    "logo": "/sponsLogo/Bluesemi.png"
+  },
+  {
+    "name": "Elearn Market",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.elearnmarkets.com/",
+    "title": "Financial Literacy Partner",
+    "logo": "/sponsLogo/elearn.png"
+  },
+  {
+    "name": "Jaipuria Institute of Management Studies",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.jaipuria.ac.in/campuses/jaipuria-noida/",
+    "title": "Knowledge Partner",
+    "logo": "/sponsLogo/Jaipuria.png"
+  },
+  {
+    "name": "OHi",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.ohiapp.com/",
+    "title": "Registration Partner",
+    "logo": "/sponsLogo/OHi.svg"
+  },
+  {
+    "name": "Top1Percent",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.top-one-percent.com/",
+    "title": "Knowledge Partner",
+    "logo": "/sponsLogo/Top1Percent.png"
+  },
+  {
+    "name": "Money Mileage",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://moneymileage.com/",
+    "title": "Fintech Partner",
+    "logo": "/sponsLogo/MoneyMileage.png"
+  },
+  {
+    "name": "Qelica",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "Gifting Partner",
+    "logo": "/sponsLogo/Qelica.svg"
+  },
+  {
+    "name": "Indian Oil",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://iocl.com/",
+    "title": "",
+    "logo": "/sponsLogo/Indian_Oil.png"
+  },
+  {
+    "name": "ONGC",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.ongcindia.com/",
+    "title": "",
+    "logo": "/sponsLogo/ONGC.png"
+  },
+  {
+    "name": "GAIL",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.gailonline.com/",
+    "title": "",
+    "logo": "/sponsLogo/Gail.png"
+  },
+  {
+    "name": "PNB",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.pnbindia.in/",
+    "title": "",
+    "logo": "/sponsLogo/PNB.png"
+  },
+  {
+    "name": "PFC",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.pfcindia.com/",
+    "title": "",
+    "logo": "/sponsLogo/PFC.svg"
+  },
+  {
+    "name": "SAIL",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.sail.co.in/",
+    "title": "",
+    "logo": "/sponsLogo/Sail.png"
+  },
+  {
+    "name": "Algoc",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.algocs.in/",
+    "title": "Community Partner",
+    "logo": "/sponsLogo/Algocs.png"
+  },
+  {
+    "name": "Aurphic Apothecary",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "Partner",
+    "logo": "/sponsLogo/Aurphic_Apothecary.png"
+  },
+  {
+    "name": "Sweet Omen",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/Sweet_Omen.svg"
+  },
+  {
+    "name": "Barista",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://barista.co.in/",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/Barista.svg"
+  },
+  {
+    "name": "Cheese Pull",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/Barista.svg"
+  },
+  {
+    "name": "Hangookd",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://hangookd.com/",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/Hangookd.svg"
+  },
+  {
+    "name": "LaPinoz",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://lapinozpizza.in/",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/LaPinoz.png"
+  },
+  {
+    "name": "Moets",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/LaPinoz.png"
+  },
+  {
+    "name": "Pasta Affaire",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/Pasta_Affaire.svg"
+  },
+  {
+    "name": "Squisita",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/Squisita.svg"
+  },
+  {
+    "name": "Bikanervala",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://bikanervala.com/",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/Bikanerwala.png"
+  },
+  {
+    "name": "Wow Momo",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/Wow.png"
+  },
+  {
+    "name": "GG Nation",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://ggnation.com/",
+    "title": "Gaming Partner",
+    "logo": "/sponsLogo/GGnation.svg"
+  },
+  {
+    "name": "Focus Dental",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.focusdentalindia.com/",
+    "title": "Brand Partner",
+    "logo": "/sponsLogo/Focus_Dental.png"
+  },
+  {
+    "name": "Geekay Bikes",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "Cycling Partner",
+    "logo": "/sponsLogo/Geekay.png"
+  },
+  {
+    "name": "Funk You!",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "Swag Partner",
+    "logo": "/sponsLogo/FunkYou.png"
+  },
+  {
+    "name": "SK Education",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "",
+    "title": "Official Event Sponsor(Atrangi Shatranj)",
+    "logo": "/sponsLogo/SK.png"
+  },
+  {
+    "name": "Posh",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.png",
+    "link": "https://www.facebook.com/ThePastaAffaire/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0",
+    "title": "Stall Partner",
+    "logo": "/sponsLogo/Posh.png"
+  }
 ]
