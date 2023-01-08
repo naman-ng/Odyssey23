@@ -3,23 +3,8 @@ import Spons from '../components/Spons';
 import data from '../data/sponsors-data.json';
 
 function Sponsors() {
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 500);
-  }, []);
-
-  return loading ? (
-    <div className="">
-      <video loop autoPlay muted className="h-[100vh] w-full object-cover">
-        <source src={'/shortLoader.mp4'} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  ) : (
+  
+  return (
     <div className="z-0 font-mulish flex flex-col pt-[8vmax] overflow-clip  text-[#F6971B] justify-center content-center ">
       <div className="ml-[5%]">
         <p className="text-4xl md:text-6xl ">Sponsors</p>

@@ -1,7 +1,8 @@
 import React from 'react'
 import Home from './Home'
+
 function Index() {
-  return <Home/>
+  return (<Home/>)
 }
 
 export default Index

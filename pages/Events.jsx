@@ -4,23 +4,7 @@ import eventList from '../data/eventList.json'
 import Image from 'next/image';
 function Events() {
 
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 500);
-  }, []);
-
-  return loading ? (
-    <div className="">
-      <video loop autoPlay muted className="h-[100vh] w-full object-cover ">
-        <source src={'/shortLoader.mp4'} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-  ) : (
+  return (
     <div className='w-full gradient-blue sm:pt-[5vmax] md:pt-[5vmax] xl:pt-[5vmax] lg:pt-[5vmax] pt-[6.6vmax] text-[#F6971B]'>
       <div className="w-full font-mulish justify-end flex flex-col  overflow-clip  text-[#F9F9F9] ">
         {eventList.map((event, i) => (
