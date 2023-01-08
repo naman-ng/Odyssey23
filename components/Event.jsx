@@ -2,14 +2,6 @@ import dynamic from 'next/dynamic';
 import React, { useState } from 'react';
 import EventButton from './EventButton';
 
-const eventsList = {
-  theatre: [
-    { title: 'Can You Du-et', description: 'hi', link: '/events' },
-    { title: 'Can You Du-et', description: 'hi', link: '/events' },
-    { title: 'Can You Du-et', description: 'hi', link: '/events' },
-    { title: 'Can You Du-et', description: 'hi', link: '/events' },
-  ],
-};
 
 function Event({
   name,
@@ -166,7 +158,8 @@ function Event({
             <EventButton
               isExpanded={isExpanded}
               name={name}
-              list={eventsList.theatre}
+              image={image}
+              list={knowmoreList}
             />
           </div>
         </div>

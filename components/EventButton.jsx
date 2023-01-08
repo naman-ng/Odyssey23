@@ -20,7 +20,7 @@ const customStyles = {
   },
 };
 
-const EventButton = ({ name, isExpanded, list }) => {
+const EventButton = ({ name, isExpanded, list,image }) => {
   const [modal, isModal] = useState(false);
 
   return (
@@ -31,25 +31,26 @@ const EventButton = ({ name, isExpanded, list }) => {
         contentLabel={name}
         style={customStyles}
       >
-        <div className="relative bg-[url(/events/event_dance.png)] bg-center bg-cover bg-no-repeat bg-transparent">
+        <div className="relative bg-[url(/events/event_dance.png)] bg-center bg-cover bg-no-repeat bg-transparent" 
+             style={{backgroundImage:`url(${image})`}}>
           <div className="py-24 px-16 md:py-36 md:px-24 mx-auto flex flex-col justify-center">
             {list.map((item, index) => (
               <Tooltip
-                key={item.title}
+                key={item.name}
                 title={item.description}
                 position="top"
                 trigger="mouseenter"
                 arrow
               >
                 <Link
-                  href={item.link}
+                  href={item.registrationLink}
                   className="min-w-[250px] inline-flex p-4 rounded-2xl mt-6 text-[#fff] font-semibold"
                   style={{
                     background:
                       'linear-gradient(180deg, rgba(0, 185, 173, 0.3) 0%, rgba(0, 185, 173, 0.7) 100%)',
                   }}
                 >
-                  <span className="w-full text-center">{item.title}</span>
+                  <span className="w-full text-center">{item.eventName}</span>
                 </Link>
               </Tooltip>
             ))}
