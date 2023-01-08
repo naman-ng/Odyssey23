@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/styles.module.css';
 
-function Spons({ name, front_img, back_img, link, number }) {
+function Spons({ name, front_img, back_img, link, title, logo, number }) {
   const [bottom, setBottom] = useState(0);
   const [left, setLeft] = useState(0);
   const [right, setRight] = useState(0);
@@ -69,13 +69,18 @@ function Spons({ name, front_img, back_img, link, number }) {
   if (name.length > 1) {
     return (
       <div className={styles.card} style={(windowSize>=768)?cardStyle:smallCard}>
-        <div className="" style={frontStyle}>
-          <img src={`${front_img}`} alt="" className="w-full" />
+        <div className=" " style={frontStyle}>
+          <img src={`${front_img}`} alt="" className="w-full h-full" />
+          <img src={`${logo}`} alt="404" className=" z-50 -translate-y-48 translate-x-[4.75rem] inline-block w-2/5 absolute top-3/5" />
         </div>
         <div className="" style={backStyle}>
           <a href={`${link}`}>
-            <img src={`${back_img}`} alt="" className="w-full" />
+            <img src={`${back_img}`} alt="" className="w-full h-full" />
           </a>
+          <div className="flex flex-col justify-center align-middle text-center z-50 -translate-y-52 translate-x-[2rem] w-4/5 h-2/5 absolute top-3/5">
+            <h3 className=' w-full text-md'>{title}</h3>
+            <h5 className=' w-full text-[#FFFFFF]'>{name}</h5>
+          </div>
         </div>
       </div>
     );
@@ -83,10 +88,11 @@ function Spons({ name, front_img, back_img, link, number }) {
     return (
       <div className={styles.card} style={(windowSize>=768)?cardStyle:smallCard}>
         <div className="" style={frontStyle}>
-          <img src="/emptySpons.png" alt="" className="w-full" />
+          <img src="/emptySpons.png" alt="" className="w-full h-full" />
+        
         </div>
         <div className="" style={backStyle}>
-          <img src="/emptySpons.png" href="" alt="" className="w-full" />
+          <img src="/emptySpons.png" href="" alt="" className="w-full h-full" />
         </div>
       </div>
     );
