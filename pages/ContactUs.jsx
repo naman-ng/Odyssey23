@@ -23,7 +23,7 @@ function ContactMain() {
       style={{
         background: "linear-gradient(178.63deg, #1C1E56 3.09%, #8E3A3A 60%, #1C1E56 99%)",
       }}
-      className="relative flex w-[100%] top-40 lg:top-0 h-[100vh] justify-center align-middle overflow-x-clip mb-[20vw] "
+      className="relative flex w-[100%] top-40 lg:top-0 h-[100vh] justify-center align-middle overflow-x-clip mb-[20vw] overflow-hidden md:overflow-visible"
       onMouseMove={(e) => handleMouse(e)}
     >
       <motion.div
