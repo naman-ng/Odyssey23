@@ -140,7 +140,7 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
                     {setHeight(isExpanded)}
                     {buttonText}
             </button>  }
-            <button className={`font-bold xl:text-xl lg:text-xl sm:text-xs mx-5  2xl:text-[1.2vw] mt-[2vw] xl:p-1 lg:p-1 md:p-1 sm:p-1 2xl:p-0 2xl:h-[2vw] 2xl:w-[8vw] bg-[#f9f9f984] hover:bg-[#f9f9f9e9] rounded-lg  text-[1.72vw] h-[3.4vw] w-[12vw] leading-[4vw]
+           {name&& <button className={`font-bold xl:text-xl lg:text-xl sm:text-xs mx-5  2xl:text-[1.2vw] mt-[2vw] xl:p-1 lg:p-1 md:p-1 sm:p-1 2xl:p-0 2xl:h-[2vw] 2xl:w-[8vw] bg-[#f9f9f984] hover:bg-[#f9f9f9e9] rounded-lg  text-[1.72vw] h-[3.4vw] w-[12vw] leading-[4vw]
                     ${(isExpanded)
                       ? "translate-y-[1vw] duration-[1000ms] h-[3vw] w-[13vw] sm:h-[3vw] sm:w-[12vw] "
                       : "translate-y-[-1vw] duration-[1000ms] "
@@ -149,7 +149,7 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
                       type="button"
                       onClick= { () => isModal(true)}  >
                         All Events
-            </button> 
+            </button> }
         </div>
       </div>   
     </div>
