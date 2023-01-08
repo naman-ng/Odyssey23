@@ -35,6 +35,8 @@ function Sponsors() {
               front_img={item.front_img}
               back_img={item.back_img}
               link={item.link}
+              title={item.title}
+              logo={item.logo}
               number={i}
               key={i}
             />
