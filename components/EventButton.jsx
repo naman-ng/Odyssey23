@@ -20,7 +20,7 @@ const customStyles = {
   },
 };
 
-const EventButton = ({ name, isExpanded, list,image }) => {
+const EventButton = ({ name, list, image }) => {
   const [modal, isModal] = useState(false);
 
   return (
@@ -31,8 +31,10 @@ const EventButton = ({ name, isExpanded, list,image }) => {
         contentLabel={name}
         style={customStyles}
       >
-        <div className="relative bg-[url(/events/event_dance.png)] bg-center bg-cover bg-no-repeat bg-transparent" 
-             style={{backgroundImage:`url(${image})`}}>
+        <div
+          className="relative bg-[url(/events/event_dance.png)] bg-center bg-cover bg-no-repeat bg-transparent"
+          style={{ backgroundImage: `url(${image})` }}
+        >
           <div className="py-24 px-16 md:py-36 md:px-24 mx-auto flex flex-col justify-center">
             {list.map((item, index) => (
               <Tooltip
@@ -59,12 +61,7 @@ const EventButton = ({ name, isExpanded, list,image }) => {
       </Modal>
 
       <button
-        className={`font-bold xl:text-xl lg:text-xl sm:text-xs mx-5  2xl:text-[1.2vw] mt-[2vw] xl:p-1 lg:p-1 md:p-1 sm:p-1 2xl:p-0 2xl:h-[2vw] 2xl:w-[8vw] bg-[#f9f9f984] hover:bg-[#f9f9f9e9] rounded-lg  text-[1.72vw] h-[3.4vw] w-[12vw] leading-[4vw]
-                    ${
-                      isExpanded
-                        ? 'translate-y-[1vw] duration-[1000ms] h-[3vw] w-[13vw] sm:h-[3vw] sm:w-[12vw] '
-                        : 'translate-y-[-1vw] duration-[1000ms] '
-                    }  transform transition-all
+        className={`font-bold xl:text-xl lg:text-xl sm:text-xs 2xl:text-[1.2vw] mt-[2vw] xl:p-1 lg:p-1 md:p-1 sm:p-1 2xl:p-0 2xl:h-[2vw] 2xl:w-[8vw] bg-[#f9f9f984] hover:bg-[#f9f9f9e9] rounded-lg  text-[1.72vw] leading-[4vw]translate-y-[1vw] duration-[1000ms] h-[3vw] w-[13vw] sm:h-[3vw] sm:w-[12vw] transform transition-all
                      `}
         type="button"
         onClick={() => isModal(true)}

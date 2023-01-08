@@ -1,20 +1,21 @@
 [
   {
-    "name": "HFCL",
-    "front_img": "/plainSpons.svg",
-    "back_img": "/backSpons.svg",
-    "link": "https://www.hfcl.com/",
-    "title": "Odyssey powered by HFCL Ltd.",
-    "logo": "/sponsLogo/HFCL.png"
-  },
-  {
     "name": "",
-    "front_img": "/emptySpons.png",
+    "front_img": "/emptySpons.svg",
     "back_img": "/emptySpons.svg",
     "link": "",
     "title": "",
     "logo": ""
   },
+  {
+    "name": "HFCL",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.svg",
+    "link": "https://www.hfcl.com/",
+    "title": "Powered by HFCL Ltd.",
+    "logo": "/sponsLogo/HFCL.png"
+  },
+
   {
     "name": "Vardiano",
     "front_img": "/plainSpons.svg",
@@ -24,6 +25,14 @@
     "logo": "/sponsLogo/Vardiano.png"
   },
   {
+    "name": "Pyramid Infratech",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.svg",
+    "link": "https://www.pyramidinfratech.com/",
+    "title": "Co-presented by Pyramid Infratech",
+    "logo": "/sponsLogo/Pyramid.png"
+  },
+  {
     "name": "",
     "front_img": "/emptySpons.png",
     "back_img": "/emptySpons.svg",
@@ -31,14 +40,7 @@
     "title": "",
     "logo": ""
   },
-  {
-    "name": "Pyramid Infratech",
-    "front_img": "/plainSpons.svg",
-    "back_img": "/backSpons.svg",
-    "link": "https://www.pyramidinfratech.com/",
-    "title": "Odyssey co-presented by Pyramid Infratech",
-    "logo": "/sponsLogo/Pyramid.png"
-  },
+
   {
     "name": "Bluesemi",
     "front_img": "/plainSpons.svg",
@@ -56,7 +58,7 @@
     "logo": "/sponsLogo/elearn.png"
   },
   {
-    "name": "Jaipuria Institute of Management Studies",
+    "name": "JIMS",
     "front_img": "/plainSpons.svg",
     "back_img": "/backSpons.svg",
     "link": "https://www.jaipuria.ac.in/campuses/jaipuria-noida/",

@@ -3,7 +3,7 @@ import Spons from '../components/Spons';
 import data from '../data/sponsors-data.json';
 
 function Sponsors() {
-  
+
   return (
     <div className="z-0 font-mulish flex flex-col pt-[8vmax] overflow-clip  text-[#F6971B] justify-center content-center ">
       <div className="ml-[5%]">

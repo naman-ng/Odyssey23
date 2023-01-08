@@ -6,7 +6,6 @@ function Home() {
 
   return (
     <div
-      
       style={{
         background: 'linear-gradient(180deg, #1C175F 1.24%, #F37533 10.25%)',
         // backgroundSize: "cover",
