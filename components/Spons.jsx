@@ -6,7 +6,7 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
   const [left, setLeft] = useState(0);
   const [right, setRight] = useState(0);
   const [windowSize, setWindowSize] = useState(0);
-  
+
   let bh = 0;
   useEffect(() => {
     bh = Math.floor(number / 9) * 200;
@@ -25,12 +25,11 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
       setRight(lh);
     }
   }, []);
-  
+
   useEffect(() => {
     setWindowSize(window.innerWidth);
   }, []);
 
-  
   const frontStyle = {
     height: '100%',
     width: '100%',
@@ -63,33 +62,36 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
     transformStyle: 'preserve-3d',
     position: 'relative',
     transition: 'transform 1s',
-    margin: '20px auto'
-  }
+    margin: '20px auto',
+  };
 
   if (name.length > 1) {
     return (
-      <div className={styles.card} style={(windowSize>=768)?cardStyle:smallCard}>
+      <div className={styles.card} style={windowSize >= 768 ? cardStyle : smallCard}>
         <div className=" " style={frontStyle}>
           <img src={`${front_img}`} alt="" className="w-full h-full" />
-          <img src={`${logo}`} alt="404" className=" z-50 -translate-y-48 translate-x-[4.75rem] inline-block w-2/5 absolute top-3/5" />
+          <img
+            src={`${logo}`}
+            alt="404"
+            className=" z-50 -translate-y-48 translate-x-[4.75rem] inline-block w-2/5 h-1/5 absolute top-3/5"
+          />
         </div>
         <div className="" style={backStyle}>
-          <a href={`${link}`}>
-            <img src={`${back_img}`} alt="" className="w-full h-full" />
-          </a>
-          <div className="flex flex-col justify-center align-middle text-center z-50 -translate-y-52 translate-x-[2rem] w-4/5 h-2/5 absolute top-3/5">
-            <h3 className=' w-full text-md'>{title}</h3>
-            <h5 className=' w-full text-[#FFFFFF]'>{name}</h5>
-          </div>
+          <img src={`${back_img}`} alt="" className="w-full h-full" />
+          
+            <div className="flex flex-col justify-center align-middle text-center z-50 -translate-y-52 translate-x-[1.75rem] w-4/5 h-2/5 absolute top-3/5">
+              <a href={`${link}`}><p className=" w-full text-xl">{title}</p>
+              <p className=" w-full text-[#FFFFFF] text-xl">{name}</p></a>
+            </div>
+          
         </div>
       </div>
     );
   } else {
     return (
-      <div className={styles.card} style={(windowSize>=768)?cardStyle:smallCard}>
+      <div className={styles.card} style={windowSize >= 768 ? cardStyle : smallCard}>
         <div className="" style={frontStyle}>
           <img src="/emptySpons.png" alt="" className="w-full h-full" />
-        
         </div>
         <div className="" style={backStyle}>
           <img src="/emptySpons.png" href="" alt="" className="w-full h-full" />
