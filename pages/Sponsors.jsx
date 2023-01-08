@@ -11,6 +11,7 @@ function Sponsors() {
       setLoading(false);
     }, 500);
   }, []);
+
   return loading ? (
     <div className="">
       <video loop autoPlay muted className="h-[100vh] w-full object-cover">
@@ -25,7 +26,7 @@ function Sponsors() {
       </div>
       {/* {console.log()} */}
       <div
-        className={`block pt-[5vmax] md:flex flex-wrap align-center justify-evenly md:overflow-hidden`}
+        className={`block pt-[5vmax] md:flex flex-wrap align-center justify-evenly md:overflow-hidden  md:h-[1700px] xl:h-[1800px]`}
       >
         {data.map((item, i) => {
           return (
