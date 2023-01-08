@@ -1,11 +1,22 @@
-import { transform } from 'framer-motion'
 import React,{useState} from 'react'
-import EventListPrint  from '../components/Event';
+import Modal from 'react-modal';
+
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+  },
+};
 
 function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
 
   let alignVal = align%2===0?"left":"right"
   const[isExpanded,setExpanded] = useState(false)
+  const[modal,isModal] = useState(false)
   let buttonText= "Know More"
   let height= "50%"
   let heightImg= 250
@@ -18,6 +29,23 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
   }
 
   return (
+    <>
+    <Modal  isOpen={modal}
+            onRequestClose={() => isModal(false)}
+            contentLabel={name}
+            style={customStyles}>
+              <h2>Hello</h2>
+              <button onClick={() => isModal(false)}>close</button>
+              <div>I am a modal</div>
+              <form>
+                <input />
+                <button>tab navigation</button>
+                <button>stays</button>
+                <button>inside</button>
+                <button>the modal</button>
+              </form>
+
+    </Modal>
     <div  className= { ` 
     leading-[4vw]
 
@@ -98,7 +126,7 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
             {name&&<button className={` font-bold xl:text-xl lg:text-xl sm:text-xs  2xl:text-[1.2vw] mt-[2vw]
                                            xl:p-1 lg:p-1 md:p-1 sm:p-1 2xl:p-0 2xl:h-[2vw] 2xl:w-[8vw]
                                            
-                                           bg-[#F9F9F9] rounded-lg  text-[1.72vw] h-[3.4vw] w-[12vw]
+                                           bg-[#f9f9f984] hover:bg-[#f9f9f9e9] rounded-lg  text-[1.72vw] h-[3.4vw] w-[12vw]
             leading-[4vw]
                     ${(isExpanded)
                       ? "translate-y-[1vw] duration-[1000ms] h-[3vw] w-[13vw] sm:h-[3vw] sm:w-[12vw] "
@@ -112,9 +140,20 @@ function Event({name, tagline, knowmore, bg, image, align, key, knowmoreList}) {
                     {setHeight(isExpanded)}
                     {buttonText}
             </button>  }
+            <button className={`font-bold xl:text-xl lg:text-xl sm:text-xs mx-5  2xl:text-[1.2vw] mt-[2vw] xl:p-1 lg:p-1 md:p-1 sm:p-1 2xl:p-0 2xl:h-[2vw] 2xl:w-[8vw] bg-[#f9f9f984] hover:bg-[#f9f9f9e9] rounded-lg  text-[1.72vw] h-[3.4vw] w-[12vw] leading-[4vw]
+                    ${(isExpanded)
+                      ? "translate-y-[1vw] duration-[1000ms] h-[3vw] w-[13vw] sm:h-[3vw] sm:w-[12vw] "
+                      : "translate-y-[-1vw] duration-[1000ms] "
+                      }  transform transition-all
+                     ` } 
+                      type="button"
+                      onClick= { () => isModal(true)}  >
+                        All Events
+            </button> 
         </div>
       </div>   
     </div>
+    </>
   )
 }
 
