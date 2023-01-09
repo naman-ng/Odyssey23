@@ -22,7 +22,7 @@ const customStyles = {
 
 const EventButton = ({ name, list, image }) => {
   const [modal, isModal] = useState(false);
-
+  const [event,setEvent] = useState(null);
   return (
     <>
       <Modal
@@ -32,27 +32,29 @@ const EventButton = ({ name, list, image }) => {
         style={customStyles}
       >
         <div
-          className="relative bg-[url(/events/event_dance.png)] bg-center bg-cover bg-no-repeat bg-transparent"
-          style={{ backgroundImage: `url(${image})` }}
+          className="relative bg-center bg-cover bg-no-repeat bg-transparent"
+          style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${image})`}}
         >
-          <div className="py-24 px-16 md:py-36 md:px-24 mx-auto flex flex-col justify-center">
+         {!event?<div className="py-24 px-16 md:py-36 md:px-24 mx-auto flex flex-col justify-center w-[30vmax]">
             {list.map((item, index) => (
-              <Tooltip
-                key={item.name}
-                title={item.description}
-                position="top"
-                trigger="mouseenter"
-                arrow
-              >
-                <Link
-                  href={item.registrationLink}
-                  className="min-w-[250px] inline-flex p-4 rounded-2xl mt-6 text-[#fff] font-semibold bg-[#09988F]"
+                <div
+                  onClick={() =>setEvent(item)}
+                  className="min-w-[250px] inline-flex p-4 rounded-2xl mt-6 text-[#fff] font-semibold bg-[#09988F] cursor-pointer "
                 >
                   <span className="w-full text-center">{item.eventName}</span>
-                </Link>
-              </Tooltip>
+                </div>
             ))}
-          </div>
+          </div>:
+          <div  className="py-24 px-16 md:py-36 md:px-24 mx-auto flex flex-col justify-center items-center w-[30vmax]">
+            <img src='cross.svg' className="w-[3vmax] cursor-pointer" onClick={() => setEvent(null)} />
+            <div className="min-w-[250px] inline-flex p-4 rounded-2xl mt-6 text-[#fff] font-semibold bg-[#09988F]">
+                  <span className="w-full text-center">{event.eventName}</span>
+            </div>
+            <p className='text-[white] my-3'>{event.description}</p>
+            <Link className="min-w-[250px] inline-flex p-4 rounded-2xl mt-6 text-[#fff] font-semibold bg-[#09988F]" href={event.registrationLink}>
+                  <span className="w-full text-center">Register Now</span>
+            </Link>
+          </div>}
         </div>
       </Modal>
 
