@@ -71,7 +71,7 @@
     "back_img": "/backSpons.svg",
     "link": "https://www.ohiapp.com/",
     "title": "Registration Partner",
-    "logo": "/sponsLogo/OHi.svg"
+    "logo": "/sponsLogo/OHi.png"
   },
   {
     "name": "Top1Percent",
@@ -135,7 +135,7 @@
     "back_img": "/backSpons.svg",
     "link": "https://www.pfcindia.com/",
     "title": "",
-    "logo": "/sponsLogo/PFC.svg"
+    "logo": "/sponsLogo/PFC.png"
   },
   {
     "name": "SAIL",
@@ -167,7 +167,7 @@
     "back_img": "/backSpons.svg",
     "link": "",
     "title": "F&B Partner",
-    "logo": "/sponsLogo/Sweet_Omen.svg"
+    "logo": "/sponsLogo/Sweet_Omen.png"
   },
   {
     "name": "Barista",
@@ -175,7 +175,7 @@
     "back_img": "/backSpons.svg",
     "link": "https://barista.co.in/",
     "title": "F&B Partner",
-    "logo": "/sponsLogo/Barista.svg"
+    "logo": "/sponsLogo/Barista.jpg"
   },
   {
     "name": "Cheese Pull",
@@ -199,7 +199,7 @@
     "back_img": "/backSpons.svg",
     "link": "https://hangookd.com/",
     "title": "F&B Partner",
-    "logo": "/sponsLogo/Hangookd.svg"
+    "logo": "/sponsLogo/Hangookd.png"
   },
   {
     "name": "LaPinoz",
@@ -231,7 +231,7 @@
     "back_img": "/backSpons.svg",
     "link": "",
     "title": "F&B Partner",
-    "logo": "/sponsLogo/Pasta_Affaire.svg"
+    "logo": "/sponsLogo/Pasta_Affaire.png"
   },
   {
     "name": "Posh",
@@ -255,7 +255,7 @@
     "back_img": "/backSpons.svg",
     "link": "",
     "title": "F&B Partner",
-    "logo": "/sponsLogo/Squisita.svg"
+    "logo": "/sponsLogo/Squisita.jpg"
   },
   {
     "name": "Bikanervala",
