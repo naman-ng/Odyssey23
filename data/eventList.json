@@ -1,10 +1,9 @@
 [
     {
-        "name": "Art",
-        "tagline": "Experience the thrill of the dance floor at our fest event.",
-        "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.",
+        "name": "Art-Literature",
+        "knowmore": "Unleash the artists and writers in you and mesmerize the audience with the power of your passion and creativity. Be magic itself and grace our evens with your presence!",
         "bg": "#48192D",
-        "image": "/events/event_lifestyle.png",
+        "image": "/events/event_literature.png",
         "align": 0,
         "knowmoreList": [
           {"eventName":"Only Ink",
@@ -13,13 +12,24 @@
   
           {"eventName":"Canvas Art ",
            "description": "Your stroke tells a story, Let's hear it on the canvas. This event encourages participants to turn their imagination into realtiy. Participants will be provided a canvas and some paints and are free to bring their own brushes and materials to showcase their creativity.",
-           "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSeKfDpkvJWXYtw0QVF23zcM6HLX_7Ilv7JOpR1qG_o3ICoKyw/viewform"}
+           "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSeKfDpkvJWXYtw0QVF23zcM6HLX_7Ilv7JOpR1qG_o3ICoKyw/viewform"},
+
+           {"eventName": "Itna sannata Kyun hai bhai? ",
+           "description": "The event is aimed to have relevant discussions on topics that are extremely important but are still not talked about enough. The event will have total of 2 rounds ",
+           "registrationLink": "https://forms.gle/8KGGbSHpxicxQNSF8"},
+  
+          {"eventName": "Nok Jhok",
+           "description": "It is the debate event that you have been looking for with exciting and challenging motions.Instead of the monotonous debate format, we have something novel, yet unique and fun!",
+           "registrationLink": "https://forms.gle/y21rUD2h1DS6dCZZA"},
+
+           {"eventName": "Unmute",
+           "description": "Unmute: Open Mic Poetry Event gives a golden opportunity to spoken word artists, both beginners and seasoned, to sweep the audience off their feet by the power of their words, emotions and craft. ",
+           "registrationLink": "https://forms.gle/Q6N5aZUJ8p3Ls5Kt9"}
           ]
     },
     {
         "name": "Dance",
-        "tagline": "Experience the thrill of the dance floor at our fest event.",
-        "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.",
+        "knowmore": "The floor is yours to let loose and rain down your moves. Come solo, bring a partner, or parade your team; our dance events have fierce competition for you.",
         "bg": "#00B9AD",
         "image": "/events/event_dance.png",
         "align": 1,
@@ -47,8 +57,7 @@
     },
     {
         "name": "Finance",
-        "tagline": "Experience the thrill of the dance floor at our fest event.",
-        "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.",
+        "knowmore": "With crazy good prizes, expert judges, and a chance to pitch your ideas, join us and see if you have what it takes to succeed in the business world!",
         "bg": "#EE2D69",
         "image": "/events/event_finance.png",
         "align": 0,
@@ -80,8 +89,7 @@
     },
     {
         "name": "Culinary",
-        "tagline": "Experience the thrill of the dance floor at our fest event.",
-        "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.",
+        "knowmore": "With games, cooking demos, and a chance to snap some Instagram-worthy shots, there's something for everyone. Join us and make some unforgettable memories.",
         "bg": "#3F3E2A",
         "image": "/events/event_culinary.png",
         "align": 1,
@@ -92,13 +100,19 @@
   
           {"eventName": "Dare 2 Eat", 
            "description": "Dare 2 Eat ?? We bring to you a fun food eating challenge where you munch on delicious, tasty foods and participate in some crazy challenges to win Exciting Prizes. COME, EAT and WIN.",
-           "registrationLink": "https://forms.gle/z6B2qYN3BTNJdoK77"}
+           "registrationLink": "https://forms.gle/z6B2qYN3BTNJdoK77"},
+           {"eventName": "Shutter Story", 
+           "description": "A fun and one-of-a-kind photography competition where all participants have to do is go out there in the Odyssey fest, take all sorts of photos that amuse them, and add a little bit of creativity with their photographic eye",
+           "registrationLink": "https://forms.gle/9UreW2U8qiQF28e99"}, 
+  
+          {"eventName": "EmotiCON", 
+           "description": "We bring to you emojis in a slot machine!! Given a random selection of 3 emojis, click the best photo u can in the IIITD campus which best represents those emojis with a twist ",
+           "registrationLink": "https://forms.gle/9UreW2U8qiQF28e99"}
         ]
     },
     {
         "name": "Fun",
-        "tagline": "Experience the thrill of the dance floor at our fest event.",
-        "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.",
+        "knowmore": "With games, cooking demos, and a chance to snap some Instagram-worthy shots, there's something for everyone. Join us and make some unforgettable memories.",
         "bg": "#EE2D69",
         "image": "/events/event_lifestyle.png",
         "align": 0,
@@ -125,13 +139,12 @@
 
            {"eventName":"Battle of chefs",
            "description": "The cooking competition 'The Battle of Chefs' not only requires hard work, but also showcases cooks who put their all into the dish and express their own unique culinary tastes as well as those of food lovers.",
-           "registrationLink":"link"}
+           "registrationLink":"https://forms.gle/RXoFYUrHeoB9kHBe8"}
           ]
     },
     {
         "name": "Esports",
-        "tagline": "Experience the thrill of the dance floor at our fest event.",
-        "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.",
+        "knowmore": "With tournaments, competitions, and the latest games on display, you'll get a chance to prove your gaming chops and meet like-minded players. Take advantage of this chance to have a blast and see who will emerge victorious.",
         "bg": "#FFAE01",
         "image": "/events/event_music.png",
         "align": 1,
@@ -150,8 +163,7 @@
     },
     {
         "name": "Lifestyle",
-        "tagline": "Join the fashion elite at our exclusive fest events.",
-        "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events.",
+        "knowmore": "Join us for a fashionable day out at our fest! With student designers, trendy workshops, and a runway show, you'll get a taste of the latest styles and emerging talent and up your fashion game.",
         "bg": "#B8215A",
         "image": "/events/event_lifestyle.png",
         "align": 0,
@@ -170,30 +182,8 @@
           ]
     },
     {
-        "name": "Literature",
-        "tagline": "Join the fashion elite at our exclusive fest events.",
-        "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events.",
-        "bg": "#00B9AD",
-        "image": "/events/event_literature.png",
-        "align": 1,
-        "knowmoreList": [
-          {"eventName": "Itna sannata Kyun hai bhai? ",
-           "description": "The event is aimed to have relevant discussions on topics that are extremely important but are still not talked about enough. The event will have total of 2 rounds ",
-           "registrationLink": "https://forms.gle/8KGGbSHpxicxQNSF8"},
-  
-          {"eventName": "Nok Jhok",
-           "description": "It is the debate event that you have been looking for with exciting and challenging motions.Instead of the monotonous debate format, we have something novel, yet unique and fun!",
-           "registrationLink": "https://forms.gle/y21rUD2h1DS6dCZZA"},
-
-           {"eventName": "Unmute",
-           "description": "Unmute: Open Mic Poetry Event gives a golden opportunity to spoken word artists, both beginners and seasoned, to sweep the audience off their feet by the power of their words, emotions and craft. ",
-           "registrationLink": "https://forms.gle/Q6N5aZUJ8p3Ls5Kt9"}
-          ]
-    },
-    {
       "name": "Music",
-      "tagline": "Experience the thrill of the dance floor at our fest event.",
-      "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.",
+      "knowmore": "Ready to get your groove on? Come to our music events, featuring a lineup of the hottest acts and a chance for you to show off your skills on stage. With genres ranging from pop to rock to jazz, there's something for every music lover. Don't miss out on the fun!",
       "bg": "#FFAE01",
       "image": "/events/event_music.png",
       "align": 0,
@@ -228,26 +218,8 @@
       ]
     },
     {
-        "name": "Phoptography",
-        "tagline": "Experience the thrill of the dance floor at our fest event.",
-        "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.",
-        "bg": "#B8215A",
-        "image": "/events/event_photography.png",
-        "align": 1,
-        "knowmoreList": [
-          {"eventName": "Shutter Story", 
-           "description": "A fun and one-of-a-kind photography competition where all participants have to do is go out there in the Odyssey fest, take all sorts of photos that amuse them, and add a little bit of creativity with their photographic eye",
-           "registrationLink": "https://forms.gle/9UreW2U8qiQF28e99"}, 
-  
-          {"eventName": "EmotiCON", 
-           "description": "We bring to you emojis in a slot machine!! Given a random selection of 3 emojis, click the best photo u can in the IIITD campus which best represents those emojis with a twist ",
-           "registrationLink": "https://forms.gle/9UreW2U8qiQF28e99"}
-        ]
-    },
-    {
         "name": "Quizzing",
-        "tagline": "Are you ready to face off against other trivia enthusiasts? Join us!",
-        "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events.",
+        "knowmore": "Get ready to flex your mental muscle at our quiz events! With categories for every type of trivia buff, this is an opportunity to test your knowledge and show off your smarts.",
         "bg": "#EE2D69",
         "image": "/events/event_quizzing.png",
         "align": 0,
@@ -271,8 +243,7 @@
     },
     {
         "name": "Theatre",
-        "tagline": "Experience the thrill of the dance floor at our fest event.",
-        "knowmore": "Details of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events of events.",
+        "knowmore": "Step into the spotlight and show off acting shorts at our theatre events!! Whether you are a professional actor or a newbie, we have a place for everyone.",
         "bg": "#121D21",
         "image": "/events/event_theatre.png",
         "align": 1,
@@ -288,7 +259,6 @@
     },
     {
       "name": "",
-      "tagline": "",
       "knowmore": "",
       "bg": "#1C1E56",
       "image": "/events/event_theatre.png",

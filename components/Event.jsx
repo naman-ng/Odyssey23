@@ -28,11 +28,6 @@ function Event({ name, tagline, bg, image, align, knowmore, knowmoreList }) {
             {name}
           </div>
           <div
-            className={` translate-y-[0.1vw] duration-[1000ms] leading-[3vw] lg:text-2xl xl:text-2xl md:text-2xl 2xl:text-5xl sm:text-1xl text-[2.4vw] `}
-          >
-            {tagline}
-          </div>
-          <div
             className={`font-italic mt-1 mr-[1vw] text-[1.5vw] leading-[2.5vw] transition-delay-[10s] translate-y-[1vw] duration-[100ms] lg:text-xl sm:text-xs md:text-xs sm:mr-5 2xl:text-3xl `}
           >
             {knowmore}
