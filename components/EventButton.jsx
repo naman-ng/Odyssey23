@@ -32,8 +32,8 @@ const EventButton = ({ name, list, image }) => {
         style={customStyles}
       >
         <div
-          className="relative bg-center bg-cover bg-no-repeat bg-transparent"
-          style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${image})`}}
+          className="relative bg-center bg-cover bg-no-repeat"
+          style={{ backgroundImage: `url(${image})`}}
         >
          {!event?<div className="py-24 px-16 md:py-36 md:px-24 mx-auto flex flex-col justify-center w-[30vmax]">
             {list.map((item, index) => (
@@ -51,7 +51,7 @@ const EventButton = ({ name, list, image }) => {
                   <span className="w-full text-center">{event.eventName}</span>
             </div>
             <p className='text-[white] my-3'>{event.description}</p>
-            <Link className="min-w-[250px] inline-flex p-4 rounded-2xl mt-6 text-[#fff] font-semibold bg-[#09988F]" href={event.registrationLink}>
+            <Link className="min-w-[250px] inline-flex p-4 rounded-2xl mt-6 text-[#fff] font-semibold bg-[#09988F]" href={event.registrationLink} target='_blank'>
                   <span className="w-full text-center">Register Now</span>
             </Link>
           </div>}
@@ -64,7 +64,7 @@ const EventButton = ({ name, list, image }) => {
         type="button"
         onClick={() => isModal(true)}
       >
-        All Events
+        List Events
       </button>
     </>
   );

@@ -80,7 +80,7 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
           <img src={`${back_img}`} alt="" className="w-full h-full" />
           
             <div className="flex flex-col justify-center align-middle text-center z-50 -translate-y-52 translate-x-[1.75rem] w-4/5 h-2/5 absolute top-3/5">
-              <a href={`${link}`}><p className=" w-full text-xl">{title}</p>
+              <a href={`${link}`} target='_blank'><p className=" w-full text-xl">{title}</p>
               <p className=" w-full text-[#FFFFFF] text-xl">{name}</p></a>
             </div>
           

@@ -9,8 +9,8 @@ function Form() {
     <div className="flex flex-col items-center relative w-4/5 h-[45%] sm:h-[50%] lg:h-4/5 top-[0rem] md:top-[8vmax]  flex-wrap z-20">
       <div className=" absolute w-[95%] h-[65%] z-20 bg-contactFormTop pointer-events-none bg-no-repeat bg-contain" />
       <div className="absolute z-10 top-0 flex flex-col items-center justify-center h-full  w-[95%] bg-[#F16823]">
-        <div className="w-[80%] h-[10%] my-5 bg-[#A14123] rounded-xl"></div>
-        <div className="w-[80%] h-[10%]  bg-[#A14123] rounded-xl"></div>
+        {/* <div className="w-[80%] h-[10%] my-5 bg-[#A14123] rounded-xl"></div>
+        <div className="w-[80%] h-[10%]  bg-[#A14123] rounded-xl"></div> */}
         <Link
           className="bg-[#d7b537] text-lg  rounded-lg hover:bg-[#d7b437e0] text-[#EE2D69] transition-all duration-300 font-[620] hover:font-bold  md:w-[30%] w-2/5 mt-8 md:mt-4 p-2 text-center"
           href="mailto:odyssey.iiitd.helpdesk@gmail.com?subject=Odyssey"
