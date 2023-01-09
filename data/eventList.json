@@ -186,7 +186,7 @@
       "knowmore": "Ready to get your groove on? Come to our music events, featuring a lineup of the hottest acts and a chance for you to show off your skills on stage. With genres ranging from pop to rock to jazz, there's something for every music lover. Don't miss out on the fun!",
       "bg": "#FFAE01",
       "image": "/events/event_music.png",
-      "align": 0,
+      "align": 1,
       "knowmoreList": [
         {"eventName": "Arpeggio", 
          "description": "Arpeggio is a musical bonanza for all solo instrumentalists, where we pit musicians of varied genres in a mouthwatering battle against one another and give them their worthy stage to stand out and shine.",

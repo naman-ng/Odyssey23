@@ -68,12 +68,12 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
   if (name.length > 1) {
     return (
       <div className={styles.card} style={windowSize >= 768 ? cardStyle : smallCard}>
-        <div className=" " style={frontStyle}>
+        <div className="" style={frontStyle}>
           <img src={`${front_img}`} alt="" className="w-full h-full" />
           <img
             src={`${logo}`}
             alt="404"
-            className=" z-50 -translate-y-48 translate-x-[4.75rem] inline-block w-2/5 h-1/5 absolute top-3/5"
+            className=" z-50 -translate-y-48 translate-x-[4.75rem] inline-block w-2/5 absolute top-3/5"
           />
         </div>
         <div className="" style={backStyle}>

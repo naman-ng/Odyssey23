@@ -6,9 +6,6 @@ function Sponsors() {
 
   return (
     <div className="z-0 font-mulish flex flex-col pt-[8vmax] overflow-clip  text-[#F6971B] justify-center content-center ">
-      <div className="ml-[5%]">
-        <p className="text-4xl md:text-6xl ">Sponsors</p>
-      </div>
       {/* {console.log()} */}
       <div
         className={`block pt-[5vmax] md:flex flex-wrap align-center justify-evenly md:overflow-hidden  md:h-[1700px] xl:h-[1800px]`}
