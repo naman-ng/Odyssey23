@@ -12,7 +12,7 @@
     "front_img": "/plainSpons.svg",
     "back_img": "/backSpons.svg",
     "link": "https://www.hfcl.com/",
-    "title": "Powered by HFCL Ltd.",
+    "title": "Powered By",
     "logo": "/sponsLogo/HFCL.png"
   },
 
@@ -21,7 +21,7 @@
     "front_img": "/plainSpons.svg",
     "back_img": "/backSpons.svg",
     "link": "",
-    "title": "",
+    "title": "Co-Powered By",
     "logo": "/sponsLogo/Vardiano.png"
   },
   {
@@ -29,7 +29,7 @@
     "front_img": "/plainSpons.svg",
     "back_img": "/backSpons.svg",
     "link": "https://www.pyramidinfratech.com/",
-    "title": "Co-presented by Pyramid Infratech",
+    "title": "Co-Presented By",
     "logo": "/sponsLogo/Pyramid.png"
   },
   {
@@ -146,7 +146,7 @@
     "logo": "/sponsLogo/Sail.png"
   },
   {
-    "name": "Algoc",
+    "name": "Algocs",
     "front_img": "/plainSpons.svg",
     "back_img": "/backSpons.svg",
     "link": "https://www.algocs.in/",
@@ -158,7 +158,7 @@
     "front_img": "/plainSpons.svg",
     "back_img": "/backSpons.svg",
     "link": "",
-    "title": "Partner",
+    "title": "",
     "logo": "/sponsLogo/Aurphic_Apothecary.png"
   },
   {
@@ -186,6 +186,14 @@
     "logo": "/sponsLogo/cheese_pull.png"
   },
   {
+    "name": "Focus Dental",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.svg",
+    "link": "https://www.focusdentalindia.com/",
+    "title": "Brand Partner",
+    "logo": "/sponsLogo/Focus_Dental.png"
+  },
+  {
     "name": "Hangookd",
     "front_img": "/plainSpons.svg",
     "back_img": "/backSpons.svg",
@@ -210,12 +218,36 @@
     "logo": "/sponsLogo/moets.png"
   },
   {
+    "name": "GG Nation",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.svg",
+    "link": "https://ggnation.com/",
+    "title": "Gaming Partner",
+    "logo": "/sponsLogo/GGnation.svg"
+  },
+  {
     "name": "Pasta Affaire",
     "front_img": "/plainSpons.svg",
     "back_img": "/backSpons.svg",
     "link": "",
     "title": "F&B Partner",
     "logo": "/sponsLogo/Pasta_Affaire.svg"
+  },
+  {
+    "name": "Posh",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.svg",
+    "link": "https://www.facebook.com/ThePastaAffaire/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0",
+    "title": "Stall Partner",
+    "logo": "/sponsLogo/Posh.png"
+  },
+  {
+    "name": "SK Education",
+    "front_img": "/plainSpons.svg",
+    "back_img": "/backSpons.svg",
+    "link": "",
+    "title": "Official Event Sponsor(Atrangi Shatranj)",
+    "logo": "/sponsLogo/SK.png"
   },
   {
     "name": "Squisita",
@@ -234,38 +266,6 @@
     "logo": "/sponsLogo/Bikanerwala.png"
   },
   {
-    "name": "Wow Momo",
-    "front_img": "/plainSpons.svg",
-    "back_img": "/backSpons.svg",
-    "link": "",
-    "title": "F&B Partner",
-    "logo": "/sponsLogo/Wow.png"
-  },
-  {
-    "name": "GG Nation",
-    "front_img": "/plainSpons.svg",
-    "back_img": "/backSpons.svg",
-    "link": "https://ggnation.com/",
-    "title": "Gaming Partner",
-    "logo": "/sponsLogo/GGnation.svg"
-  },
-  {
-    "name": "Focus Dental",
-    "front_img": "/plainSpons.svg",
-    "back_img": "/backSpons.svg",
-    "link": "https://www.focusdentalindia.com/",
-    "title": "Brand Partner",
-    "logo": "/sponsLogo/Focus_Dental.png"
-  },
-  {
-    "name": "Geekay Bikes",
-    "front_img": "/plainSpons.svg",
-    "back_img": "/backSpons.svg",
-    "link": "",
-    "title": "Cycling Partner",
-    "logo": "/sponsLogo/Geekay.png"
-  },
-  {
     "name": "Funk You!",
     "front_img": "/plainSpons.svg",
     "back_img": "/backSpons.svg",
@@ -274,19 +274,19 @@
     "logo": "/sponsLogo/FunkYou.png"
   },
   {
-    "name": "SK Education",
+    "name": "Wow Momo",
     "front_img": "/plainSpons.svg",
     "back_img": "/backSpons.svg",
     "link": "",
-    "title": "Official Event Sponsor(Atrangi Shatranj)",
-    "logo": "/sponsLogo/SK.png"
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/Wow.png"
   },
   {
-    "name": "Posh",
+    "name": "Geekay Bikes",
     "front_img": "/plainSpons.svg",
     "back_img": "/backSpons.svg",
-    "link": "https://www.facebook.com/ThePastaAffaire/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0",
-    "title": "Stall Partner",
-    "logo": "/sponsLogo/Posh.png"
+    "link": "",
+    "title": "Cycling Partner",
+    "logo": "/sponsLogo/Geekay.png"
   }
 ]
