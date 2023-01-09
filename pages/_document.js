@@ -5,10 +5,9 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Odyssey'23 | IIITD</title>{' '}
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet" />
       </Head>
       <body>
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet" />
         <Main />
         <NextScript />
       </body>

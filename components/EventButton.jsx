@@ -46,11 +46,7 @@ const EventButton = ({ name, list, image }) => {
               >
                 <Link
                   href={item.registrationLink}
-                  className="min-w-[250px] inline-flex p-4 rounded-2xl mt-6 text-[#fff] font-semibold"
-                  style={{
-                    background:
-                      'linear-gradient(180deg, rgba(0, 185, 173, 0.3) 0%, rgba(0, 185, 173, 0.7) 100%)',
-                  }}
+                  className="min-w-[250px] inline-flex p-4 rounded-2xl mt-6 text-[#fff] font-semibold bg-[#09988F]"
                 >
                   <span className="w-full text-center">{item.eventName}</span>
                 </Link>
