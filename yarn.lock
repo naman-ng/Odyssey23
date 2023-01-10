@@ -681,7 +681,7 @@ supports-preserve-symlinks-flag@^1.0.0:
 
 tabler-icons-react@^1.56.0:
   version "1.56.0"
-  resolved "https://registry.npmjs.org/tabler-icons-react/-/tabler-icons-react-1.56.0.tgz"
+  resolved "https://registry.yarnpkg.com/tabler-icons-react/-/tabler-icons-react-1.56.0.tgz#d2a6cf9160f25b370c38c356fa6284c254e5113e"
   integrity sha512-FOme3w6PJIWDpeXqQ4xjArQqdxzrr9xNy7PSSgWpRzOUQ71RyZ7jt6WThsfyLBz5os78TPJRA8f/0NLjnKcx9A==
 
 tailwindcss@^3.2.4:
