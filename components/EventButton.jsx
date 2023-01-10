@@ -1,22 +1,22 @@
-import Link from 'next/link';
-import { useState } from 'react';
-import Modal from 'react-modal';
-import { PlaystationX } from 'tabler-icons-react';
+import Link from "next/link";
+import { useState } from "react";
+import Modal from "react-modal";
+import { PlaystationX } from "tabler-icons-react";
 
 const customStyles = {
   content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
-    backgroundColor: 'transparent',
-    border: 'none',
-    padding: '0',
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+    backgroundColor: "transparent",
+    border: "none",
+    padding: "0",
   },
   overlay: {
-    backgroundColor: 'rgba(0, 0, 0, 0.55)',
+    backgroundColor: "rgba(0, 0, 0, 0.55)",
   },
 };
 
@@ -34,16 +34,24 @@ const EventButton = ({ name, list, image }) => {
         <div
           className="relative bg-center bg-cover bg-no-repeat"
           style={{
-            backgroundImage: `url(${image})`,
-            backgroundSize: '100% 100%',
           }}
         >
           {!event ? (
             <div className="py-24 px-16 md:py-36 md:px-20 mx-auto flex flex-col justify-center">
+              <center>
+              <PlaystationX
+                className="w-[5vmax] cursor-pointer mb-3"
+                color="white"
+                style={{ fill: "#09988F" }}
+                size={40}
+                strokeWidth={1}
+                onClick={() => isModal(false)}
+              />
+              </center>
               {list.map((item, index) => (
                 <div
                   onClick={() => setEvent(item)}
-                  className="md:min-w-[250px] inline-flex p-3 md:p-4 rounded-2xl mt-6 text-[#fff] font-semibold bg-[#09988F] cursor-pointer "
+                  className="md:min-w-[250px] inline-flex p-3 md:p-4 rounded-2xl mb-6 text-[#fff] font-semibold bg-[#09988F] cursor-pointer "
                 >
                   <span className="w-full text-center text-sm md:text-base">
                     {item.eventName}
@@ -56,7 +64,7 @@ const EventButton = ({ name, list, image }) => {
               <PlaystationX
                 className="w-[5vmax] cursor-pointer"
                 color="white"
-                style={{ fill: '#09988F' }}
+                style={{ fill: "#09988F" }}
                 size={60}
                 strokeWidth={1}
                 onClick={() => setEvent(null)}
@@ -66,7 +74,7 @@ const EventButton = ({ name, list, image }) => {
               </div>
               <p
                 className="text-[white] my-3"
-                style={{ backgroundColor: 'rgba(0,0,0,0.7)', padding: 20 }}
+                style={{ backgroundColor: "rgba(0,0,0,0.7)", padding: 20 }}
               >
                 {event.description}
               </p>

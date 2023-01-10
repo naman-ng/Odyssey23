@@ -70,12 +70,16 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
       <div className={styles.card} style={windowSize >= 768 ? cardStyle : smallCard}>
         <div className="" style={frontStyle}>
           <img src={`${front_img}`} alt="" className="w-full h-full" />
-          <img
-            src={`${logo}`}
-            alt="404"
-            className="w-2/5"
-            style={{position: 'absolute', top: '50%', left: '30%', transform: 'translateY(-50%)'}}
-          />
+          {logo===""?
+            <></>
+          :
+            <img
+              src={`${logo}`}
+              alt="404"
+              className="w-2/5"
+              style={{position: 'absolute', top: '50%', left: '30%', transform: 'translateY(-50%)'}}
+            />
+          }
         </div>
         <div className="" style={backStyle}>
           <img src={`${back_img}`} alt="" className="w-full h-full" />
