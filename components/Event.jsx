@@ -20,15 +20,15 @@ function Event({ name, tagline, bg, image, align, knowmore, knowmoreList }) {
           />
         )}
         <div
-          className={`ml-[10vw] xl:mt-[6vw]  mr-[8vw] lg:mt-[3vw] md:mt-[4vw] sm:mt-[2.4vw] mt-[2vw] leading-[5vw] `}
+          className={`ml-[10vw] xl:mt-[6vw]  mr-[8vw] lg:mt-[3vw] md:mt-[4vw] sm:mt-[2.4vw] mt-[6vw] leading-[5vw] `}
         >
           <div
-            className={`  translate-y-[0.1 vw] duration-[1200ms] 2xl:text-7xl  lg:text-4xl md:text-3xl xl:text-5xl sm:text-2xl text-[5.5vw] `}
+            className={`  translate-y-[0.1 vw] duration-[1200ms] 2xl:text-5xl  lg:text-2xl md:text-xl xl:text-3xl sm:text-xl text-[5.5vw] `}
           >
             {name}
           </div>
           <div
-            className={`font-italic mt-1 mr-[1vw] text-[1.5vw] leading-[2.5vw] transition-delay-[10s] translate-y-[1vw] duration-[100ms] lg:text-xl sm:text-xs md:text-xs sm:mr-5 2xl:text-3xl `}
+            className={`font-italic mt-1 mr-[1vw] text-[1.5vw] leading-[2.5vw] transition-delay-[10s] translate-y-[1vw] duration-[100ms] lg:text-xl sm:text-xs md:text-xs sm:mr-5 2xl:text-xl `}
           >
             {knowmore}
           </div>

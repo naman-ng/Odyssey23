@@ -1,8 +1,8 @@
 [
   {
-    "name": "Art & Literature",
-    "knowmore": "Unleash the artists and writers in you and mesmerize the audience with the power of your passion and creativity. Be magic itself and grace our evens with your presence!",
-    "bg": "#48192D",
+    "name": "Art",
+    "knowmore": "Get ready to channel your inner Picasso! If this is the 1st time or the 100th time, pick up the brush and express yourself as you take the spotlight and create new memories.",
+    "bg": "#936AD1",
     "image": "/events/event_literature.png",
     "align": 0,
     "knowmoreList": [
@@ -16,8 +16,16 @@
         "eventName": "Canvas Art ",
         "description": "Your stroke tells a story, Let's hear it on the canvas. This event encourages participants to turn their imagination into realtiy. Participants will be provided a canvas and some paints and are free to bring their own brushes and materials to showcase their creativity.",
         "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSeKfDpkvJWXYtw0QVF23zcM6HLX_7Ilv7JOpR1qG_o3ICoKyw/viewform"
-      },
-
+      }
+    ]
+  },
+  {
+    "name": "Literature",
+    "knowmore": "Unleash the writers in you and mesmerize the audience with your eloquent words and captivating charm. Join us as we explore various topics and exchange ideas with like-minded individuals.",
+    "bg": "#B3D041",
+    "image": "/events/event_literature.png",
+    "align": 1,
+    "knowmoreList": [
       {
         "eventName": "Itna sannata Kyun hai bhai? ",
         "description": "The event is aimed to have relevant discussions on topics that are extremely important but are still not talked about enough. The event will have total of 2 rounds ",
@@ -40,9 +48,9 @@
   {
     "name": "Dance",
     "knowmore": "The floor is yours to let loose and rain down your moves. Come solo, bring a partner, or parade your team; our dance events have fierce competition for you.",
-    "bg": "#00B9AD",
+    "bg": "#B94D83",
     "image": "/events/event_dance.png",
-    "align": 1,
+    "align": 0,
     "knowmoreList": [
       {
         "eventName": "Can You Du-et?",
@@ -78,9 +86,9 @@
   {
     "name": "Finance",
     "knowmore": "With crazy good prizes, expert judges, and a chance to pitch your ideas, join us and see if you have what it takes to succeed in the business world!",
-    "bg": "#EE2D69",
+    "bg": "#4183D0",
     "image": "/events/event_finance.png",
-    "align": 0,
+    "align": 1,
     "knowmoreList": [
       {
         "eventName": "Pirates of the Stock Market",
@@ -116,15 +124,21 @@
         "eventName": "The Critical Bid",
         "description": "Critical Bid is  an event consisting of two rounds where, the first round is a auction and the second round is a trading round. This event showcases your ability to observe what the market situations are and how to use collaboration across agencies to your advantage.",
         "registrationLink": "https://unstop.com/p/the-critical-bid-indraprastha-institute-of-information-technology-iiit-delhi-581750"
+      },
+
+      {
+        "eventName": "BidBuzz",
+        "description": "If stocks and stories buzz you ,you've come to right place . An interesting event focussing on bidding  on various marvel characters through an engaging story and winning exciting prizes and merch from our side!",
+        "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLScBlsREXaM4m0ZHFHVZn0xNk_16eViSp8Q2TXubsft3LU30Cw/viewform"
       }
     ]
   },
   {
-    "name": "Fun, Food & Photography",
+    "name": "Fun, Food, Photography",
     "knowmore": "With games, cooking demos, and a chance to snap some Instagram-worthy shots, there's something for everyone. Join us and make some unforgettable memories.",
-    "bg": "#3F3E2A",
+    "bg": "#E6C100",
     "image": "/events/event_culinary.png",
-    "align": 1,
+    "align": 0,
     "knowmoreList": [
       {
         "eventName": "Foodie Duet in Feud",
@@ -137,6 +151,37 @@
         "description": "Dare 2 Eat ?? We bring to you a fun food eating challenge where you munch on delicious, tasty foods and participate in some crazy challenges to win Exciting Prizes. COME, EAT and WIN.",
         "registrationLink": "https://forms.gle/z6B2qYN3BTNJdoK77"
       },
+
+      {
+        "eventName": "Blind Date",
+        "description": "Looking for love or just a fun night out? Come check out our blind date event at the college fest! You never know who you'll meet and the possibilities are endless. Don't miss out on this exciting opportunity to connect with someone new. Sign up now for a chance to find your match!",
+        "registrationLink": "https://bit.ly/blinddateodyssey23"
+      },
+
+      {
+        "eventName": "Casino Carnival",
+        "description": "Casino Carnival, is aimed at a fun casino-themed setup. It is divided into three major rounds - The first round consisting of myriad casino-related games like blackjack, roulette, andar bahar etc; the second being a teen patti round involving all the remaining participants; and the third and final one being an all-in jackpot round where participants would receive the chance to test their luck and possibly turn around their very fate!",
+        "registrationLink": "https://forms.gle/UCfJ5fWcp6M2JohX6"
+      },
+
+      {
+        "eventName": "Win it in a Minute",
+        "description": "'Minute is the jury of fast and fury'. This is a set of events for all the participants where they can play party games like Beer Pong, Darts, Bottle Flip, Ring Toss and Speed Eraser. With their raging energy and enthusiasm they have to complete it in a minute or as we call it “Win it in a minute” and win exciting prizes and rewards.",
+        "registrationLink": "https://forms.gle/5uXUVjSWw1zKR6e97"
+      },
+
+      {
+        "eventName": "Atrangi Shatranj",
+        "description": "Two teams will battle out on the 64 squares, but with twist in the game(as the name suggests). The battle will comprise of suprize exciting games on the way. BTW no prior chess knowledge required.",
+        "registrationLink": "https://forms.gle/rvijimqbpjUW4yTf6"
+      },
+
+      {
+        "eventName": "Battle of Chefs",
+        "description": "The cooking competition 'The Battle of Chefs' not only requires hard work, but also showcases cooks who put their all into the dish and express their own unique culinary tastes as well as those of food lovers.",
+        "registrationLink": "https://forms.gle/RXoFYUrHeoB9kHBe8"
+      },
+
       {
         "eventName": "Shutter Story",
         "description": "A fun and one-of-a-kind photography competition where all participants have to do is go out there in the Odyssey fest, take all sorts of photos that amuse them, and add a little bit of creativity with their photographic eye",
@@ -151,59 +196,15 @@
     ]
   },
   {
-    "name": "Fun",
-    "knowmore": "With games, cooking demos, and a chance to snap some Instagram-worthy shots, there's something for everyone. Join us and make some unforgettable memories.",
-    "bg": "#EE2D69",
-    "image": "/events/event_lifestyle.png",
-    "align": 0,
-    "knowmoreList": [
-      {
-        "eventName": "Blind date",
-        "description": "'Looking for love or just a fun night out? Come check out our blind date event at the college fest! You never know who you'll meet and the possibilities are endless. Don't miss out on this exciting opportunity to connect with someone new. Sign up now for a chance to find your match!'",
-        "registrationLink": "https://bit.ly/blinddateodyssey23"
-      },
-
-      {
-        "eventName": "Casino Carnival",
-        "description": "Casino Carnival, is aimed at a fun casino-themed setup. It is divided into three major rounds - The first round consisting of myriad casino-related games like blackjack, roulette, andar bahar etc; the second being a teen patti round involving all the remaining participants; and the third and final one being an all-in jackpot round where participants would receive the chance to test their luck and possibly turn around their very fate!",
-        "registrationLink": "https://forms.gle/UCfJ5fWcp6M2JohX6"
-      },
-
-      {
-        "eventName": "Win it in a Minute",
-        "description": "Minute is the jury of fast and fury'. This is a set of events for all the participants where they can play party games like Beer Pong, Darts, Bottle Flip, Ring Toss and Speed Eraser. With their raging energy and enthusiasm they have to complete it in a minute or as we call it “Win it in a minute” and win exciting prizes and rewards.",
-        "registrationLink": "https://forms.gle/5uXUVjSWw1zKR6e97"
-      },
-
-      {
-        "eventName": "Atrangi shatranj",
-        "description": "Two teams will battle out on the 64 squares, but with twist in the game(as the name suggests). The battle will comprise of suprize exciting games on the way. BTW no prior chess knowledge required. ",
-        "registrationLink": "https://forms.gle/rvijimqbpjUW4yTf6"
-      },
-
-      {
-        "eventName": "Bid buzz",
-        "description": "If stocks and stories buzz you ,you've come to right place . An interesting event focussing on bidding  on various marvel characters through an engaging story and winning exciting prizes and merch from our side ",
-        "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLScBlsREXaM4m0ZHFHVZn0xNk_16eViSp8Q2TXubsft3LU30Cw/viewform"
-      },
-
-      {
-        "eventName": "Battle of chefs",
-        "description": "The cooking competition 'The Battle of Chefs' not only requires hard work, but also showcases cooks who put their all into the dish and express their own unique culinary tastes as well as those of food lovers.",
-        "registrationLink": "https://forms.gle/RXoFYUrHeoB9kHBe8"
-      }
-    ]
-  },
-  {
     "name": "Games & ESports",
     "knowmore": "With tournaments, competitions, and the latest games on display, you'll get a chance to prove your gaming chops and meet like-minded players. Take advantage of this chance to have a blast and see who will emerge victorious.",
-    "bg": "#FFAE01",
+    "bg": "#76AD00",
     "image": "/events/event_music.png",
     "align": 1,
     "knowmoreList": [
       {
         "eventName": "Fifa 1v1",
-        "description": "description",
+        "description": "Whether you're a seasoned pro or a beginner looking to test your skills, this is the perfect event for you. Participants will compete in a single elimination bracket, with each match consisting of two 6-minute halves.",
         "registrationLink": "https://forms.gle/MVAZe3VQuey9C3q66"
       },
       {
@@ -222,13 +223,13 @@
   {
     "name": "Lifestyle",
     "knowmore": "Join us for a fashionable day out at our fest! With student designers, trendy workshops, and a runway show, you'll get a taste of the latest styles and emerging talent and up your fashion game.",
-    "bg": "#B8215A",
+    "bg": "#FF8E26",
     "image": "/events/event_lifestyle.png",
     "align": 0,
     "knowmoreList": [
       {
         "eventName": "Makeup Event",
-        "description": "makeup artists can flaunt their abilities and use this opportunity to display their artistic makeup skills to judges, and of course an audience.",
+        "description": "Makeup artists can flaunt their abilities and use this opportunity to display their artistic makeup skills to judges, and of course an audience.",
         "registrationLink": "https:\\/\\/docs.google.com\\/forms\\/d\\/e\\/1FAIpQLScMb3zt5hz2iW18SX-2kOUTAsiKSAp6wISmJol2ZkGYVcWufQ\\/viewform?usp=sharing"
       },
 
@@ -248,7 +249,7 @@
   {
     "name": "Music",
     "knowmore": "Ready to get your groove on? Come to our music events, featuring a lineup of the hottest acts and a chance for you to show off your skills on stage. With genres ranging from pop to rock to jazz, there's something for every music lover. Don't miss out on the fun!",
-    "bg": "#FFAE01",
+    "bg": "#1198B6",
     "image": "/events/event_music.png",
     "align": 1,
     "knowmoreList": [
@@ -298,7 +299,7 @@
   {
     "name": "Quizzing",
     "knowmore": "Get ready to flex your mental muscle at our quiz events! With categories for every type of trivia buff, this is an opportunity to test your knowledge and show off your smarts.",
-    "bg": "#EE2D69",
+    "bg": "#5541D0",
     "image": "/events/event_quizzing.png",
     "align": 0,
     "knowmoreList": [
@@ -330,7 +331,7 @@
   {
     "name": "Theatre",
     "knowmore": "Step into the spotlight and show off acting shorts at our theatre events!! Whether you are a professional actor or a newbie, we have a place for everyone.",
-    "bg": "#121D21",
+    "bg": "#ED5635",
     "image": "/events/event_theatre.png",
     "align": 1,
     "knowmoreList": [
@@ -342,7 +343,7 @@
 
       {
         "eventName": "Befikr",
-        "description": "Stage Play Competition",
+        "description": "A stage play competition made for everyone to take part in and everyone to watch and enjoy. This year we are welcoming plays based around any social problems we face in our society. It could be of any or every genre known to Theatre Gods.",
         "registrationLink": "https://forms.gle/NAkhDZP2M8bUkicK6"
       }
     ]
