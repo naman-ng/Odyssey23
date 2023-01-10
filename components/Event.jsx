@@ -4,15 +4,15 @@ function Event({ name, tagline, bg, image, align, knowmore, knowmoreList }) {
   return (
     <>
       <div
-        className={` leading-[4vw] sm:h-[36vw] md:h-[36vw] lg:h-[31vw] xl:h-[28.0vw] h-[37vw] w-screen transition-timing-function-[ease-in]  rounded-t-lg -mt-2 shadow-lg translate-y-[0.1vw] duration-[1000ms] transform transition-all `}
-        style={{ backgroundColor: bg, border: '1px solid #000000' }}
+        className={` leading-[4vw] sm:h-[36vw] md:h-[36vw] lg:h-[31vw] xl:h-[28.0vw] h-[37vw] w-screen transition-timing-function-[ease-in] rounded-t-2xl -mt-2 shadow-lg translate-y-[0.1vw] duration-[1000ms] transform transition-all `}
+        style={{ backgroundColor: bg, borderTop: '5px solid #000000' }}
       >
         {name && (
           <img
-            className={`  drop-shadow-[5px_5px_0px_#000] sm:h-[35vw] md:h-[35vw] lg:h-[30vw] xl:h-[27.4vw] h-[36vw] translate-y-[0.1vw] duration-[1000ms] transform transition-all ${
+            className={`  drop-shadow-[5px_5px_0px_#000] sm:h-[30vw] md:h-[30vw] lg:h-[25vw] xl:h-[24vw] h-[30vw] translate-y-[1.5vw] duration-[1000ms] transform transition-all ${
               alignVal === 'left'
-                ? '2xl:ml-20 xl:ml-20 lg:ml-20 md:ml-20 sm:ml-20 ml-8 mr-[6vw]'
-                : ' xl:mr-[15vw] mr-[8vw] '
+                ? '2xl:ml-20 xl:ml-20 lg:ml-20 md:ml-20 sm:ml-5 ml-8 mr-[6vw]'
+                : '2xl:ml-20 xl:ml-20 lg:ml-20 md:ml-20 sm:ml-5 ml-8 mr-[6vw]'
             } `}
             src={image}
             alt="image"
@@ -23,12 +23,12 @@ function Event({ name, tagline, bg, image, align, knowmore, knowmoreList }) {
           className={`ml-[10vw] xl:mt-[6vw]  mr-[8vw] lg:mt-[3vw] md:mt-[4vw] sm:mt-[2.4vw] mt-[6vw] leading-[5vw] `}
         >
           <div
-            className={`  translate-y-[0.1 vw] duration-[1200ms] 2xl:text-5xl  lg:text-2xl md:text-xl xl:text-3xl sm:text-xl text-[5.5vw] `}
+            className={`  translate-y-[0.1 vw] duration-[1200ms] 2xl:text-5xl  lg:text-2xl md:text-xl xl:text-3xl sm:text-sm text-[5.5vw] sm:mt-4`}
           >
             {name}
           </div>
           <div
-            className={`font-italic mt-1 mr-[1vw] text-[1.5vw] leading-[2.5vw] transition-delay-[10s] translate-y-[1vw] duration-[100ms] lg:text-xl sm:text-xs md:text-xs sm:mr-5 2xl:text-xl `}
+            className={`font-italic mt-1 mr-[1vw] text-[1.5vw] leading-[2.5vw] transition-delay-[10s] translate-y-[1vw] duration-[100ms] lg:text-xl sm:text-[2vw] md:text-xs sm:mr-1 2xl:text-md `}
           >
             {knowmore}
           </div>
