@@ -3,7 +3,7 @@
     "name": "Art",
     "knowmore": "Get ready to channel your inner Picasso! If this is the 1st time or the 100th time, pick up the brush and express yourself as you take the spotlight and create new memories.",
     "bg": "#936AD1",
-    "image": "/events/event_literature.png",
+    "image": "/events/New/Events-Art.png",
     "align": 0,
     "knowmoreList": [
       {
@@ -23,7 +23,7 @@
     "name": "Literature",
     "knowmore": "Unleash the writers in you and mesmerize the audience with your eloquent words and captivating charm. Join us as we explore various topics and exchange ideas with like-minded individuals.",
     "bg": "#B3D041",
-    "image": "/events/event_literature.png",
+    "image": "/events/New/Events-Literature.png",
     "align": 1,
     "knowmoreList": [
       {
@@ -49,7 +49,7 @@
     "name": "Dance",
     "knowmore": "The floor is yours to let loose and rain down your moves. Come solo, bring a partner, or parade your team; our dance events have fierce competition for you.",
     "bg": "#B94D83",
-    "image": "/events/event_dance.png",
+    "image": "/events/New/Events-Dance.png",
     "align": 0,
     "knowmoreList": [
       {
@@ -84,10 +84,10 @@
     ]
   },
   {
-    "name": "Finance",
+    "name": "Finance and Entrepreneurship",
     "knowmore": "With crazy good prizes, expert judges, and a chance to pitch your ideas, join us and see if you have what it takes to succeed in the business world!",
     "bg": "#4183D0",
-    "image": "/events/event_finance.png",
+    "image": "/events/New/Events-Finance.png",
     "align": 1,
     "knowmoreList": [
       {
@@ -137,7 +137,7 @@
     "name": "Fun, Food, Photography",
     "knowmore": "With games, cooking demos, and a chance to snap some Instagram-worthy shots, there's something for everyone. Join us and make some unforgettable memories.",
     "bg": "#E6C100",
-    "image": "/events/event_culinary.png",
+    "image": "/events/New/Events-Fun.png",
     "align": 0,
     "knowmoreList": [
       {
@@ -199,7 +199,7 @@
     "name": "Games & ESports",
     "knowmore": "With tournaments, competitions, and the latest games on display, you'll get a chance to prove your gaming chops and meet like-minded players. Take advantage of this chance to have a blast and see who will emerge victorious.",
     "bg": "#76AD00",
-    "image": "/events/event_music.png",
+    "image": "/events/New/Events-Games.png",
     "align": 1,
     "knowmoreList": [
       {
@@ -224,7 +224,7 @@
     "name": "Lifestyle",
     "knowmore": "Join us for a fashionable day out at our fest! With student designers, trendy workshops, and a runway show, you'll get a taste of the latest styles and emerging talent and up your fashion game.",
     "bg": "#FF8E26",
-    "image": "/events/event_lifestyle.png",
+    "image": "/events/New/Events-Lifestyle.png",
     "align": 0,
     "knowmoreList": [
       {
@@ -250,7 +250,7 @@
     "name": "Music",
     "knowmore": "Ready to get your groove on? Come to our music events, featuring a lineup of the hottest acts and a chance for you to show off your skills on stage. With genres ranging from pop to rock to jazz, there's something for every music lover. Don't miss out on the fun!",
     "bg": "#1198B6",
-    "image": "/events/event_music.png",
+    "image": "/events/New/Events-Music.png",
     "align": 1,
     "knowmoreList": [
       {
@@ -300,7 +300,7 @@
     "name": "Quizzing",
     "knowmore": "Get ready to flex your mental muscle at our quiz events! With categories for every type of trivia buff, this is an opportunity to test your knowledge and show off your smarts.",
     "bg": "#5541D0",
-    "image": "/events/event_quizzing.png",
+    "image": "/events/New/Events-Quizzing.png",
     "align": 0,
     "knowmoreList": [
       {
@@ -332,7 +332,7 @@
     "name": "Theatre",
     "knowmore": "Step into the spotlight and show off acting shorts at our theatre events!! Whether you are a professional actor or a newbie, we have a place for everyone.",
     "bg": "#ED5635",
-    "image": "/events/event_theatre.png",
+    "image": "/events/New/Events-Theatre.png",
     "align": 1,
     "knowmoreList": [
       {
