@@ -7,6 +7,7 @@ function Events() {
   return (
     <div className='w-full gradient-blue sm:pt-[5vmax] md:pt-[5vmax] xl:pt-[5vmax] lg:pt-[5vmax] pt-[6.6vmax] text-[#F6971B]'>
       <div className="w-full font-mulish justify-end flex flex-col  overflow-clip  text-[#F9F9F9] ">
+        <br/><br/><br/>
         {eventList.map((event, i) => (
             <Event
               name={event.name}

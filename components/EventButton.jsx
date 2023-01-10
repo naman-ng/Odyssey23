@@ -40,9 +40,9 @@ const EventButton = ({ name, list, image }) => {
             <div className="py-24 px-16 md:py-36 md:px-20 mx-auto flex flex-col justify-center">
               <center>
               <PlaystationX
-                className="w-[5vmax] cursor-pointer mb-3"
+                className="sm:w-[10vw] cursor-pointer hover:w-[2vw] transition-all duration-300 mb-3"
                 color="white"
-                style={{ fill: "#09988F" }}
+                style={{ fill: "#e83d69" }}
                 size={40}
                 strokeWidth={1}
                 onClick={() => isModal(false)}
@@ -51,7 +51,7 @@ const EventButton = ({ name, list, image }) => {
               {list.map((item, index) => (
                 <div
                   onClick={() => setEvent(item)}
-                  className="md:min-w-[250px] inline-flex p-3 md:p-4 rounded-2xl mb-6 text-[#fff] font-semibold bg-[#09988F] cursor-pointer "
+                  className="md:min-w-[250px] inline-flex p-3 md:p-4 rounded-xl mb-6 hover:text-[#ffffff] text:[#e83d69] font-semibold hover:bg-[#e83d69] bg-[#f9f9f990] cursor-pointer transition-all duration-300"
                 >
                   <span className="w-full text-center text-sm md:text-base">
                     {item.eventName}
@@ -62,14 +62,14 @@ const EventButton = ({ name, list, image }) => {
           ) : (
             <div className="py-12 px-8 md:py-24 md:px-24 mx-auto flex flex-col justify-center items-center w-[50vmax] lg:w-[30vmax]">
               <PlaystationX
-                className="w-[5vmax] cursor-pointer"
+                className="sm:w-[10vw] cursor-pointer hover:w-[3vw] transition-all duration-300"
                 color="white"
-                style={{ fill: "#09988F" }}
+                style={{ fill: "#e83d69" }}
                 size={60}
                 strokeWidth={1}
                 onClick={() => setEvent(null)}
               />
-              <div className="md:min-w-[250px] inline-flex p-3 md:p-4 rounded-2xl mt-6 text-[#fff] font-semibold bg-[#09988F]">
+              <div className="md:min-w-[250px] inline-flex p-3 md:p-4 rounded-2xl mt-6 text-[#fff] font-semibold bg-[#e83d69]">
                 <span className="w-full text-center">{event.eventName}</span>
               </div>
               <p
@@ -79,7 +79,7 @@ const EventButton = ({ name, list, image }) => {
                 {event.description}
               </p>
               <Link
-                className="min-w-[250px] inline-flex p-4 rounded-2xl mt-6 text-[#fff] font-semibold bg-[#09988F]"
+                className="min-w-[200px] inline-flex p-4 rounded-md mt-6 text-[#ffffff] font-semibold hover:bg-[#e83d69] bg-[#00000090] transition-all duration-500"
                 href={event.registrationLink}
                 target="_blank"
               >
@@ -91,7 +91,7 @@ const EventButton = ({ name, list, image }) => {
       </Modal>
 
       <button
-        className={`font-bold xl:text-xl lg:text-xl sm:text-xs 2xl:text-[1.2vw] mt-[4vw] xl:p-1 lg:p-1 md:p-1 sm:p-1 2xl:p-0 2xl:h-[2vw] 2xl:w-[8vw] bg-[#f9f9f984] hover:bg-[#f9f9f9e9] rounded-lg text-[1.72vw] leading-[3vw] translate-y-[1vw] duration-[1000ms] h-[3vw] w-[13vw] sm:h-[3vw] sm:w-[12vw] transform transition-all`}
+        className={`font-bold xl:text-xl lg:text-xl sm:text-[1.75vw] 2xl:text-[1.2vw] mt-[3vw] xl:p-1 lg:p-1 md:p-1 sm:p-0 2xl:p-0 2xl:h-[3vw] 2xl:w-[10vw] bg-[#f9f9f984] hover:bg-[#ffffff] rounded-lg text-[1.72vw] leading-[3vw] translate-y-[1vw] duration-[300ms] h-[3vw] w-[13vw] sm:h-[4vw] sm:w-[15vw] transform transition-all`}
         type="button"
         onClick={() => isModal(true)}
       >

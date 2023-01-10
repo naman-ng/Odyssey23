@@ -31,7 +31,7 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
   }, []);
 
   const frontStyle = {
-    height: '100%',
+    height: 'fit-content',
     width: '100%',
     position: 'absolute',
     backfaceVisibility: 'hidden',
@@ -58,7 +58,7 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
 
   const smallCard = {
     width: '60%',
-    height: '301px',
+    height: '250px',
     transformStyle: 'preserve-3d',
     position: 'relative',
     transition: 'transform 1s',
@@ -69,7 +69,7 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
     return (
       <div className={styles.card} style={windowSize >= 768 ? cardStyle : smallCard}>
         <div className="" style={frontStyle}>
-          <img src={`${front_img}`} alt="" className="w-full h-full" />
+          <img src={`${front_img}`} alt="" className="sm:w-full lg:w-full lg:h-full" />
           {logo===""?
             <></>
           :
@@ -84,7 +84,7 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
         <div className="" style={backStyle}>
           <img src={`${back_img}`} alt="" className="w-full h-full" />
           
-            <div className="flex flex-col justify-center align-middle text-center z-50 -translate-y-52 translate-x-[1.75rem] w-4/5 h-2/5 absolute top-3/5">
+            <div className="flex flex-col justify-center align-middle text-center z-50 sm:-translate-y-44 lg:-translate-y-52 translate-x-[1.75rem] w-4/5 h-2/5 absolute top-3/5">
               <a href={`${link}`} target='_blank'><p className=" w-full text-xl">{title}</p>
               <p className=" w-full text-[#FFFFFF] text-xl">{name}</p></a>
             </div>
