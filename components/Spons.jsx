@@ -73,7 +73,8 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
           <img
             src={`${logo}`}
             alt="404"
-            className=" z-50 -translate-y-48 translate-x-[4.75rem] inline-block w-2/5 absolute top-3/5"
+            className="w-2/5"
+            style={{position: 'absolute', top: '50%', left: '30%', transform: 'translateY(-50%)'}}
           />
         </div>
         <div className="" style={backStyle}>
