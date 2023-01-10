@@ -53,7 +53,7 @@ function ContactMain() {
         }}
       />
       <motion.div
-        className="absolute z-5 w-[100%] h-[20vmax] bg-road bg-no-repeat bg-contain top-[20rem]  md:top-[65vw] xl:top-[63vw] left-[-2vw] "
+        className="absolute z-5 w-[100%] h-[20vmax] bg-road bg-no-repeat bg-contain top-[10rem]  md:top-[65vw] xl:top-[63vw] left-[-2vw] "
         style={{
           translateX:
             (windowSize > 1024)
