@@ -6,27 +6,17 @@ function Form() {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col items-center relative w-4/5 h-[45%] sm:h-[50%] lg:h-4/5 top-[0rem] md:top-[8vmax]  flex-wrap z-20">
-      <div className=" absolute w-[95%] h-[65%] z-20 bg-contactFormTop pointer-events-none bg-no-repeat bg-contain" />
-      <div className="absolute z-10 top-0 flex flex-col items-center justify-center h-full  w-[95%] bg-[#F16823]">
-        {/* <div className="w-[80%] h-[10%] my-5 bg-[#A14123] rounded-xl"></div>
-        <div className="w-[80%] h-[10%]  bg-[#A14123] rounded-xl"></div> */}
-        <Link
-          className="bg-[#d7b537] text-lg  rounded-lg hover:bg-[#d7b437e0] text-[#EE2D69] transition-all duration-300 font-[620] hover:font-bold  md:w-[30%] w-2/5 mt-8 md:mt-4 p-2 text-center"
+    <div className="flex flex-col items-center relative w-full sm:h-[50%] h-[50%] lg:h-4/5 sm:mt-8 md:mt-20 lg:mt-8 xl:mt-36 top-[0rem] md:top-[8vmax]  flex-wrap z-20">
+    <Image src="/images/odessey_truck_form.svg" className=' w-full h-[110%]' alt='not loaded' fill style={{objectFit:"contain"}}
+    ></Image>
+    <h3 className="z-20 absolute md:top-[30%] sm:top-[30%] lg:top-[35%] sm:w-[65%] md:w-[45%] text-lg font-[629] italic text-center">"Help us clear your query by clicking the button below"</h3>
+      <Link
+          className="bg-[#d7b537] z-20 absolute md:top-[43%] sm:top-[45%] text-lg  rounded-lg hover:bg-[#d7b437e0] text-[#EE2D69] transition-all duration-300 font-[620] hover:font-bold sm:w-[40%] sm:h-[9%] md:h-[8%] md:w-[20%] md:mt-4 p-2 text-center"
           href="mailto:odyssey.iiitd.helpdesk@gmail.com?subject=Odyssey"
         >
           Contact Us
         </Link>
-      </div>
-
-      <div className="absolute top-[39vh] md:top-[39vmax] xl:top-[30vmax] 2xl:top-[26vmax] w-[97.4%] z-20 pointer-events-none md:mt-4">
-        <Image
-          src={LayerBottomContact}
-          width={0}
-          height={0}
-          className="w-full"
-        />
-      </div>
+      
     </div>
   );
 }
