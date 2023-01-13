@@ -287,5 +287,85 @@
     "link": "",
     "title": "Cycling Partner",
     "logo": "/sponsLogo/Geekay.png"
+  },
+  {
+    "name": "Sparx",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Footwear Partner",
+    "logo": "/sponsLogo/Sparx.png"
+  },
+  {
+    "name": "REALME",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Smartphone Partner",
+    "logo": "/sponsLogo/Realme.png"
+  },
+  {
+    "name": "Skoodle",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "",
+    "logo": "/sponsLogo/Skoodle.png"
+  },
+  {
+    "name": "Plum BodyLovin'",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "",
+    "logo": "/sponsLogo/Plum.png"
+  },
+  {
+    "name": "Moraze",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "",
+    "logo": "/sponsLogo/Moraze.png"
+  },
+  {
+    "name": "The Bargain Street",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "",
+    "logo": "/sponsLogo/BargainStreet.png"
+  },
+  {
+    "name": "Hirist",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Recruitment Partner",
+    "logo": "/sponsLogo/Hirist.png"
+  },
+  {
+    "name": "Adda52",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Official Registration Partner",
+    "logo": "/sponsLogo/Adda52.png"
+  },
+  {
+    "name": "Burger Club",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "",
+    "logo": "/sponsLogo/BurgerClub.png"
+  },
+  {
+    "name": "Give My Certificate",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Certificate Partner",
+    "logo": "/sponsLogo/GMC.png"
   }
 ]

@@ -38,7 +38,7 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
   };
 
   const backStyle = {
-    height: '100%',
+    height: 'fit-content',
     width: '100%',
     position: 'absolute',
     transform: 'rotateY(180deg)',
@@ -82,9 +82,9 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
           }
         </div>
         <div className="" style={backStyle}>
-          <img src={`${back_img}`} alt="" className="w-full h-full" />
+          <img src={`${back_img}`} alt="" className="sm:w-full lg:w-full lg:h-full" />
           
-            <div className="flex flex-col justify-center align-middle text-center z-50 sm:-translate-y-44 lg:-translate-y-52 translate-x-[1.75rem] w-4/5 h-2/5 absolute top-3/5">
+            <div className="flex flex-col justify-center align-middle text-center z-50 sm:-translate-y-40 lg:-translate-y-52 lg:pt-8 translate-x-[1.75rem] w-4/5 h-2/5 absolute top-3/5">
               <a href={`${link}`} target='_blank'><p className=" w-full text-xl">{title}</p>
               <p className=" w-full text-[#FFFFFF] text-xl">{name}</p></a>
             </div>
