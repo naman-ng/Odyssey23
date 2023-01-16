@@ -71,12 +71,6 @@
       },
 
       {
-        "eventName": "Financial bluff",
-        "description": "Financial Bluff will be an event where teams try to fool each other with numbers, prompting them to guess if a statement is factually wrong or does it just sound wrong. The event will have special-company rounds concentrating on facts regarding a particular company, leading the participants to research it to win bonus points. Popular finance platforms are to be used to check the correctness of the facts.",
-        "registrationLink": "https://unstop.com/competition/financial-bluff-indraprastha-institute-of-information-technology-iiit-delhi-577643"
-      },
-
-      {
         "eventName": "The Capitalist Date",
         "description": "Are you an entrepreneurial spirit looking for a fun and exciting date ? Look no further than 'The Capitalist Date'! This event is perfect for people who love a good challenge and are ready to put their business skills to the test while on a date!",
         "registrationLink": "https://unstop.com/p/the-capitalist-date-indraprastha-institute-of-information-technology-iiit-delhi-585308"
@@ -139,12 +133,6 @@
       },
 
       {
-        "eventName": "Win it in a Minute",
-        "description": "'Minute is the jury of fast and fury'. This is a set of events for all the participants where they can play party games like Beer Pong, Darts, Bottle Flip, Ring Toss and Speed Eraser. With their raging energy and enthusiasm they have to complete it in a minute or as we call it “Win it in a minute” and win exciting prizes and rewards.",
-        "registrationLink": "https://forms.gle/5uXUVjSWw1zKR6e97"
-      },
-
-      {
         "eventName": "Atrangi Shatranj",
         "description": "Two teams will battle out on the 64 squares, but with twist in the game(as the name suggests). The battle will comprise of suprize exciting games on the way. BTW no prior chess knowledge required.",
         "registrationLink": "https://forms.gle/rvijimqbpjUW4yTf6"
@@ -160,25 +148,6 @@
         "eventName": "EmotiKaun",
         "description": "We bring to you emojis in a slot machine!! Given a random selection of 3 emojis, click the best photo u can in the IIITD campus which best represents those emojis with a twist ",
         "registrationLink": "https://forms.gle/9UreW2U8qiQF28e99"
-      }
-    ]
-  },
-  {
-    "name": "Games & ESports",
-    "knowmore": "With tournaments, competitions, and the latest games on display, you'll get a chance to prove your gaming chops and meet like-minded players. Take advantage of this chance to have a blast and see who will emerge victorious.",
-    "bg": "#76AD00",
-    "image": "/events/New/Events-Games.png",
-    "align": 0,
-    "knowmoreList": [
-      {
-        "eventName": "The Gaming Adda",
-        "description": "Whether you're a seasoned gamer or a beginner looking to test your skills, this is the perfect event for you.",
-        "registrationLink": "https://forms.gle/MVAZe3VQuey9C3q66"
-      },
-      {
-        "eventName": "Juari Adda",
-        "description": "A fun and competitive around the table poker card game. There will be 2-3 rounds. The unfamiliar audience to the poker game will not be left out as we plan to organize other card games such as bluff, call break and many more.",
-        "registrationLink": "https://forms.gle/w3vuRcHjuHJst88a7"
       },
 
       {
@@ -193,7 +162,7 @@
     "knowmore": "Join us for a fashionable day out at our fest! With student designers, trendy workshops, and a runway show, you'll get a taste of the latest styles and emerging talent and up your fashion game.",
     "bg": "#FF8E26",
     "image": "/events/New/Events-Lifestyle.png",
-    "align": 1,
+    "align": 0,
     "knowmoreList": [
       {
         "eventName": "Glam Up",
@@ -219,7 +188,7 @@
     "knowmore": "Unleash the writers in you and mesmerize the audience with your eloquent words and captivating charm. Join us as we explore various topics and exchange ideas with like-minded individuals.",
     "bg": "#B3D041",
     "image": "/events/New/Events-Literature.png",
-    "align": 0,
+    "align": 1,
     "knowmoreList": [
       {
         "eventName": "Itna sannata Kyun hai bhai? ",
@@ -245,7 +214,7 @@
     "knowmore": "Ready to get your groove on? Come to our music events, featuring a lineup of the hottest acts and a chance for you to show off your skills on stage. With genres ranging from pop to rock to jazz, there's something for every music lover. Don't miss out on the fun!",
     "bg": "#1198B6",
     "image": "/events/New/Events-Music.png",
-    "align": 1,
+    "align": 0,
     "knowmoreList": [
       {
         "eventName": "Arpeggio",
@@ -295,7 +264,7 @@
     "knowmore": "Get ready to flex your mental muscle at our quiz events! With categories for every type of trivia buff, this is an opportunity to test your knowledge and show off your smarts.",
     "bg": "#5541D0",
     "image": "/events/New/Events-Quizzing.png",
-    "align": 0,
+    "align": 1,
     "knowmoreList": [
       {
         "eventName": "Meta Mera Data Leta",
@@ -327,7 +296,7 @@
     "knowmore": "Step into the spotlight and show off acting shorts at our theatre events!! Whether you are a professional actor or a newbie, we have a place for everyone.",
     "bg": "#ED5635",
     "image": "/events/New/Events-Theatre.png",
-    "align": 1,
+    "align": 0,
     "knowmoreList": [
       {
         "eventName": "Hasratein",
@@ -347,7 +316,7 @@
     "knowmore": "Odyssey is not just about Events and Competitions! We have a lot of fun stuff going around too!",
     "bg": "#a11e47",
     "image": "/events/New/Events-Theatre.png",
-    "align": 0,
+    "align": 1,
     "knowmoreList": [
       {
         "eventName": "Face Paint",
