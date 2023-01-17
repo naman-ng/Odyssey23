@@ -20,6 +20,7 @@ module.exports = {
         ground: "url('/images/trees+road+ground.webp')",
         road: "url('/road.svg')",
         truck: "url('/truck.svg')",
+        direction: "url('/direction.webp')",
         stalls: "url('/stalls.svg')",
         contactFormTop: "url('/contactFormTop.svg')",
         LayerBottomContact: "url('/contactFormLayerBottom.svg')",
