@@ -39,6 +39,39 @@
     "title": "",
     "logo": ""
   },
+  
+  {
+    "name": "ONGC",
+    "front_img": "/sponsLogo/Tiles/silver-fill.png",
+    "back_img": "/sponsLogo/Tiles/silver-outline.png",
+    "link": "https://www.ongcindia.com/",
+    "title": "Silver Partner",
+    "logo": "/sponsLogo/ONGC.png"
+  },
+  {
+    "name": "PNB",
+    "front_img": "/sponsLogo/Tiles/silver-fill.png",
+    "back_img": "/sponsLogo/Tiles/silver-outline.png",
+    "link": "https://www.pnbindia.in/",
+    "title": "Silver Partner",
+    "logo": "/sponsLogo/PNB.png"
+  },
+  {
+    "name": "PFC",
+    "front_img": "/sponsLogo/Tiles/silver-fill.png",
+    "back_img": "/sponsLogo/Tiles/silver-outline.png",
+    "link": "https://www.pfcindia.com/",
+    "title": "Silver Partner",
+    "logo": "/sponsLogo/PFC.png"
+  },
+  {
+    "name": "Adda52",
+    "front_img": "/sponsLogo/Tiles/silver-fill.png",
+    "back_img": "/sponsLogo/Tiles/silver-outline.png",
+    "link": "",
+    "title": "Official Registration Partner",
+    "logo": "/sponsLogo/adda52.png"
+  },
 
   {
     "name": "Bluesemi",
@@ -69,7 +102,7 @@
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "https://www.ohiapp.com/",
-    "title": "Registration Partner",
+    "title": "Community Partner",
     "logo": "/sponsLogo/OHi.png"
   },
   {
@@ -97,51 +130,35 @@
     "logo": "/sponsLogo/Qelica.svg"
   },
   {
-    "name": "Indian Oil",
+    "name": "Sweet Omen",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/Sweet_Omen.png"
+  },
+  {
+    "name": "IOCL",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "https://iocl.com/",
-    "title": "",
+    "title": "Associate Partner",
     "logo": "/sponsLogo/Indian_Oil.png"
-  },
-  {
-    "name": "ONGC",
-    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
-    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "https://www.ongcindia.com/",
-    "title": "",
-    "logo": "/sponsLogo/ONGC.png"
   },
   {
     "name": "GAIL",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "https://www.gailonline.com/",
-    "title": "",
+    "title": "Associate Partner",
     "logo": "/sponsLogo/Gail.png"
-  },
-  {
-    "name": "PNB",
-    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
-    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "https://www.pnbindia.in/",
-    "title": "",
-    "logo": "/sponsLogo/PNB.png"
-  },
-  {
-    "name": "PFC",
-    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
-    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "https://www.pfcindia.com/",
-    "title": "",
-    "logo": "/sponsLogo/PFC.png"
   },
   {
     "name": "SAIL",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "https://www.sail.co.in/",
-    "title": "",
+    "title": "Associate Partner",
     "logo": "/sponsLogo/Sail.png"
   },
   {
@@ -157,16 +174,8 @@
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "",
-    "title": "",
+    "title": "Scent Partner",
     "logo": "/sponsLogo/Aurphic_Apothecary.png"
-  },
-  {
-    "name": "Sweet Omen",
-    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
-    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "",
-    "title": "F&B Partner",
-    "logo": "/sponsLogo/Sweet_Omen.png"
   },
   {
     "name": "Barista",
@@ -228,7 +237,7 @@
     "name": "Pasta Affaire",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "",
+    "link": "https://www.facebook.com/ThePastaAffaire/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0",
     "title": "F&B Partner",
     "logo": "/sponsLogo/Pasta_Affaire.png"
   },
@@ -236,7 +245,7 @@
     "name": "Posh",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "https://www.facebook.com/ThePastaAffaire/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0",
+    "link": "",
     "title": "Stall Partner",
     "logo": "/sponsLogo/Posh.png"
   },
@@ -244,12 +253,12 @@
     "name": "SK Education",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "",
-    "title": "Event Sponsor",
+    "link": "https://www.bachpanglobal.com",
+    "title": "Event Partner",
     "logo": "/sponsLogo/SK.png"
   },
   {
-    "name": "Squisita",
+    "name": "Squisita Rosa Kitchen",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "",
@@ -268,7 +277,7 @@
     "name": "Funk You!",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "",
+    "link": "https://funkyou.store",
     "title": "Swag Partner",
     "logo": "/sponsLogo/FunkYou.png"
   },
@@ -284,8 +293,256 @@
     "name": "Geekay Bikes",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "",
+    "link": "https://geekaybikes.com/",
     "title": "Cycling Partner",
     "logo": "/sponsLogo/Geekay.png"
+  },
+  {
+    "name": "Sparx",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Footwear Partner",
+    "logo": "/sponsLogo/Sparx.png"
+  },
+  {
+    "name": "REALME",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Smartphone Partner",
+    "logo": "/sponsLogo/Realme.png"
+  },
+  {
+    "name": "Skoodle",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Community and Entertainment Partner",
+    "logo": "/sponsLogo/Skoodle.png"
+  },
+  {
+    "name": "Plum BodyLovin'",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://plumgoodness.com/collections/plum-bodylovin",
+    "title": "Bath and Body Partner",
+    "logo": "/sponsLogo/Plum.png"
+  },
+  {
+    "name": "Moraze",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://morazecosmetics.com/",
+    "title": "Fashion Moraze",
+    "logo": "/sponsLogo/Moraze.png"
+  },
+  {
+    "name": "Hirist",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.hirist.com/register?&utm_source=google&utm_medium=CPC&utm_campaign=Brand_Search_Hirist&ref=google&gclid=Cj0KCQiA_P6dBhD1ARIsAAGI7HASyOEg0SMfF8JtfhW2q_NBz-C-CzkUM2TxYZ3V6rBaBGTw0YdNQToaAtOaEALw_wcB",
+    "title": "Recruitment Partner",
+    "logo": "/sponsLogo/Hirist.png"
+  },
+  {
+    "name": "Sylvie's Bakes",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.instagram.com/sylviesbakes/",
+    "title": "Dare 2 Eat Partner",
+    "logo": "/sponsLogo/SylvesBakes.png"
+  },
+  {
+    "name": "Burger Club",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/BurgerClub.png"
+  },
+  {
+    "name": "GiveMyCertificate",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://givemycertificate.com/",
+    "title": "Certificate Partner",
+    "logo": "/sponsLogo/GMC.png"
+  },
+  {
+    "name": "Subway",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/Subway.png"
+  },
+  {
+    "name": "Mercy for Animals",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://mercyforanimals.org/",
+    "title": "Social Service Partner",
+    "logo": "/sponsLogo/MercyForAnimals.png"
+  },
+  {
+    "name": "Milkbasket",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.milkbasket.com/",
+    "title": "Dairy Partner",
+    "logo": "/sponsLogo/MilkBasket.png"
+  },
+  {
+    "name": "SafeExpress",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "http://www.safexpress.com/",
+    "title": "Supply Chain Partner",
+    "logo": "/sponsLogo/SafeExpress.png"
+  },
+  {
+    "name": "VOICE",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.voiceofindiancomm.com/",
+    "title": "Brand Partner",
+    "logo": "/sponsLogo/Voice.png"
+  },
+  {
+    "name": "Elitty Beauty",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "",
+    "logo": "/sponsLogo/Elitty.png"
+  },
+  {
+    "name": "Insta Pizza",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "",
+    "logo": "/sponsLogo/InstaPizza.PNG"
+  },
+  {
+    "name": "MECKEYS",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.meckeys.com/",
+    "title": "Gaming Partner",
+    "logo": "/sponsLogo/Meckeys.png"
+  },
+  {
+    "name": "Elan Builders",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.elanlimited.com/",
+    "title": "Infrastructure Partner",
+    "logo": "/sponsLogo/Elan.png"
+  },
+  {
+    "name": "HDFC",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.hdfcbank.com/",
+    "title": "Banking Partner",
+    "logo": "/sponsLogo/HDFC.jpg"
+  },
+  {
+    "name": "Union Bank of India",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.unionbankofindia.co.in/english/home.aspx",
+    "title": "Finance Partner",
+    "logo": "/sponsLogo/UnionBank.png"
+  },
+  {
+    "name": "BEL",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://bel-india.in/",
+    "title": "Associate Partner",
+    "logo": "/sponsLogo/BEL.png"
+  },
+  {
+    "name": "Unacademy",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "",
+    "logo": "/sponsLogo/Unacademy.png"
+  },
+  {
+    "name": "Fuschia",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://myfuschia.com/",
+    "title": "Cosmetics Partner",
+    "logo": "/sponsLogo/Fuschia.jpg"
+  },
+  {
+    "name": "The Red Megaphone",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.theredmegaphone.com/",
+    "title": "Event Partner",
+    "logo": "/sponsLogo/RedMegaphone.jpg"
+  },
+  {
+    "name": "Micromax",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://micromaxinfo.com/",
+    "title": "Gifting Partner",
+    "logo": "/sponsLogo/Micromax.png"
+  },
+  {
+    "name": "Little Attock",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://instagram.com/littleattock?igshid=NTdlMDg3MTY=",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/LittleAttock.png"
+  },
+  {
+    "name": "Owasp",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Application and Security Partner",
+    "logo": "/sponsLogo/Owasp.png"
+  },
+  {
+    "name": "Bombay Selection",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Merchandise Partner",
+    "logo": "/sponsLogo/BombaySelections.png"
+  },
+  {
+    "name": "Trix",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Merchandise Partner",
+    "logo": "/sponsLogo/Trix.png"
+  },
+  {
+    "name": "The Bargain Street",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Event Partner",
+    "logo": "/sponsLogo/BargainStreet.png"
+  },
+  {
+    "name": "Trackonica Records",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Event Partner",
+    "logo": "/sponsLogo/Trackonica.png"
   }
 ]

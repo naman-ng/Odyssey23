@@ -78,13 +78,15 @@ const EventButton = ({ name, list, image }) => {
               >
                 {event.description}
               </p>
-              <Link
-                className="min-w-[200px] inline-flex p-4 rounded-md mt-6 text-[#ffffff] font-semibold hover:bg-[#e83d69] bg-[#00000090] transition-all duration-500"
-                href={event.registrationLink}
-                target="_blank"
-              >
-                <span className="w-full text-center">Register Now</span>
-              </Link>
+              {event.registrationLink===""?<></>:
+                <Link
+                  className="min-w-[200px] inline-flex p-4 rounded-md mt-6 text-[#ffffff] font-semibold hover:bg-[#e83d69] bg-[#00000090] transition-all duration-500"
+                  href={event.registrationLink}
+                  target="_blank"
+                >
+                  <span className="w-full text-center">Register Now</span>
+                </Link>
+              }
             </div>
           )}
         </div>
@@ -95,7 +97,7 @@ const EventButton = ({ name, list, image }) => {
         type="button"
         onClick={() => isModal(true)}
       >
-        List Events
+        Explore
       </button>
     </>
   );

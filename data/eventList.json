@@ -20,47 +20,21 @@
     ]
   },
   {
-    "name": "Literature",
-    "knowmore": "Unleash the writers in you and mesmerize the audience with your eloquent words and captivating charm. Join us as we explore various topics and exchange ideas with like-minded individuals.",
-    "bg": "#B3D041",
-    "image": "/events/New/Events-Literature.png",
-    "align": 1,
-    "knowmoreList": [
-      {
-        "eventName": "Itna sannata Kyun hai bhai? ",
-        "description": "The event is aimed to have relevant discussions on topics that are extremely important but are still not talked about enough. The event will have total of 2 rounds ",
-        "registrationLink": "https://forms.gle/8KGGbSHpxicxQNSF8"
-      },
-
-      {
-        "eventName": "Nok Jhok",
-        "description": "It is the debate event that you have been looking for with exciting and challenging motions.Instead of the monotonous debate format, we have something novel, yet unique and fun!",
-        "registrationLink": "https://forms.gle/y21rUD2h1DS6dCZZA"
-      },
-
-      {
-        "eventName": "Unmute",
-        "description": "Unmute: Open Mic Poetry Event gives a golden opportunity to spoken word artists, both beginners and seasoned, to sweep the audience off their feet by the power of their words, emotions and craft. ",
-        "registrationLink": "https://forms.gle/Q6N5aZUJ8p3Ls5Kt9"
-      }
-    ]
-  },
-  {
     "name": "Dance",
     "knowmore": "The floor is yours to let loose and rain down your moves. Come solo, bring a partner, or parade your team; our dance events have fierce competition for you.",
     "bg": "#B94D83",
     "image": "/events/New/Events-Dance.png",
-    "align": 0,
+    "align": 1,
     "knowmoreList": [
       {
         "eventName": "Can You Du-et?",
-        "description": "Can You Du-'et? : Be So Good They Can't Ignore You, is a duo western dance competition where we challenge you to make the audience dance to your beats!",
+        "description": "Be So Good They Can't Ignore You, is a duo western dance competition where we challenge you to make the audience dance to your beats!",
         "registrationLink": "https:\\/\\/forms.gle\\/MoY5GvHpzkXALGts8"
       },
 
       {
         "eventName": "Battle Troupe ",
-        "description": "Battle Troupe: Connect with your passion and burn up the dance floor with your Troupe, is a western group dance competition where the dance societies of delhi compete with each other with their choreography, rhythm and synchronization.  ",
+        "description": "Connect with your passion and burn up the dance floor with your Troupe, is a western group dance competition where the dance societies of delhi compete with each other with their choreography, rhythm and synchronization.  ",
         "registrationLink": "https:\\/\\/forms.gle\\/v2vUFqzc68aTfvSy7"
       },
 
@@ -88,18 +62,12 @@
     "knowmore": "With crazy good prizes, expert judges, and a chance to pitch your ideas, join us and see if you have what it takes to succeed in the business world!",
     "bg": "#4183D0",
     "image": "/events/New/Events-Finance.png",
-    "align": 1,
+    "align": 0,
     "knowmoreList": [
       {
         "eventName": "Pirates of the Stock Market",
         "description": "A thrilling treasure hunt combined with the bulls and bears of the Stock Market. The participants would decode clues and find hints related to stock. They would then use the information to predict stock behavior and invest accordingly. There would be three rounds, and the teams with the most profit will win!",
         "registrationLink": "https://unstop.com/competition/pirates-of-the-stock-market-indraprastha-institute-of-information-technology-iiit-delhi-580149?lb=m8KsBQR"
-      },
-
-      {
-        "eventName": "Financial bluff",
-        "description": "Financial Bluff will be an event where teams try to fool each other with numbers, prompting them to guess if a statement is factually wrong or does it just sound wrong. The event will have special-company rounds concentrating on facts regarding a particular company, leading the participants to research it to win bonus points. Popular finance platforms are to be used to check the correctness of the facts.",
-        "registrationLink": "https://unstop.com/p/financial-bluff-indraprastha-institute-of-information-technology-iiit-delhi-5776433"
       },
 
       {
@@ -117,7 +85,7 @@
       {
         "eventName": "Mock Stock",
         "description": "A game of luck, skill and strategy. The game is in the name. Mock Stock allows the participants to show their knack for the stock market and its workings. The participants will be given a virtual sum of money which they have to invest in a certain list of companies provided by us while navigating through a lot of information, analytics and news articles given to them. ",
-        "registrationLink": "https://unstop.com/p/mock-stock-indraprastha-institute-of-information-technology-iiit-delhi-581488"
+        "registrationLink": "https://unstop.com/p/mock-stock-odyssey-indraprastha-institute-of-information-technology-iiit-delhi-585757"
       },
 
       {
@@ -138,17 +106,17 @@
     "knowmore": "With games, cooking demos, and a chance to snap some Instagram-worthy shots, there's something for everyone. Join us and make some unforgettable memories.",
     "bg": "#E6C100",
     "image": "/events/New/Events-Fun.png",
-    "align": 0,
+    "align": 1,
     "knowmoreList": [
       {
         "eventName": "Foodie Duet in Feud",
-        "description": "Is the foodie inside you craving???Compete with hundered's of these type of foodies to get a chance to play replica of the famous family feud show of Steve Harvey!! Get a chance to win enormous food hampers and prizes along with delecious cusinies in offer with great companionship!!!",
+        "description": "Is the foodie inside you craving? Compete with hundered's of these type of foodies to get a chance to play replica of the famous family feud show of Steve Harvey!! Get a chance to win enormous food hampers and prizes along with delecious cusinies in offer with great companionship!!!",
         "registrationLink": "https://forms.gle/HY6MTZCSqRdvp9RU6"
       },
 
       {
         "eventName": "Dare 2 Eat",
-        "description": "Dare 2 Eat ?? We bring to you a fun food eating challenge where you munch on delicious, tasty foods and participate in some crazy challenges to win Exciting Prizes. COME, EAT and WIN.",
+        "description": "Dare 2 Eat? We bring to you a fun food eating challenge where you munch on delicious, tasty foods and participate in some crazy challenges to win Exciting Prizes. COME, EAT and WIN.",
         "registrationLink": "https://forms.gle/z6B2qYN3BTNJdoK77"
       },
 
@@ -160,7 +128,7 @@
 
       {
         "eventName": "Casino Carnival",
-        "description": "Casino Carnival, is aimed at a fun casino-themed setup. It is divided into three major rounds - The first round consisting of myriad casino-related games like blackjack, roulette, andar bahar etc; the second being a teen patti round involving all the remaining participants; and the third and final one being an all-in jackpot round where participants would receive the chance to test their luck and possibly turn around their very fate!",
+        "description": "Casino Carnival is aimed at a fun casino-themed setup. It is divided into three major rounds - The first round consisting of myriad casino-related games like blackjack, roulette, andar bahar etc; the second being a teen patti round involving all the remaining participants; and the third and final one being an all-in jackpot round where participants would receive the chance to test their luck and possibly turn around their very fate!",
         "registrationLink": "https://forms.gle/UCfJ5fWcp6M2JohX6"
       },
 
@@ -177,40 +145,15 @@
       },
 
       {
-        "eventName": "Battle of Chefs",
-        "description": "The cooking competition 'The Battle of Chefs' not only requires hard work, but also showcases cooks who put their all into the dish and express their own unique culinary tastes as well as those of food lovers.",
-        "registrationLink": "https://forms.gle/RXoFYUrHeoB9kHBe8"
-      },
-
-      {
         "eventName": "Shutter Story",
         "description": "A fun and one-of-a-kind photography competition where all participants have to do is go out there in the Odyssey fest, take all sorts of photos that amuse them, and add a little bit of creativity with their photographic eye",
         "registrationLink": "https://forms.gle/b67ZmJVNV8zMSpnX8"
       },
 
       {
-        "eventName": "EmotiCON",
+        "eventName": "EmotiKaun",
         "description": "We bring to you emojis in a slot machine!! Given a random selection of 3 emojis, click the best photo u can in the IIITD campus which best represents those emojis with a twist ",
         "registrationLink": "https://forms.gle/9UreW2U8qiQF28e99"
-      }
-    ]
-  },
-  {
-    "name": "Games & ESports",
-    "knowmore": "With tournaments, competitions, and the latest games on display, you'll get a chance to prove your gaming chops and meet like-minded players. Take advantage of this chance to have a blast and see who will emerge victorious.",
-    "bg": "#76AD00",
-    "image": "/events/New/Events-Games.png",
-    "align": 1,
-    "knowmoreList": [
-      {
-        "eventName": "Fifa 1v1",
-        "description": "Whether you're a seasoned pro or a beginner looking to test your skills, this is the perfect event for you. Participants will compete in a single elimination bracket, with each match consisting of two 6-minute halves.",
-        "registrationLink": "https://forms.gle/MVAZe3VQuey9C3q66"
-      },
-      {
-        "eventName": "Juari Adda",
-        "description": "A fun and competitive around the table poker card game. There will be 2-3 rounds. The unfamiliar audience to the poker game will not be left out as we plan to organize other card games such as bluff, call break and many more.",
-        "registrationLink": "https://forms.gle/w3vuRcHjuHJst88a7"
       },
 
       {
@@ -228,7 +171,7 @@
     "align": 0,
     "knowmoreList": [
       {
-        "eventName": "Makeup Event",
+        "eventName": "Glam Up",
         "description": "Makeup artists can flaunt their abilities and use this opportunity to display their artistic makeup skills to judges, and of course an audience.",
         "registrationLink": "https:\\/\\/docs.google.com\\/forms\\/d\\/e\\/1FAIpQLScMb3zt5hz2iW18SX-2kOUTAsiKSAp6wISmJol2ZkGYVcWufQ\\/viewform?usp=sharing"
       },
@@ -247,11 +190,37 @@
     ]
   },
   {
+    "name": "Literature",
+    "knowmore": "Unleash the writers in you and mesmerize the audience with your eloquent words and captivating charm. Join us as we explore various topics and exchange ideas with like-minded individuals.",
+    "bg": "#B3D041",
+    "image": "/events/New/Events-Literature.png",
+    "align": 1,
+    "knowmoreList": [
+      {
+        "eventName": "Itna sannata Kyun hai bhai? ",
+        "description": "The event is aimed to have relevant discussions on topics that are extremely important but are still not talked about enough. The event will have total of 2 rounds ",
+        "registrationLink": "https://forms.gle/8KGGbSHpxicxQNSF8"
+      },
+
+      {
+        "eventName": "Nok Jhok",
+        "description": "It is the debate event that you have been looking for with exciting and challenging motions.Instead of the monotonous debate format, we have something novel, yet unique and fun!",
+        "registrationLink": "https://forms.gle/y21rUD2h1DS6dCZZA"
+      },
+
+      {
+        "eventName": "Unmute",
+        "description": "This Open Mic Poetry Event gives a golden opportunity to spoken word artists, both beginners and seasoned, to sweep the audience off their feet by the power of their words, emotions and craft. ",
+        "registrationLink": "https://forms.gle/Q6N5aZUJ8p3Ls5Kt9"
+      }
+    ]
+  },
+  {
     "name": "Music",
     "knowmore": "Ready to get your groove on? Come to our music events, featuring a lineup of the hottest acts and a chance for you to show off your skills on stage. With genres ranging from pop to rock to jazz, there's something for every music lover. Don't miss out on the fun!",
     "bg": "#1198B6",
     "image": "/events/New/Events-Music.png",
-    "align": 1,
+    "align": 0,
     "knowmoreList": [
       {
         "eventName": "Arpeggio",
@@ -301,7 +270,7 @@
     "knowmore": "Get ready to flex your mental muscle at our quiz events! With categories for every type of trivia buff, this is an opportunity to test your knowledge and show off your smarts.",
     "bg": "#5541D0",
     "image": "/events/New/Events-Quizzing.png",
-    "align": 0,
+    "align": 1,
     "knowmoreList": [
       {
         "eventName": "Meta Mera Data Leta",
@@ -333,7 +302,7 @@
     "knowmore": "Step into the spotlight and show off acting shorts at our theatre events!! Whether you are a professional actor or a newbie, we have a place for everyone.",
     "bg": "#ED5635",
     "image": "/events/New/Events-Theatre.png",
-    "align": 1,
+    "align": 0,
     "knowmoreList": [
       {
         "eventName": "Hasratein",
@@ -345,6 +314,26 @@
         "eventName": "Befikr",
         "description": "A stage play competition made for everyone to take part in and everyone to watch and enjoy. This year we are welcoming plays based around any social problems we face in our society. It could be of any or every genre known to Theatre Gods.",
         "registrationLink": "https://forms.gle/NAkhDZP2M8bUkicK6"
+      }
+    ]
+  },
+  {
+    "name": "Other Attractions",
+    "knowmore": "Odyssey is not just about Events and Competitions! We have a lot of fun stuff going around too!",
+    "bg": "#a11e47",
+    "image": "/events/New/Events-Theatre.png",
+    "align": 1,
+    "knowmoreList": [
+      {
+        "eventName": "Face Paint",
+        "description": "Let our amazing artists work their magic fingers and give you a face tattoo worthy of a viral selfie!",
+        "registrationLink": ""
+      },
+
+      {
+        "eventName": "Woofs n Wags",
+        "description": "Are you an animal lover? Prove it by visiting the cutest part of the Fest!",
+        "registrationLink": ""
       }
     ]
   },

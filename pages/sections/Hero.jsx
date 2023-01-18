@@ -2,12 +2,16 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import {useTransform,
         useMotionValue, 
+        useScroll,
         motion} from 'framer-motion' 
 import skyline from '../../public/images/skyline.png'
 
 function Hero() {
+  const {scrollY} = useScroll();
   const x = useMotionValue(0);
   const y = useMotionValue(0);
+
+  const ypos = useTransform(scrollY,[0,400],[0,400]);
 
   const xposition1 = useTransform(x,[0,2000],[-10,10]);
   const xposition2 = useTransform(x,[0,2000],[-20,20]);
@@ -24,18 +28,11 @@ function Hero() {
   useEffect(() => {
     setWindowSize(window.innerWidth);
   }, []);
-  useEffect(() => {
-    // console.log("xposition1 : ", xposition1, "yposition1 : ", yposition1)
-    // console.log("xposition2 : ", xposition2, "yposition2 : ", yposition2)
-    // console.log("xposition3 : ", xposition3, "yposition3 : ", yposition3)
-    
-  }, [])
 
-  // console.log("xposition2 : ",xposition2, "yposition2 : ",yposition2)
   const handleMouse=(e)=>{
     x.set(e.pageX);
     y.set(e.pageY);
-    // console.log(x,y, "x,y")
+
   }
 
   return (
@@ -53,7 +50,7 @@ function Hero() {
                     translateY:((windowSize > 1024) ? yposition2 : 0),
                     width:"103vw",
                   }}/>
-      <motion.div className='absolute z-10 w-[106.5vw] xl:w-[104.5vw] h-[65vmax] bg-ground bg-no-repeat bg-contain top-[10vw] -left-[2vw]'
+      <motion.div className='absolute z-10 w-[106.5vw] xl:w-[104.5vw] h-[65vmax] bg-ground bg-no-repeat bg-contain top-[12vw] -left-[2vw]'
                   style={{
                     translateX:((windowSize > 1024) ? xposition3 : 0),
                     translateY:((windowSize > 1024) ? yposition3 : 0),
@@ -64,11 +61,26 @@ function Hero() {
           translateY:((windowSize > 1024) ? yposition3 : 0),
           width:"104vw",
         }}/>
-      <motion.div className='absolute z-10 w-[100%] h-[20vw] bg-truck bg-no-repeat bg-contain top-[53vw] left-[67vw] pb-10'
+      <motion.div className='absolute z-20 w-[100%] h-[20vw] bg-truck bg-no-repeat bg-contain top-[53vw] left-[40vw] pb-10'
+        style={{
+          x:ypos,
+          translateX:((windowSize > 1024) ? xposition4 : 0),
+          translateY:((windowSize > 1024) ? yposition4 : 0),
+        }}/>
+      <motion.a href='https://www.google.com/maps/place/Indraprastha+Institute+of+Information+Technology+Delhi/@28.5458541,77.2731762,15z/data=!4m2!3m1!1s0x0:0x2c582e340e7bc556?sa=X&ved=2ahUKEwi92uKh7878AhUsUGwGHZMfDBEQ_BJ6BAg4EAg' 
+                target='_blank'
+                className=' absolute z-20 w-[100%] h-[23vw] bg-direction bg-no-repeat bg-contain top-[53vw] left-[80vw] pb-10'
         style={{
           translateX:((windowSize > 1024) ? xposition4 : 0),
           translateY:((windowSize > 1024) ? yposition4 : 0),
         }}/>
+      <motion.a href={'#'} className='absolute z-10 md:p-5 p-2 font-mulish font-bold text-[white] md:text-2xl text-sm top-[80vw] left-[37vw] md:top-[60vw] md:left-[46vw] gradient-border'
+        style={{
+          translateX:((windowSize > 1024) ? xposition4 : 0),
+          translateY:((windowSize > 1024) ? yposition4 : 0),
+        }}>
+          Register Now
+      </motion.a>
       <motion.div className='absolute z-10 w-[46%] h-screen bg-stalls bg-no-repeat bg-contain top-[48vw] left-[0vmax] pb-10'
         style={{
           translateX:((windowSize > 1024) ? xposition5 : 0),
