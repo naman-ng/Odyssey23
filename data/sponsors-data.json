@@ -19,7 +19,7 @@
     "name": "Vardiano",
     "front_img": "/sponsLogo/Tiles/gold-fill.png",
     "back_img": "/sponsLogo/Tiles/gold-outline.png",
-    "link": "",
+    "link": "http://vardiano.com",
     "title": "Co-Powered By",
     "logo": "/sponsLogo/Vardiano.png"
   },
@@ -254,7 +254,7 @@
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "https://www.bachpanglobal.com",
-    "title": "Event Partner",
+    "title": "Event Sponsor",
     "logo": "/sponsLogo/SK.png"
   },
   {
@@ -334,7 +334,7 @@
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "https://morazecosmetics.com/",
-    "title": "Fashion Moraze",
+    "title": "Fashion Partner",
     "logo": "/sponsLogo/Moraze.png"
   },
   {
@@ -350,7 +350,7 @@
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "https://www.instagram.com/sylviesbakes/",
-    "title": "Dare 2 Eat Partner",
+    "title": "Dare 2 Eat Event Sponsor",
     "logo": "/sponsLogo/SylvesBakes.png"
   },
   {
@@ -421,8 +421,8 @@
     "name": "Insta Pizza",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "",
-    "title": "",
+    "link": "https://www.instagram.com/instapizzaindia/",
+    "title": "Dare 2 Eat Event Sponsor",
     "logo": "/sponsLogo/InstaPizza.PNG"
   },
   {
@@ -486,7 +486,7 @@
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "https://www.theredmegaphone.com/",
-    "title": "Event Partner",
+    "title": "Literature Event Sponsor",
     "logo": "/sponsLogo/RedMegaphone.jpg"
   },
   {
@@ -533,16 +533,136 @@
     "name": "The Bargain Street",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "",
-    "title": "Event Partner",
+    "link": "https://thebargainstreet.com/",
+    "title": "Music Event Sponsor",
     "logo": "/sponsLogo/BargainStreet.png"
   },
   {
     "name": "Trackonica Records",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
-    "link": "",
-    "title": "Event Partner",
+    "link": "https://www.facebook.com/trackonicarecords/",
+    "title": "Music Event Sponsor",
     "logo": "/sponsLogo/Trackonica.png"
+  },
+  {
+    "name": "Bukchoo Jewels",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://instagram.com/buckchoojewels?igshid=YmMyMTA2M2Y=",
+    "title": "Jewellery Partner",
+    "logo": "/sponsLogo/Bukchoo.jpg"
+  },
+  {
+    "name": "Rps The Family Restaurant",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://rpsfamilyrestaurants.com/",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/RPS.png"
+  },
+  {
+    "name": "My City My Voice",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://mycitymyvoice.in/",
+    "title": "Promotional Partner",
+    "logo": "/sponsLogo/MyCityMyVoice.png"
+  },
+  {
+    "name": "Tails in the House",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://tailsinthehouse.business.site/?utm_source=gmb&utm_medium=referral",
+    "title": "Pet Care Partner",
+    "logo": "/sponsLogo/TailsInTheHouse.png"
+  },
+  {
+    "name": "Stage It Right",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://instagram.com/stageitrightzs?igshid=NTdlMDg3MTY=",
+    "title": "Production Partner",
+    "logo": "/sponsLogo/StageItRight.png"
+  },
+  {
+    "name": "Cosa Nostra Live",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Festival Partner",
+    "logo": "/sponsLogo/CosaNostra.png"
+  },
+  {
+    "name": "KSG",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "IAS Partner",
+    "logo": "/sponsLogo/KSG.jpg"
+  },
+  {
+    "name": "Tattoo Tatva",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Art and Entertainment Partner",
+    "logo": "/sponsLogo/TattooTatva.jpg"
+  },
+  {
+    "name": "Likhon Dil Se",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.instagram.com/likhondilse/",
+    "title": "Unmute Event Sponsor",
+    "logo": "/sponsLogo/LDS.png"
+  },
+  {
+    "name": "Theatre Leela",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.instagram.com/theatreleela/",
+    "title": "Theatre Partner",
+    "logo": "/sponsLogo/TheatreLeela.png"
+  },
+  {
+    "name": "Weekend Theatre Films",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.instagram.com/weekendtheatrefilms/",
+    "title": "Theatre Partner",
+    "logo": "/sponsLogo/WTF.png"
+  },
+  {
+    "name": "Ecell IIITD",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.instagram.com/ecell_iiitd/",
+    "title": "Entrepreneurship Events Sponsor",
+    "logo": "/sponsLogo/Ecell.png"
+  },
+  {
+    "name": "Treble Clef Studios",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.facebook.com/trebleclefjampad/",
+    "title": "Battle of Bands Event Sponsor",
+    "logo": "/sponsLogo/TrebleClef.jpg"
+  },
+  {
+    "name": "BluSmart",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Mobility Partner",
+    "logo": "/sponsLogo/BluSmart.png"
+  },
+  {
+    "name": "Nuevos Damas",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Fashion Partner",
+    "logo": "/sponsLogo/NuevosDamas.png"
   }
 ]

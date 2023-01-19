@@ -43,11 +43,12 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
     position: 'absolute',
     transform: 'rotateY(180deg)',
     backfaceVisibility: 'hidden',
+    display: 'grid'
   };
 
   const cardStyle = {
     width: '18%',
-    height: '301px',
+    height: '351px',
     transformStyle: 'preserve-3d',
     position: 'relative',
     transition: 'transform 1s',
@@ -82,11 +83,11 @@ function Spons({ name, front_img, back_img, link, title, logo, number }) {
           }
         </div>
         <div className="" style={backStyle}>
-          <img src={`${back_img}`} alt="" className="sm:w-full lg:w-full lg:h-full" />
+          <img src={`${back_img}`} alt="" className="sm:w-full lg:w-full lg:h-full" style={{gridColumn: 1, gridRow: 1}} />
           
-            <div className="flex flex-col justify-center align-middle text-center z-50 sm:-translate-y-40 lg:-translate-y-52 lg:pt-8 translate-x-[1.75rem] w-4/5 h-2/5 absolute top-3/5">
-              <a href={`${link}`} target='_blank'><p className=" w-full text-xl">{title}</p>
-              <p className=" w-full text-[#FFFFFF] text-xl">{name}</p></a>
+            <div className="flex flex-col justify-center align-middle text-center z-50" style={{gridColumn: 1, gridRow: 1}} >
+              <a href={`${link}`} target='_blank'><p className=" w-full lg:text-xl sm:text-sm">{title}</p>
+              <p className=" w-full text-[#FFFFFF] lg:text-xl sm:text-sm">{name}</p></a>
             </div>
           
         </div>

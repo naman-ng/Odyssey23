@@ -8,7 +8,7 @@ function Sponsors() {
     <div className="z-0 font-mulish flex flex-col pt-[8vmax] overflow-clip  text-[#F6971B] justify-center content-center ">
       {/* {console.log()} */}
       <div
-        className={`block pt-[5vmax] md:flex flex-wrap align-center justify-evenly md:overflow-hidden  md:h-[3300px] xl:h-[3300px]`}
+        className={`block pt-[5vmax] md:flex flex-wrap align-center justify-evenly md:overflow-hidden  md:h-[5000px] xl:h-[5000px]`}
       >
         {data.map((item, i) => {
           return (
