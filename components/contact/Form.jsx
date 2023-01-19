@@ -21,8 +21,9 @@ function Form() {
         "Help us clear your query by clicking the button below"
       </p>
       <Link
-        className="bg-[#d7b537] z-20 absolute md:top-[43%] sm:top-[45%] text-lg rounded-lg hover:bg-[#ffc809] text-[#EE2D69] transition-all duration-300 font-[620] sm:w-[40%] lg:pt-1.5 lg:text-2xl sm:pt-0.5 sm:text-sm sm:mt-1 sm:h-[7%] md:h-[8%] md:w-[20%] md:mt-4 p-2 text-center"
+        className="bg-[#d7b537] z-20 absolute md:top-[43%] sm:top-[45%] text-lg rounded-lg hover:bg-[#ffc809] text-[#EE2D69] transition-all duration-300 font-[620] sm:w-[40%] lg:text-2xl sm:text-sm sm:mt-1 sm:h-[7%] md:h-[8%] md:w-[20%] md:mt-4 text-center"
         href="mailto:odyssey.iiitd.helpdesk@gmail.com?subject=Odyssey"
+        style={{display: 'flex', justifyContent: 'space-around', flexDirection: 'column'}}
       >
         Contact Us
       </Link>
