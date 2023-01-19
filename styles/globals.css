@@ -10,10 +10,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  background-color: #1C1E56;
+  background-color: #1c1e56;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 
@@ -22,8 +22,7 @@ code {
     monospace;
 }
 
-
-.glass{
+.glass {
   background: rgba(192, 192, 192, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -32,16 +31,33 @@ code {
   border: 1px solid rgba(192, 192, 192, 0.3);
 }
 
-.gradient{
-  background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,229,190,1) 80%, rgba(242,103,34,1) 98%, rgba(184,32,46,1) 100%);
+.gradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 229, 190, 1) 80%,
+    rgba(242, 103, 34, 1) 98%,
+    rgba(184, 32, 46, 1) 100%
+  );
 }
 
-.gradient-blue{
-  background: linear-gradient(180deg, rgba(29,24,96,1) 0%, rgba(242,103,34,1) 61%,rgba(242,103,34,1) 61%, rgba(184,32,46,1) 82%);
+.gradient-blue {
+  background: linear-gradient(
+    180deg,
+    rgba(29, 24, 96, 1) 0%,
+    rgba(242, 103, 34, 1) 61%,
+    rgba(242, 103, 34, 1) 61%,
+    rgba(184, 32, 46, 1) 82%
+  );
 }
-.gradient-nav{
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.29),rgba(0, 0, 0, 0));
+.gradient-nav {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.61),
+    rgba(0, 0, 0, 0.29),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 .gradient-border {
@@ -57,22 +73,47 @@ code {
   left: calc(-1 * var(--borderWidth));
   height: calc(100% + var(--borderWidth) * 2);
   width: calc(100% + var(--borderWidth) * 2);
-  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
   border-radius: calc(2 * var(--borderWidth));
   z-index: -1;
   animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%;
 }
 
-
 @keyframes animatedgradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: all 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: translateY(-100px);
 }
