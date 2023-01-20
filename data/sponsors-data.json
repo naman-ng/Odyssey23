@@ -664,5 +664,13 @@
     "link": "",
     "title": "Fashion Partner",
     "logo": "/sponsLogo/NuevosDamas.png"
+  },
+  {
+    "name": "Woofs n Wags",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Pet Care Partner",
+    "logo": "/sponsLogo/WoofsAndWags.png"
   }
 ]

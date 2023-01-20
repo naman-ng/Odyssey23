@@ -43,8 +43,7 @@ function SocialValidation() {
           </div>
           <div className="w-full h-full flex items-center justify-center pl-[2vmax]">
             <div className="w-[15vw] h-[15vw] bg-[#B8215A] border border-[#000] pt-5 p-5 md:pt-0 rounded-full flex flex-col justify-center items-center text-center text-[white]">
-              <p className="text-[1.7vw] leading-tight">Footfall over</p>
-              <h3 className="text-[5vw] mt-[1vw] font-bold">30k</h3>
+              <p className="text-[1.7vw] leading-tight">Footfall over<h3 className="text-[5vw] mt-[1vw] font-bold">30k</h3></p>
             </div>
           </div>
         </div>

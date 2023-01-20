@@ -5,7 +5,7 @@ function Event({ name, tagline, bg, image, align, knowmore, knowmoreList }) {
     <>
       <div
         className={` leading-[4vw] sm:h-[36vw] md:h-[36vw] lg:h-[31vw] xl:h-[28.0vw] h-[37vw] w-screen transition-timing-function-[ease-in] rounded-t-2xl -mt-2 shadow-lg translate-y-[0.1vw] duration-[1000ms] transform transition-all `}
-        style={{ backgroundColor: bg, borderTop: '5px solid #000000' }}
+        style={{ borderTop: '5px solid #000000', textShadow: '1px 1px 10px rgba(0,0,0,0.7)', backgroundImage: 'url("/Texture.png")'}}
       >
         {name && (
           <img
@@ -32,7 +32,7 @@ function Event({ name, tagline, bg, image, align, knowmore, knowmoreList }) {
           >
             {knowmore}
           </div>
-          <div className="btn" style={{ color: bg }}>
+          <div className="btn" style={{ color: 'rgba(0,0,0,0.7)' }}>
             {name && (
               <EventButton name={name} image={image} list={knowmoreList} />
             )}

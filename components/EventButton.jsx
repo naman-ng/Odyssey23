@@ -93,9 +93,10 @@ const EventButton = ({ name, list, image }) => {
       </Modal>
 
       <button
-        className={`font-bold xl:text-xl lg:text-xl sm:text-[1.75vw] 2xl:text-[1.2vw] mt-[3vw] xl:p-1 lg:p-1 md:p-1 sm:p-0 2xl:p-0 2xl:h-[3vw] 2xl:w-[10vw] bg-[#f9f9f984] hover:bg-[#ffffff] rounded-lg text-[1.72vw] leading-[3vw] translate-y-[1vw] duration-[300ms] h-[3vw] w-[13vw] sm:h-[4vw] sm:w-[15vw] transform transition-all`}
+        className={`font-bold xl:text-xl lg:text-xl sm:text-[1.75vw] 2xl:text-[1.2vw] mt-[3vw] xl:p-1 lg:p-1 md:p-1 sm:p-0 2xl:p-0 2xl:h-[3vw] 2xl:w-[10vw] bg-[#f9f9f984] hover:bg-[#e83d69] hover:text-[#ffffff] rounded-lg text-[1.72vw] leading-[3vw] translate-y-[1vw] duration-[300ms] h-[3vw] w-[13vw] sm:h-[4vw] sm:w-[15vw] transform transition-all`}
         type="button"
         onClick={() => isModal(true)}
+        style={{boxShadow: '1px 1px 15px rgba(0,0,0,0.5)'}}
       >
         Explore
       </button>

@@ -22,7 +22,7 @@ function Reveal() {
                     width={0} 
                     height={0}>
             <video loop autoPlay muted className='h-full w-full object-cover rounded-[1.5vmax]'>
-                <source src={'/vid.mp4'} type="video/mp4"/>
+                <source src={'/vid2.mp4'} type="video/mp4"/>
                 Your browser does not support the video tag.
             </video> 
         </motion.div>

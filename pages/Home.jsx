@@ -1,8 +1,10 @@
 import Hero from './sections/Hero';
 import ValueProposition from './sections/ValueProposition';
 import SocialValidation from './sections/SocialValidation';
+import { useState } from 'react';
 
 function Home() {
+  const [modal, isModal] = useState(false);
 
   return (
     <div

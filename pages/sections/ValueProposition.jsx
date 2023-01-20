@@ -3,9 +3,9 @@ import Reveal from '../../components/Reveal';
 import Gallery from '../../components/Gallery';
 import dynamic from 'next/dynamic';
 const Dhol = dynamic(() => import('../../components/Dhol'), { ssr: false });
-import Modal from 'react-modal';
-import { useInView } from 'react-intersection-observer';
-import { CSSTransition } from 'react-transition-group';
+// import Modal from 'react-modal';
+// import { useInView } from 'react-intersection-observer';
+// import { CSSTransition } from 'react-transition-group';
 
 const customStyles = {
   content: {
@@ -26,14 +26,14 @@ const customStyles = {
 };
 
 function ValueProposition() {
-  const [modal, isModal] = useState(false);
+  // const [modal, isModal] = useState(false);
 
-  const { ref, inView, entry } = useInView({
-    onChange: (inView, entry) => {
-      if (inView) isModal(true);
-      else isModal(false);
-    },
-  });
+  // const { ref, inView, entry } = useInView({
+  //   onChange: (inView, entry) => {
+  //     if (inView) isModal(true);
+  //     else isModal(false);
+  //   },
+  // });
 
   return (
     <div className="relative flex flex-col justify-start items-center w-full gradient text-center font-mulish color-[black] ">
@@ -45,7 +45,7 @@ function ValueProposition() {
       <Gallery />
       <p
         className="w-[70%] lg:w-[37%] text-[1.2vmax] text-black -mt-[17vw] mb-[-168vw]"
-        ref={ref}
+        // ref={ref}
       >
         Odyssey is incomplete without the epic star-studded night where
         everybody gets to unwind and end the fest on a high - The Nirvana Night.
@@ -58,7 +58,7 @@ function ValueProposition() {
       </p>
       <Reveal />
 
-      <CSSTransition in={modal} timeout={300} classNames="dialog">
+      {/* <CSSTransition in={modal} timeout={300} classNames="dialog">
         <Modal
           isOpen={modal}
           onRequestClose={() => isModal(false)}
@@ -68,7 +68,7 @@ function ValueProposition() {
         >
           <img src="Star_website.png" />
         </Modal>
-      </CSSTransition>
+      </CSSTransition> */}
       <Dhol />
     </div>
   );
