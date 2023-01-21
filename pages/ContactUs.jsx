@@ -71,7 +71,15 @@ function ContactMain() {
 
         <Form />
       </div>
-      <Map/>
+      <center className="lg:pt-[15vw]">
+        <Map/>
+        <div className="sm:text-[0.7rem] lg:text-[1.5rem] sm:pt-[10vw] lg:pt-[5vw]" style={{color: 'white'}}>
+          <b>Indraprastha Institute of Information Technology, Delhi</b><br/>
+          Okhla Industrial Estate, Phase III<br/>
+          Near Govind Puri Metro Station<br/>
+          New Delhi, Delhi, 110020
+        </div>
+      </center>
     </>
   );
 }

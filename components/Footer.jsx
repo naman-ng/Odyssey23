@@ -63,14 +63,14 @@ function Footer() {
               {/* <Link href="/Teams" className="my-[1.2vw] hover:underline">
                 TEAMS
               </Link> */}
-              <Link href="/Sponsors" className="my-[1.2vw] hover:underline md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110">
-                SPONSORS
-              </Link>
               <Link href="/Home" className="my-[1.2vw] hover:underline md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110">
                 HOME
               </Link>
               <Link href="/Events" className="my-[1.2vw] hover:underline md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110">
                 EVENTS
+              </Link>
+              <Link href="/Sponsors" className="my-[1.2vw] hover:underline md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110">
+                SPONSORS
               </Link>
               <Link href="/ContactUs" className="mt-[1.2vw] mb-0 hover:underline md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110">
                 CONTACT US

@@ -75,14 +75,14 @@ code {
   width: calc(100% + var(--borderWidth) * 2);
   background: linear-gradient(
     60deg,
-    #f79533,
-    #f37055,
-    #ef4e7b,
-    #a166ab,
-    #5073b8,
-    #1098ad,
-    #07b39b,
-    #6fba82
+    #ef7a05,
+    #f7b205,
+    #f4d006,
+    #ddff02,
+    #ff9a03,
+    #ff9d00,
+    #ff4d00,
+    #ff4400
   );
   border-radius: calc(2 * var(--borderWidth));
   z-index: -1;
@@ -99,6 +99,22 @@ code {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+.updown {
+  animation: MoveUpDown 5s linear infinite;
+  position: absolute;
+  right: 0;
+  top: 53vw;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    top: 53vw;
+  }
+  50% {
+    top: 50vw;
   }
 }
 

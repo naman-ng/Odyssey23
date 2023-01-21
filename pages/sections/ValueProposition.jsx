@@ -3,37 +3,8 @@ import Reveal from '../../components/Reveal';
 import Gallery from '../../components/Gallery';
 import dynamic from 'next/dynamic';
 const Dhol = dynamic(() => import('../../components/Dhol'), { ssr: false });
-import Modal from 'react-modal';
-import { useInView } from 'react-intersection-observer';
-import { CSSTransition } from 'react-transition-group';
-
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
-    backgroundColor: 'transparent',
-    border: 'none',
-    padding: '10px',
-  },
-  overlay: {
-    backgroundColor: 'rgba(0, 0, 0, 0.55)',
-    zIndex: '200',
-  },
-};
 
 function ValueProposition() {
-  const [modal, isModal] = useState(false);
-
-  const { ref, inView, entry } = useInView({
-    onChange: (inView, entry) => {
-      if (inView) isModal(true);
-      else isModal(false);
-    },
-  });
 
   return (
     <div className="relative flex flex-col justify-start items-center w-full gradient text-center font-mulish color-[black] ">
@@ -45,7 +16,6 @@ function ValueProposition() {
       <Gallery />
       <p
         className="w-[70%] lg:w-[37%] text-[1.2vmax] text-black -mt-[17vw] mb-[-168vw]"
-        ref={ref}
       >
         Odyssey is incomplete without the epic star-studded night where
         everybody gets to unwind and end the fest on a high - The Nirvana Night.
@@ -57,18 +27,6 @@ function ValueProposition() {
         is set high, and this year it's only gonna be bigger and better!
       </p>
       <Reveal />
-
-      <CSSTransition in={modal} timeout={300} classNames="dialog">
-        <Modal
-          isOpen={modal}
-          onRequestClose={() => isModal(false)}
-          contentLabel={'Star'}
-          style={customStyles}
-          closeTimeoutMS={500}
-        >
-          <img src="Star_website.png" />
-        </Modal>
-      </CSSTransition>
       <Dhol />
     </div>
   );
