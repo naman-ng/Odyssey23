@@ -1,9 +1,10 @@
 import Hero from './sections/Hero';
 import ValueProposition from './sections/ValueProposition';
 import SocialValidation from './sections/SocialValidation';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import Modal from 'react-modal';
 import { PlaystationX } from 'tabler-icons-react';
+import { Context } from "./_app";
 
 const customStyles = {
   content: {
@@ -24,7 +25,7 @@ const customStyles = {
 };
 
 function Home() {
-  const [modal, isModal] = useState(true);
+  const {modal, isModal} = useContext(Context);
 
   return (
     <div
