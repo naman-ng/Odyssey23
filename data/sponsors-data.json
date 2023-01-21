@@ -678,8 +678,40 @@
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "",
-    "title": "Exclusive Collaborator of Raaz",
+    "title": "Raaz Event Partner",
     "logo": "/sponsLogo/HiddenHour.jpg"
+  },
+  {
+    "name": "SBI",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "",
+    "logo": "/sponsLogo/SBI.jpg"
+  },
+  {
+    "name": "Playground Comedy Studio",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.instagram.com/playgroundcomedystudio/",
+    "title": "",
+    "logo": "/sponsLogo/PlaygroundComedyStudio.png"
+  },
+  {
+    "name": "The Tummy Section",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.thetummysection.com/",
+    "title": "F&B Partner",
+    "logo": "/sponsLogo/TummySection.png"
+  },
+  {
+    "name": "Meet7",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://meet7.club/",
+    "title": "Official Dating Partner",
+    "logo": "/sponsLogo/Meet7.png"
   },
   {
     "name": "     ",
