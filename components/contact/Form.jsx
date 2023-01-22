@@ -6,7 +6,7 @@ function Form() {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col items-center relative w-full sm:h-[50%] h-[50%] lg:h-4/5 sm:mt-8 md:mt-20 lg:mt-8 xl:mt-36 top-[0rem] md:top-[8vmax]  flex-wrap z-20">
+    <div className="flex flex-col items-center relative w-full sm:h-[50%] h-[50%] lg:h-4/5 sm:mt-12 md:mt-20 lg:mt-8 xl:mt-36 top-[0rem] md:top-[8vmax]  flex-wrap z-20">
       <Image
         src="/images/odessey_truck_form.svg"
         className=" w-full h-[110%]"

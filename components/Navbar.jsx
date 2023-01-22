@@ -19,7 +19,7 @@ function Navbar() {
         </Link>
         <Link href='/Events' className=' md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110'>Events</Link>
         <Link href='/Sponsors' className=' md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110'>Sponsors</Link>
-        <Link href='/ContactUs' className=' md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110'>Contact Us</Link>
+        <Link href='/ContactUs' className=' md:hover:text-[#fa526e] duration-200 md:hover:font-bold md:hover:transition-all md:hover:scale-110 whitespace-nowrap'>Contact Us</Link>
       </div>
 
       <div className='flex justify-end w-2/6 space-x-4'>

@@ -25,11 +25,11 @@ function ContactMain() {
         style={{
           background: "linear-gradient(178.63deg, #1C1E56 3.09%, #8E3A3A 60%, #1C1E56 99%)",
         }}
-        className="relative flex w-[100%] top-40 lg:top-0 h-[100vh] justify-center align-middle overflow-x-clip mb-[20vw] overflow-hidden md:overflow-visible"
+        className="relative flex w-[100%] top-40 lg:top-0 h-[60vh] md:h-[100vh] justify-center align-middle overflow-x-clip mb-[20vw] overflow-hidden md:overflow-visible"
         onMouseMove={(e) => handleMouse(e)}
       >
         <motion.div
-          className="absolute z-10 w-full h-[64vmax] -top-24 md:top-0 bg-clouds bg-no-repeat bg-contain "
+          className="absolute z-10 w-full h-[64vmax] -top-40 md:top-0 bg-clouds bg-no-repeat bg-contain bg-center"
           style={{
             translateX:
               (windowSize > 1024)
@@ -55,7 +55,7 @@ function ContactMain() {
           }}
         />
         <motion.div
-          className="absolute z-5 w-[100%] h-[20vmax] bg-road bg-no-repeat bg-contain top-[24rem]  md:top-[65vw] xl:top-[62vw] left-[-2vw]"
+          className="absolute z-5 w-[100%] h-[20vmax] bg-road bg-no-repeat bg-contain top-[21.5rem]  md:top-[65vw] xl:top-[62vw] left-[-2vw]"
           style={{
             translateX:
               (windowSize > 1024)
