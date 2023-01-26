@@ -67,12 +67,12 @@ function Hero() {
           translateX:((windowSize > 1024) ? xposition4 : 0),
           translateY:((windowSize > 1024) ? yposition4 : 0),
         }}/>
-      <a href='https://www.google.com/maps/place/G7WC%2BRWH+IIITD+GATE+NO-1,+Unnamed+Road,+Shyam+Nagar,+Okhla+Industrial+Estate,+New+Delhi,+Delhi+110020/@28.5459507,77.2733908,18z/data=!4m14!1m7!3m6!1s0x390ce3e564daac1d:0x2c582e340e7bc556!2sIndraprastha+Institute+of+Information+Technology+Delhi,+Okhla+Industrial+Estate,+Phase+III,+near+Govind+Puri+Metro+Station,+New+Delhi,+Delhi+110020!8m2!3d28.5458541!4d77.2731762!16s%2Fg%2F11bc5q5mqf!3m5!1s0x390ce34637dc8497:0xb761d0490006e1ef!8m2!3d28.5470749!4d77.2723727!16s%2Fg%2F11hds2t289' 
+      <a href='//www.google.com/maps/place/G7WC%2BRWH+IIITD+GATE+NO-1,+Unnamed+Road,+Shyam+Nagar,+Okhla+Industrial+Estate,+New+Delhi,+Delhi+110020/@28.5459507,77.2733908,18z/data=!4m14!1m7!3m6!1s0x390ce3e564daac1d:0x2c582e340e7bc556!2sIndraprastha+Institute+of+Information+Technology+Delhi,+Okhla+Industrial+Estate,+Phase+III,+near+Govind+Puri+Metro+Station,+New+Delhi,+Delhi+110020!8m2!3d28.5458541!4d77.2731762!16s%2Fg%2F11bc5q5mqf!3m5!1s0x390ce34637dc8497:0xb761d0490006e1ef!8m2!3d28.5470749!4d77.2723727!16s%2Fg%2F11hds2t289' 
           target='_blank'
           className='z-20 w-[100%] h-[23vw] bg-direction bg-no-repeat bg-contain left-[90vw] updown'
       />
       <div style={{display: 'flex', justifyContent: 'space-around'}}>
-        <motion.a href={'http://bit.ly/odysseypass'} target='_blank' className='absolute z-10 md:p-5 p-2 font-mulish font-bold text-[white] md:text-xl text-xs top-[80vw] md:top-[60vw] gradient-border text-center text-[#0c5e8e]'>
+        <motion.a href={'//bit.ly/odysseypass'} target='_blank' className='absolute z-10 md:p-5 p-2 font-mulish font-bold text-[white] md:text-xl text-xs top-[80vw] md:top-[60vw] gradient-border text-center text-[#0c5e8e]'>
             <b>Get your<br/>Free Passes<br/>Now!</b>
         </motion.a>
       </div>
