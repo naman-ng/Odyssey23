@@ -434,6 +434,14 @@
     "logo": "/sponsLogo/Meckeys.png"
   },
   {
+    "name": "Lavin Enterprises",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "http://m.lavinenterprise.com/",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/Lavin.png"
+  },
+  {
     "name": "Elan Builders",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
@@ -546,6 +554,14 @@
     "logo": "/sponsLogo/Trackonica.png"
   },
   {
+    "name": "Darkside Music Studio",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://darksidemusicstudio.com/",
+    "title": "Music Event Sponsor",
+    "logo": "/sponsLogo/Darkside.png"
+  },
+  {
     "name": "Bukchoo Jewels",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
@@ -608,6 +624,14 @@
     "link": "",
     "title": "Art and Entertainment Partner",
     "logo": "/sponsLogo/TattooTatva.jpg"
+  },
+  {
+    "name": "BazaarIshq",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Stall Partner",
+    "logo": "/sponsLogo/BazaarIshq.png"
   },
   {
     "name": "Likhon Dil Se",
@@ -714,11 +738,276 @@
     "logo": "/sponsLogo/Meet7.png"
   },
   {
+    "name": "Monarc",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/Monarc.png"
+  },
+  {
+    "name": "Chalet",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.instagram.com/chalet.official/",
+    "title": "Fashion Accessories Partener",
+    "logo": "/sponsLogo/Chalet.png"
+  },
+  {
+    "name": "Just A Bite",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/JustABite.png"
+  },
+  {
+    "name": "JR Foundation",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "NGO Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Pie Matrix",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Management Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Brown Sugar",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Rolls King",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Hussaini Dhaba",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Plantscape Hospitality",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Stall Partner",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Mahavir Chat Corner",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Ram Laddoo Food Corner",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Manav Snacks",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Instax",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.instagram.com/instaxindia/",
+    "title": "Photography Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Velar-Parkhi",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.instagram.com/velar_parkhi/?igshid=NTdlMDg3MTY%3D",
+    "title": "Shining Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Recipe Cup",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Dare 2 Eat Title Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Simar K Unisex Salon & Recode Studios",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Make-Up Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Clovia",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Skincare Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Urshilla Dance Company",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Judging Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "DU Beats",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Coverage Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Space Pepper",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Studio Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Veloc",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Holiday Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Rapido",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Bike Taxi Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "NTPC",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Silver Partner",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Amar Ujaala",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Media and Print Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Rinex",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "E-Learning Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "The Souled Store",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Fashion and Lifestyle Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Panda Films x Aryan Dhingra Photography",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Media Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "IIRC",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Innovation Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Alumni Association",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Contact Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "Atom Dao",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Blockchain Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "GAME",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Artist Management Partener",
+    "logo": "/sponsLogo/ToBeAdded.png"
+  },
+  {
+    "name": "WISE LIFE",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Fitness Partener",
+    "logo": "/sponsLogo/wiselife.png"
+  },
+  {
     "name": "     ",
-    "front_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "",
+    "logo": ""
+  },
+  {
+    "name": "     ",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
     "link": "",
     "title": "",
     "logo": ""
   }
+
 ]
