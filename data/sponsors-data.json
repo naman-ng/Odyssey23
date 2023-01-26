@@ -434,6 +434,14 @@
     "logo": "/sponsLogo/Meckeys.png"
   },
   {
+    "name": "Lavin Enterprises",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "http://m.lavinenterprise.com/",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/Lavin.png"
+  },
+  {
     "name": "Elan Builders",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
@@ -546,6 +554,14 @@
     "logo": "/sponsLogo/Trackonica.png"
   },
   {
+    "name": "Darkside Music Studio",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://darksidemusicstudio.com/",
+    "title": "Music Event Sponsor",
+    "logo": "/sponsLogo/Darkside.png"
+  },
+  {
     "name": "Bukchoo Jewels",
     "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
     "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
@@ -608,6 +624,14 @@
     "link": "",
     "title": "Art and Entertainment Partner",
     "logo": "/sponsLogo/TattooTatva.jpg"
+  },
+  {
+    "name": "BazaarIshq",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "Stall Partner",
+    "logo": "/sponsLogo/BazaarIshq.png"
   },
   {
     "name": "Likhon Dil Se",
@@ -712,6 +736,54 @@
     "link": "https://meet7.club/",
     "title": "Official Dating Partner",
     "logo": "/sponsLogo/Meet7.png"
+  },
+  {
+    "name": "Monarc",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/Monarc.png"
+  },
+  {
+    "name": "Chalet",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "https://www.instagram.com/chalet.official/",
+    "title": "Fashion Accessories Partener",
+    "logo": "/sponsLogo/Chalet.png"
+  },
+  {
+    "name": "Just A Bite",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/JustABite.png"
+  },
+  {
+    "name": "Just A Bite",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/JustABite.png"
+  },
+  {
+    "name": "Just A Bite",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/JustABite.png"
+  },
+  {
+    "name": "Just A Bite",
+    "front_img": "/sponsLogo/Tiles/sponsor-fill.png",
+    "back_img": "/sponsLogo/Tiles/sponsor-outline.png",
+    "link": "",
+    "title": "F&B Partener",
+    "logo": "/sponsLogo/JustABite.png"
   },
   {
     "name": "     ",
