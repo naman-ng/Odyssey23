@@ -9,6 +9,7 @@ export const Context = React.createContext();
 
 export default function App({ Component, pageProps }) {
   const [modal, isModal] = useState(true);
+  const [modal2, isModal2] = useState(true);
   const [loading, setLoading] = React.useState(false);
   
   React.useEffect(() => {
@@ -24,7 +25,7 @@ export default function App({ Component, pageProps }) {
       {!loading ? 
       (
         <>
-          <Context.Provider value={{ modal, isModal }}>
+          <Context.Provider value={{ modal, isModal, modal2, isModal2 }}>
             <Navbar />
             <Component {...pageProps} />
             <Footer />
